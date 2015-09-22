@@ -6,7 +6,7 @@
 
 "You must be shapeless, formless, like water. When you pour water in a cup, it becomes the cup. When you pour water in a bottle, it becomes the bottle. When you pour water in a teapot, it becomes the teapot. Water can drip and it can crash. Become like water my friend." ~ Bruce Lee
 
-##UI/UX Design and Web Development
+##UI/UX Design
 
 UI/UX Design is not just about the elements and principals of design (shape, colour and balance etc...) that we all learn in school. It goes a lot deeper then that. I have come to understand that through design I am able to build a certain amount of trust and reliability in providing the user with the best and easiest experience possible.
 

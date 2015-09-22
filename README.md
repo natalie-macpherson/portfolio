@@ -23,6 +23,9 @@ Over the past few months I have been asking myself the question of why UI is so 
 
 What really attracts me to UI/UX design is the idea that **I can design something to make somebody's life easier**. With a well structured and well design interface a person can interact with the application or website without having to think about what they are doing and how to do. In other words it becomes intuitive.
 
-The Science Behind Good UI Design
+###The Science Behind Good UI Design
+
+When I was younger I use to be a high school teacher. Now that I am a design I am always asking myself why do people response or react a certain way to a design may it be static or interactive.
+
 ![Cycle of good UI design: Usefulness, Accessibility, Satisfaction, Efficiency, Effectiveness] (http://impatientdesigner.com/images/what-exactly-is-ux-design-hero.jpg)
 

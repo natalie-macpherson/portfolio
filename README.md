@@ -12,4 +12,4 @@ UI/UX Design is not just about the elements and principals of design (shape, col
 
 Over the past few months I have been asking myself the question of why UI is so important to the world of design. I've talked many people who are actively involved in the world of design and I have come to realize several very important things about UI/UX design.
 
-What really attracts me to UI/UX design is the idea that I can design something to make somebody's life easier. With a well structured and well design interface a person can interact with the application or website without having to think about what they are doing and how to do. In other words it becomes intuitive.
+What really attracts me to UI/UX design is the idea that **I can design something to make somebody's life easier**. With a well structured and well design interface a person can interact with the application or website without having to think about what they are doing and how to do. In other words it becomes intuitive.

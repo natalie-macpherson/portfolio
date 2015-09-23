@@ -1,6 +1,6 @@
 # Natalie May
 
-"Design can change the way the people can look or respond to the world around them." *~ Me* *~ Me*
+"Design can change the way the people can look or respond to the world around them." *~ Me*
 
 "I don't want the user to think, I just want them to intuitively know what to do." *~ Me*
 

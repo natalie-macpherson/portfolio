@@ -11,3 +11,72 @@ html {
     box-sizing: inherit;
 }
 
+.img-flex {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* color palate: (Purple) 552448 (beige)EAE3D4 000000 (gold)D4AF37 (silver)BCC6CC (dark purple)301436 19002c BCC6CC*/
+body {
+	background-color: #19002c;
+	background-image: url(../img/bg-image.jpg);
+}
+
+.billboard {
+	color: #BCC6CC;
+	height: 450px;
+	height: 30em;
+	position: relative;
+}
+
+.billboard h1 {
+	margin: 0;
+	position: absolute;
+	top: 40%;
+	left: 0%;
+}
+
+.case-studies {
+	xbackground-color: #552448;
+	background-image: url(../img/1500-820-placeholder.jpg);
+	height: 200px;
+	position: relative;
+	color: #D4AF37;
+}
+
+.case-studies h2 {
+	  position: absolute;
+    top:36%;
+    left: 21%;
+
+}
+
+.about {
+	xbackground-color: #552448;
+	background-image: url(../img/1500-820-placeholder.jpg);
+	height: 200px;
+	position: relative;
+	color: #D4AF37;
+}
+
+.about h2 {
+	position: absolute;
+  top:35%;
+  left: 35%;
+}
+
+.connect {
+	xbackground-color: #552448;
+	background-image: url(../img/1500-820-placeholder.jpg);
+	height: 200px;
+	position: relative;
+	color: #D4AF37;
+}
+
+.connect h2 {
+	position: absolute;
+  top:35%;
+  left: 30%;
+}

@@ -26,36 +26,41 @@ body {
 
 .billboard {
 	color: #BCC6CC;
-	height: 450px;
-	height: 30em;
-	position: relative;
+	height: 340px;
+	margin: 16em auto 0;
 }
 
 .billboard h1 {
-	margin: 0;
-	position: absolute;
-	top: 40%;
-	left: 0%;
+	text-align: center;
 }
 
 .case-studies {
-	xbackground-color: #552448;
 	background-image: url(../img/1500-820-placeholder.jpg);
-	height: 200px;
-	position: relative;
+	background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+	height: 270px;
+	xposition: relative;
 	color: #D4AF37;
 }
 
-.case-studies h2 {
-	  position: absolute;
-    top:36%;
-    left: 21%;
 
+.links {
+	text-decoration: none;
+}
+.case-studies h2 {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	text-decoration: none;
+	margin: 4em auto 0;
 }
 
 .about {
-	xbackground-color: #552448;
 	background-image: url(../img/1500-820-placeholder.jpg);
+	background-position: center center;
+  background-size: cover;
+  overflow: hidden;
 	height: 200px;
 	position: relative;
 	color: #D4AF37;
@@ -64,12 +69,16 @@ body {
 .about h2 {
 	position: absolute;
   top:35%;
-  left: 35%;
+  left: 38%;
+  font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
 }
 
 .connect {
-	xbackground-color: #552448;
 	background-image: url(../img/1500-820-placeholder.jpg);
+	background-position: center center;
+  background-size: cover;
+  overflow: hidden;
 	height: 200px;
 	position: relative;
 	color: #D4AF37;
@@ -78,5 +87,12 @@ body {
 .connect h2 {
 	position: absolute;
   top:35%;
-  left: 30%;
+  left: 33%;
+  font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+}
+
+.footer {
+	color: white;
+	margin-top: 5em;
 }

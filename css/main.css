@@ -24,6 +24,9 @@ body {
 	background-image: url(../img/bg-image.jpg);
 }
 
+title {
+	background-color: #D4AF37;
+}
 .billboard {
 	color: #BCC6CC;
 	height: 340px;
@@ -34,26 +37,25 @@ body {
 	text-align: center;
 }
 
+.links {
+	text-decoration: none;
+}
+
 .case-studies {
 	background-image: url(../img/1500-820-placeholder.jpg);
 	background-position: center center;
   background-size: cover;
   overflow: hidden;
 	height: 270px;
-	xposition: relative;
 	color: #D4AF37;
 }
 
-
-.links {
-	text-decoration: none;
-}
 .case-studies h2 {
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 200;
 	text-decoration: none;
-	margin: 4em auto 0;
+	margin: 3.5em auto 0;
 }
 
 .about {
@@ -61,17 +63,17 @@ body {
 	background-position: center center;
   background-size: cover;
   overflow: hidden;
-	height: 200px;
+	height: 270px;
 	position: relative;
 	color: #D4AF37;
 }
 
 .about h2 {
-	position: absolute;
-  top:35%;
-  left: 38%;
-  font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 200;
+	text-decoration: none;
+	margin: 3.5em auto 0;
 }
 
 .connect {
@@ -79,17 +81,16 @@ body {
 	background-position: center center;
   background-size: cover;
   overflow: hidden;
-	height: 200px;
+	height: 270px;
 	position: relative;
 	color: #D4AF37;
 }
-
 .connect h2 {
-	position: absolute;
-  top:35%;
-  left: 33%;
-  font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 200;
+	text-decoration: none;
+	margin: 3.5em auto 0;
 }
 
 .footer {

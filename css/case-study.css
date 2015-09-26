@@ -21,22 +21,22 @@ html {
  }
 
 /* color palate: (Purple) 552448 (beige)EAE3D4 000000 (gold)D4AF37 (silver)BCC6CC (dark purple)301436 19002c BCC6CC*/
-.home {
-	background-color: #19002c;
-	background-image: url(../img/bg-image.jpg);
+
+.billboard-work {
+	background-image: url(../img/1500-820-placeholder.jpg);
 	background-position: center center;
   background-size: cover;
-}
-
-.billboard {
+  overflow: hidden;
+	height: 350px;
 	color: #BCC6CC;
-	height: 340px;
-	margin: 16em auto 0;
+
 }
 
-.billboard h1 {
+.billboard-work h1 {
 	text-align: center;
+	margin: 3em auto 0;
 }
+
 
 .links {
 	text-decoration: none;
@@ -57,44 +57,4 @@ html {
 	font-weight: 200;
 	text-decoration: none;
 	margin: 3.5em auto 0;
-}
-
-.about {
-	background-image: url(../img/1500-820-placeholder.jpg);
-	background-position: center center;
-  background-size: cover;
-  overflow: hidden;
-	height: 270px;
-	position: relative;
-	color: #D4AF37;
-}
-
-.about h2 {
-	text-align: center;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 200;
-	text-decoration: none;
-	margin: 3.5em auto 0;
-}
-
-.connect {
-	background-image: url(../img/1500-820-placeholder.jpg);
-	background-position: center center;
-  background-size: cover;
-  overflow: hidden;
-	height: 270px;
-	position: relative;
-	color: #D4AF37;
-}
-.connect h2 {
-	text-align: center;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 200;
-	text-decoration: none;
-	margin: 3.5em auto 0;
-}
-
-.footer {
-	color: white;
-	margin-top: 5em;
 }

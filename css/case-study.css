@@ -20,6 +20,9 @@ html {
  	margin: auto;
  }
 
+.home {
+	background-color: #19002c;
+}
 /* color palate: (Purple) 552448 (beige)EAE3D4 000000 (gold)D4AF37 (silver)BCC6CC (dark purple)301436 19002c BCC6CC*/
 
 .billboard-work {
@@ -27,7 +30,7 @@ html {
 	background-position: center center;
   background-size: cover;
   overflow: hidden;
-	height: 350px;
+	height: 400px;
 	color: #BCC6CC;
 
 }
@@ -47,7 +50,7 @@ html {
 	background-position: center center;
   background-size: cover;
   overflow: hidden;
-	height: 270px;
+	height: 300px;
 	color: #D4AF37;
 }
 

@@ -20,16 +20,21 @@ html {
  	margin: auto;
  }
 
+ .nav {
+ 	text-decoration: none;
+ 	color: #D6D5D4;
+ }
+
 /* color palate: (Purple) 552448 (beige)EAE3D4 000000 (gold)D4AF37 (silver)BCC6CC (dark purple)301436 19002c BCC6CC*/
 .home {
-	background-color: #19002c;
+	background-color: #0d121a;
 	background-image: url(../img/bg-image.jpg);
 	background-position: center center;
   background-size: cover;
 }
 
 .billboard {
-	color: #BCC6CC;
+	color: #D6D5D4;
 	height: 340px;
 	margin: 16em auto 0;
 }
@@ -42,37 +47,20 @@ html {
 	text-decoration: none;
 }
 
-.about {
-	background-image: url(../img/1500-820-placeholder.jpg);
+.option {
 	background-position: center center;
   background-size: cover;
   overflow: hidden;
 	height: 270px;
 	position: relative;
-	color: #D4AF37;
+	color: #D6D5D4;
+	background-color: #1F4388;
 }
 
-.about h2 {
+.option h2 {
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 200;
-	text-decoration: none;
-	margin: 3.5em auto 0;
-}
-
-.connect {
-	background-image: url(../img/1500-820-placeholder.jpg);
-	background-position: center center;
-  background-size: cover;
-  overflow: hidden;
-	height: 270px;
-	position: relative;
-	color: #D4AF37;
-}
-.connect h2 {
-	text-align: center;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 200;
+	font-weight: 400;
 	text-decoration: none;
 	margin: 3.5em auto 0;
 }

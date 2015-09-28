@@ -21,17 +21,20 @@ html {
  }
 
 .home {
-	background-color: #19002c;
+	background-color: #0d121a;
+	background-image: url(../img/bg-image.jpg);
+	background-position: center center;
+  background-size: cover;
 }
 /* color palate: (Purple) 552448 (beige)EAE3D4 000000 (gold)D4AF37 (silver)BCC6CC (dark purple)301436 19002c BCC6CC*/
 
 .billboard-work {
-	background-image: url(../img/1500-820-placeholder.jpg);
+	background-image: url(../img/woman-work.jpg);
 	background-position: center center;
   background-size: cover;
   overflow: hidden;
 	height: 400px;
-	color: #BCC6CC;
+	color: #D6D5D4;
 
 }
 
@@ -46,18 +49,17 @@ html {
 }
 
 .case-studies {
-	background-image: url(../img/1500-820-placeholder.jpg);
-	background-position: center center;
-  background-size: cover;
-  overflow: hidden;
-	height: 300px;
-	color: #D4AF37;
+	xbackground-image: url(../img/test.jpg);
+	xbackground-position: center center;
+  xbackground-size: cover;
+  xoverflow: hidden;
+	color: #D6D5D4;
 }
 
 .case-studies h2 {
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 200;
+	font-weight: 800;
 	text-decoration: none;
 	margin: 3.5em auto 0;
 }

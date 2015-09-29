@@ -41,6 +41,7 @@ html {
 	background-image: url(../img/bg-image.jpg);
 	background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
@@ -132,9 +133,11 @@ html {
 /**************************************** Projects ***********************************/
 
 .general-info {
-	border-top: none;
-	border-bottom: none;
-	border: none solid pink 1px;
+	border-right: 1px solid #d7d7d7;
+}
+
+.line {
+	border-bottom: 1px solid #d7d7d7;
 }
 
 @media only screen and (min-width: 60em) {

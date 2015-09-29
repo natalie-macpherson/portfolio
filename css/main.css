@@ -28,7 +28,6 @@ html {
  .nav {
  	text-decoration: none;
  	color: #D6D5D4;
- 	text-decoration: none;
  	color: black;
  }
 
@@ -41,7 +40,8 @@ html {
 	background-color: #0d121a;
 	background-image: url(../img/bg-image.jpg);
 	background-position: center center;
-  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 .billboard {
@@ -57,7 +57,7 @@ html {
 .links {
 }
 
-.option {
+.option-case {
 	height: 270px;
 	color: #D6D5D4;
 	border: solid 4px #D6D5D4;
@@ -65,7 +65,7 @@ html {
 	display: block;
 }
 
-.option h2 {
+.option-case h2 {
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
@@ -74,13 +74,67 @@ html {
 
 }
 
-.option:hover {
-	background-color: orange;
+.option-case:hover {
+	xbackground-color: #1F4388;
+	background-image: url(../img/woman-work.jpg);
+	background-position: center center;
+}
+
+.option-about {
+	height: 270px;
+	color: #D6D5D4;
+	border: solid 4px #D6D5D4;
+	text-decoration: none;
+	display: block;
+}
+
+.option-about h2 {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+	margin: 3.5em auto 0;
+
+}
+
+.option-about:hover {
+	background-color: #E75A38;
+}
+
+.option-connect {
+	height: 270px;
+	color: #D6D5D4;
+	border: solid 4px #D6D5D4;
+	text-decoration: none;
+	display: block;
+}
+
+.option-connect h2 {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+	margin: 3.5em auto 0;
+
+}
+
+.option-connect:hover {
+	background-color: #E92071;
 }
 
 .footer {
 	color: white;
 	margin-top: 5em;
+}
+
+
+
+/**************************************** Projects ***********************************/
+
+.general-info {
+	border-top: none;
+	border-bottom: none;
+	border: none solid pink 1px;
 }
 
 @media only screen and (min-width: 60em) {

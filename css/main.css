@@ -20,9 +20,20 @@ html {
  	margin: auto;
  }
 
+ header {
+	background-color: #D6D5D4;
+	display: block;
+	width: 100%;
+}
  .nav {
  	text-decoration: none;
  	color: #D6D5D4;
+ 	text-decoration: none;
+ 	color: black;
+ }
+
+ .main-nav {
+ 	line-height: 60px;
  }
 
 /* color palate: (Purple) 552448 (beige)EAE3D4 000000 (gold)D4AF37 (silver)BCC6CC (dark purple)301436 19002c BCC6CC*/
@@ -44,17 +55,14 @@ html {
 }
 
 .links {
-	text-decoration: none;
 }
 
 .option {
-	background-position: center center;
-  background-size: cover;
-  overflow: hidden;
 	height: 270px;
-	position: relative;
 	color: #D6D5D4;
-	background-color: #1F4388;
+	border: solid 4px #D6D5D4;
+	text-decoration: none;
+	display: block;
 }
 
 .option h2 {
@@ -63,9 +71,28 @@ html {
 	font-weight: 400;
 	text-decoration: none;
 	margin: 3.5em auto 0;
+
+}
+
+.option:hover {
+	background-color: orange;
 }
 
 .footer {
 	color: white;
 	margin-top: 5em;
+}
+
+@media only screen and (min-width: 60em) {
+
+
+}
+
+@media only screen and (min-width: 90em) {
+
+}
+
+@media only screen and (min-width: 120em) {
+
+
 }

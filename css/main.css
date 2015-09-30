@@ -42,20 +42,16 @@ html {
 	background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .billboard {
 	color: #D6D5D4;
 	height: 340px;
-	margin: 16em auto 0;
+	margin: 17em auto 0;
 }
 
 .billboard h1 {
 	text-align: center;
-}
-
-.links {
 }
 
 .option-case {
@@ -76,9 +72,9 @@ html {
 }
 
 .option-case:hover {
-	xbackground-color: #1F4388;
 	background-image: url(../img/woman-work.jpg);
-	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .option-about {
@@ -138,18 +134,50 @@ html {
 
 .line {
 	border-bottom: 1px solid #d7d7d7;
+	border-top: 1px solid #d7d7d7;
+}
+
+.general-info h2 {
+	font-size: 2em;
+	color: #d7d7d7;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+.general-info p {
+	font-size: 18px;
+	color: #5a5a5a;
+	position: relative;
+	top: -100px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	height: 54px;
+}
+
+li a {
+	text-decoration: none;
+	color: inherit;
 }
 
 @media only screen and (min-width: 60em) {
-
+.billboard {
+	height: 440px;
+}
 
 }
 
 @media only screen and (min-width: 90em) {
 
+
 }
 
 @media only screen and (min-width: 120em) {
-
 
 }

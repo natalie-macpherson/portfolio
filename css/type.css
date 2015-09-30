@@ -223,3 +223,20 @@ sub {
   padding-left: 0.3750rem;
   padding-right: 0.3750rem;
 }
+
+
+@media only screen and (min-width: 60em) {
+  .gutter {
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+
+@media only screen and (min-width: 90em) {
+
+
+}
+
+@media only screen and (min-width: 120em) {
+
+
+}

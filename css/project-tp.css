@@ -83,13 +83,15 @@ li a {
 }
 
 .highlights {
-	xtext-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	color: #591D57;
 	margin: 5px;
 }
 
+.shadow {
+	xbox-shadow: 1px 1px 6px 0 rgba(0,0,0,.25)
+}
 @media only screen and (min-width: 25em) {
 		.billboard-project {
 		height: 200px;

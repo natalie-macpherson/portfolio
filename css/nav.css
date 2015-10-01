@@ -11,6 +11,17 @@ html {
     box-sizing: inherit;
 }
 
+ .nav {
+ 	text-decoration: none;
+ 	color: #D6D5D4;
+ 	color: black;
+ 	font-family: 'Open Sans', sans-serif;
+ }
+
+ .main-nav {
+ 	line-height: 60px;
+ }
+
 .home {
 	background-color: #0d121a;
 	background-image: url(../img/bg-image.jpg);
@@ -39,17 +50,6 @@ header {
 	display: block;
 	width: 100%;
 }
-
- .nav {
- 	text-decoration: none;
- 	color: #D6D5D4;
- 	text-decoration: none;
- 	color: black;
- }
-
- .main-nav {
- 	line-height: 60px;
- }
 
  .center {
  	text-align: center;

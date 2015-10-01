@@ -25,17 +25,7 @@ html {
 	display: block;
 	width: 100%;
 }
- .nav {
- 	text-decoration: none;
- 	color: #D6D5D4;
- 	color: black;
- }
 
- .main-nav {
- 	line-height: 60px;
- }
-
-/* color palate: (Purple) 552448 (beige)EAE3D4 000000 (gold)D4AF37 (silver)BCC6CC (dark purple)301436 19002c BCC6CC*/
 .home {
 	background-color: #0d121a;
 	background-image: url(../img/bg-image.jpg);
@@ -91,7 +81,6 @@ html {
 	font-weight: 400;
 	text-decoration: none;
 	margin: 3.5em auto 0;
-
 }
 
 .option-about:hover {
@@ -126,55 +115,13 @@ html {
 
 
 
-/**************************************** Projects ***********************************/
-
-.general-info {
-	border-right: 1px solid #d7d7d7;
-}
-
-.line {
-	border-bottom: 1px solid #d7d7d7;
-	border-top: 1px solid #d7d7d7;
-}
-
-.general-info h2 {
-	font-size: 2em;
-	color: #d7d7d7;
-	text-transform: uppercase;
-	letter-spacing: 4px;
-}
-
-.general-info p {
-	font-size: 18px;
-	color: #5a5a5a;
-	position: relative;
-	top: -100px;
-}
-
-ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-li {
-	height: 54px;
-}
-
-li a {
-	text-decoration: none;
-	color: inherit;
-}
 
 @media only screen and (min-width: 60em) {
 .billboard {
 	height: 440px;
 }
 
-}
-
 @media only screen and (min-width: 90em) {
-
 
 }
 

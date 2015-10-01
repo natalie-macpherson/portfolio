@@ -1,0 +1,139 @@
+.main-content {
+    xborder-top: 1px solid #d7d7d7;
+}
+
+.line {
+	border-bottom: 1px solid #d7d7d7;
+}
+
+.general-info h2 {
+	font-size: 2em;
+	color: #eae8e8;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+.general-info p {
+	font-size: 18px;
+	color: #591D57;
+	position: relative;
+	top: -90px;
+	font-family: 'Gentium Book Basic', serif;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	height: 54px;
+}
+
+li a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.back {
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	color: #d7d7d7;
+	letter-spacing: 4px;
+	font-size: .75em;
+}
+
+.billboard-project {
+	background-image: url(../img/refresh-billboard.jpg);
+  background-size: cover;
+  overflow: hidden;
+	height: 130px;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+}
+
+.discription{
+	font-family: 'Open Sans', sans-serif;
+	color: #d7d7d7;
+	font-weight: 300;
+	padding-top: 15px;
+}
+
+.project-title{
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 800;
+		color: #591D57;
+		top: -100px
+}
+
+
+.solution {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		color: #591D57;
+}
+
+.project-intro {
+	font-family: 'Gentium Book Basic', serif;
+	line-height: 2em;
+}
+
+.highlights {
+	xtext-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: #591D57;
+	margin: 5px;
+}
+
+@media only screen and (min-width: 25em) {
+		.billboard-project {
+		height: 200px;
+	}
+}
+
+@media only screen and (min-width: 38em) {
+		.billboard-project {
+		height: 290px;
+	}
+}
+
+@media only screen and (min-width: 60em) {
+	.main-content {
+		border-left: 1px solid #d7d7d7;
+	}
+
+	.general-info p {
+		top: -95px;
+	}
+
+	li {
+		height: 64px;
+	}
+		.billboard-project {
+		height: 400px;
+	}
+}
+
+@media only screen and (min-width: 90em) {
+	.general-info p {
+		top: -105px;
+	}
+	.billboard-project {
+		height: 520px;
+	}
+}
+
+@media only screen and (min-width: 120em) {
+.general-info p {
+		top: -310px;
+	}
+
+		.billboard-project {
+		height: 320px;
+	}
+}

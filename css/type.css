@@ -224,19 +224,37 @@ sub {
   padding-right: 0.3750rem;
 }
 
+@media only screen and (min-width: 25em) {
+  .name {
+
+  }
+}
+
+@media only screen and (min-width: 38em) {
+   .name {
+
+  }
+}
 
 @media only screen and (min-width: 60em) {
   .gutter {
     padding-left: 5em;
     padding-right: 5em;
   }
+   .name {
+
+  }
+}
 
 @media only screen and (min-width: 90em) {
+ .name {
 
-
+  }
 }
 
 @media only screen and (min-width: 120em) {
+ .name {
 
-
+  }
 }
+

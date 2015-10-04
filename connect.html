@@ -66,10 +66,35 @@
 <!-- ******************************************* Social Media ********************************-->
 		<ul class="grid fade pad-t-2">
     	<li class=" unit unit-xs-1-3 unit-s-1-3 unit-m-1-3 unit-l-1-3 pad-b-1-2 center"><a href="https://www.linkedin.com/in/nmacpher" target="_blank"><img class="fade" src="img/linkedin.png" alt="Pintrest Link"></a>
+    	</li>
      	<li class=" unit unit-xs-1-3 unit-s-1-3 unit-m-1-3 unit-l-1-3 pad-b-1-2 center"><a href="https://www.behance.net/Natalie_Macpherson" target="_blank"><img class="fade" src="img/behance.png" alt="Behance Link"></a>
+     	</li>
     	<li class=" unit unit-xs-1-3 unit-s-1-3 unit-m-1-3 unit-l-1-3 pad-b-1-2 center"><a href="https://instagram.com/nmacpher/" target="_blank"><img class="fade" src="img/instagram.png" alt="instagram Link"></a>
+    	</li>
     </ul>
 	</div>
 	<div class="unit unit-xs-1 unit-s-1 unit-m-1-4 unit-l-1-3">
 	</div>
 </div>
+
+<?PHP
+echo "test";
+if(isset($_POST["submit"]))
+{
+$email = $_POST["id_email"];
+$to = "macphersonnatalie@gmail.com";
+$name = $_POST["id-name"];
+$message = $_Post["id_message"];
+$subject = $name, " has contacted you from your website.";
+$headers = "From: $email\n";
+echo $email;
+echo $to;
+echo $name;
+echo $message;
+echo $subject;
+echo $headers;
+mail($to,$subject,$message,$headers);
+}
+?>
+
+</body>

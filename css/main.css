@@ -184,17 +184,6 @@ input {
     font-family: 'Open Sans', sans-serif;
 }
 
-.input-submit {
-    line-height: 50px;
-    vertical-align: middle;
-    outline: none;
-    text-transform: uppercase;
-    color: #a5a5a5;
-}
-.input-submit:hover {
-    color: #000;
-  }
-
 /*
 ::-webkit-input-placeholder {
    color: #0d121a ;
@@ -226,6 +215,18 @@ textarea {
     resize: none;
 }
 
+.input-submit {
+    line-height: 50px;
+    vertical-align: middle;
+    outline: none;
+    text-transform: uppercase;
+    color: #a5a5a5;
+
+}
+.input-submit:hover {
+    color: #0d121a;
+  }
+
 .submit {
 	  width: auto;
     height: auto;
@@ -236,7 +237,7 @@ textarea {
 }
 
 .submit:hover {
-	border:3px solid #000;
+	border:3px solid #0d121a;
 }
 .submit-pointer {
 	cursor: pointer;

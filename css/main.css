@@ -115,6 +115,10 @@ html {
 	margin-top: 5em;
 }
 
+.name {
+
+}
+
 /* ------------------------------------------ connect ----------------------------*/
 .home-connect {
 	background-color: #0d121a;
@@ -141,6 +145,12 @@ html {
 	margin: 3em auto 0;
 }
 
+.second-header {
+ text-align: center;
+ font-family: 'Roboto', sans-serif;
+ font-weight: 300;
+}
+
 .white {
 	background-color: #fff;
 	height: 100vh;
@@ -159,30 +169,32 @@ html {
 	color: #0d121a;
 	font-weight: 300;
 }
-.social-icon {
-	margin-left: 35%;
-}
-
-.second-header {
- text-align: center;
- font-family: 'Roboto', sans-serif;
- font-weight: 300;
-}
 
 input {
 	  width: 100%;
-    height: 50px;
     padding: 0 2px;
     border: 0;
+    background-color: #fff;
     border-bottom: 1px solid #a5a5a5;
-    color: #0d121a;
     border-radius: 0;
     font-size: 15px;
     line-height: 50px;
     vertical-align: middle;
-    background-color: #fff;
     outline: none;
+    font-family: 'Open Sans', sans-serif;
 }
+
+.input-submit {
+    line-height: 50px;
+    vertical-align: middle;
+    outline: none;
+    text-transform: uppercase;
+    color: #a5a5a5;
+}
+.input-submit:hover {
+    color: #000;
+  }
+
 /*
 ::-webkit-input-placeholder {
    color: #0d121a ;
@@ -217,22 +229,17 @@ textarea {
 .submit {
 	  width: auto;
     height: auto;
-    color: #a5a5a5;
     border: 3px solid #a5a5a5;
-    background: #fff;
     font-size: 20px;
     text-align: center;
-    text-transform: uppercase;
     margin: 10% 20% 0 20%;
-    cursor: pointer;
 }
 
+.submit:hover {
+	border:3px solid #000;
+}
 .submit-pointer {
 	cursor: pointer;
-}
-
-p.submit {
-	text-align: center;
 }
 
 .fade {
@@ -255,8 +262,8 @@ p.submit {
 
 
 @media only screen and (min-width: 25em) {
-		.billboard-connect {
-		height: 300px;
+	.billboard-connect {
+		height: 330px;
 		background-position: 0 19%;
 	}
 }
@@ -268,7 +275,7 @@ p.submit {
 	}
 
 	.billboard-connect h1 {
-	margin: 4em auto 0;
+	margin: 5em auto 0;
 	}
 }
 
@@ -278,12 +285,16 @@ p.submit {
 	}
 
 	.billboard {
-	height: 440px;
+		height: 440px;
 	}
 
-		.billboard-connect {
-		height: 500px;
+	.billboard-connect {
+		height: 550px;
 		background-position: 0 22%;
+	}
+
+	.billboard-connect h1 {
+	margin: 5em auto 0;
 	}
 }
 
@@ -303,9 +314,12 @@ p.submit {
 		top: -310px;
 	}
 
-		.billboard-connect {
-		height: 630px;
+	.billboard-connect {
+		height: 750px;
 		background-position: 0 30%;
+	}
+	.billboard-connect h1 {
+		margin: 5em auto 0;
 	}
 }
 

@@ -1,7 +1,3 @@
-.main-content {
-    xborder-top: 1px solid #d7d7d7;
-}
-
 .line {
 	border-bottom: 1px solid #d7d7d7;
 }
@@ -53,7 +49,6 @@ li a {
 	height: 130px;
 	background-repeat: no-repeat;
 	background-position: center center;
-
 }
 
 .discription{
@@ -69,7 +64,6 @@ li a {
 		color: #591D57;
 		top: -100px
 }
-
 
 .solution {
 		font-family: 'Open Sans', sans-serif;
@@ -92,15 +86,18 @@ li a {
 .shadow {
 	xbox-shadow: 1px 1px 6px 0 rgba(0,0,0,.25)
 }
+
+/* ------------------------------------------ Media Queries ----------------------------*/
+
 @media only screen and (min-width: 25em) {
 		.billboard-project {
-		height: 200px;
+		height: 300px;
 	}
 }
 
 @media only screen and (min-width: 38em) {
 		.billboard-project {
-		height: 290px;
+		height: 300px;
 	}
 }
 

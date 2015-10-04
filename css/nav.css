@@ -16,34 +16,12 @@ html {
  	color: #D6D5D4;
  	color: black;
  	font-family: 'Open Sans', sans-serif;
+ 	padding: 0 5px;
  }
 
  .main-nav {
  	line-height: 60px;
  }
-
-.home {
-	background-color: #0d121a;
-	background-image: url(../img/bg-image.jpg);
-	background-position: center center;
-  background-size: cover;
-  background-repeat: none;
-}
-
-.billboard-work {
-	background-image: url(../img/woman-work.jpg);
-	background-position: 0 80%;
-  background-size: cover;
-  overflow: hidden;
-	height: 400px;
-	color: #D6D5D4;
-	background-repeat: no-repeat;
-}
-
-.billboard-work h1 {
-	text-align: center;
-	margin: 3em auto 0;
-}
 
 header {
 	background-color: #D6D5D4;
@@ -54,6 +32,8 @@ header {
  .center {
  	text-align: center;
  }
+
+/* ------------------------------------------ Media Queries ----------------------------*/
 
 @media only screen and (min-width: 60em) {
 
@@ -67,7 +47,6 @@ header {
 
 	.nav {
 		display: block;
-
 	}
 
 	.main {

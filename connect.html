@@ -47,23 +47,12 @@
 	<div class="unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-1-2 white island-1-2 ">
 		<h2 class="center hello-title exa pad-t">Want to work with me?</h2>
 		<h3 class="center hello peta">Let's Talk</h3>
+		<div class="grid">
+			<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+				<p class="center pad-t-2 peta"><a class="email bold" href="mailto:hello@nataliemay.ca"> hello@nataliemay.ca </a></p>
+			</div>
+		</div>
 
-<!-- ******************************************* Form ********************************-->
-
-		<form class="pad-b-2" action="" method="post">
-			<p>
-				<input class="milli" id="id-name" maxlength="255" name="name" placeholder="NAME, SURNAME" type="text">
-			</p>
-			<p>
-				<input class="milli" id="id_email" maxlength="255" name="email" placeholder="EMAIL" type="text">
-			</p>
-			<p>
-				<textarea class="milli" cols="40" id="id_message" name="message" placeholder="MESSAGE" rows="10"></textarea>
-			</p>
-			<p class="submit">
-				<input class="submit-pointer input-submit mega" type="submit" value="Send">
-			</p>
-		</form>
 
 <!-- ***************************************** Social Media ********************************-->
 		<ul class="grid fade pad-t-2">
@@ -79,25 +68,4 @@
 	</div>
 </div>
 
-<!--
-<?PHP
-echo "test";
-if(isset($_POST["submit"]))
-{
-$email = $_POST["id_email"];
-$to = "macphersonnatalie@gmail.com";
-$name = $_POST["id-name"];
-$message = $_Post["id_message"];
-$subject = $name, " has contacted you from your website.";
-$headers = "From: $email\n";
-echo $email;
-echo $to;
-echo $name;
-echo $message;
-echo $subject;
-echo $headers;
-mail($to,$subject,$message,$headers);
-}
-?>
--->
 </body>

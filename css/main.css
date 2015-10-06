@@ -169,78 +169,11 @@ html {
 	color: #591D57;
 	font-weight: 300;
 }
-
-input {
-	  width: 100%;
-    padding: 0 2px;
-    border: 0;
-    background-color: #fff;
-    border-bottom: 1px solid #a5a5a5;
-    border-radius: 0;
-    font-size: 15px;
-    line-height: 50px;
-    vertical-align: middle;
-    outline: none;
-    font-family: 'Open Sans', sans-serif;
-}
-
-/*
-::-webkit-input-placeholder {
-   color: #0d121a ;
-}
-
-:-moz-placeholder {
-   color: #0d121a;
-}
-
-::-moz-placeholder {
-   color: #0d121a;
-}
-
-:-ms-input-placeholder {
-   color: #0d121a;
-}
-*/
-textarea {
-		outline: none;
-		width: 100%;
-    height: 150px;
-    padding: 0 2px;
-    border: 0;
-    border-bottom: 1px solid #a5a5a5;
-    color: #0d121a;
-    border-radius: 0;
-    vertical-align: middle;
-    background-color: #fff;
-    resize: none;
-}
-
-.input-submit {
-    line-height: 50px;
-    vertical-align: middle;
-    outline: none;
-    text-transform: uppercase;
-    color: #a5a5a5;
-
-}
-.input-submit:hover {
-    color: #0d121a;
-  }
-
-.submit {
-	  width: auto;
-    height: auto;
-    border: 3px solid #a5a5a5;
-    font-size: 20px;
-    text-align: center;
-    margin: 10% 20% 0 20%;
-}
-
-.submit:hover {
-	border:3px solid #0d121a;
-}
-.submit-pointer {
-	cursor: pointer;
+.email {
+	text-decoration: none;
+	color: #e92071;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .fade {

@@ -59,6 +59,9 @@ a {
 	background-repeat: no-repeat;
 }
 
+.links {
+	display: block;
+}
 .case-studies h2 {
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;

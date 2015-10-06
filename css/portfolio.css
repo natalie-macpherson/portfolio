@@ -25,6 +25,9 @@ html {
  	margin: auto;
  }
 
+a {
+	border: solid 4px red;
+}
 .home {
 	background-color: #0d121a;
 	background-image: url(../img/bg-image.jpg);

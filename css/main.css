@@ -34,6 +34,23 @@ html {
   background-size: cover;
 }
 
+.masthead {
+	margin: 0 auto;
+	width: 40%;
+
+}
+
+.masthead span {
+	display: block;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	background-image: url(../img/test.png);
+	padding-top: 31.1%;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
 .billboard {
 	color: #D6D5D4;
 	height: 340px;

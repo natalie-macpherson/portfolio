@@ -25,9 +25,6 @@ html {
  	margin: auto;
  }
 
-a {
-	border: solid 4px red;
-}
 .home {
 	background-color: #0d121a;
 	background-image: url(../img/bg-image.jpg);
@@ -50,32 +47,77 @@ a {
 	text-align: center;
 	margin: 3em auto 0;
 }
-.case-studies {
+
+.case-studies-1 {
+  color: #D6D5D4;
+  background-image: url(../img/small-test.jpg);
+  height: 270px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat
+}
+
+.case-studies-2 {
 	color: #D6D5D4;
-	background-image: url(../img/test.jpg);
+	background-image: url(../img/wide-test.jpg);
 	height: 270px;
 	background-position: center center;
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat
+}
+
+.case-studies-3 {
+	color: #D6D5D4;
+	background-image: url(../img/wide-test-2.jpg);
+	height: 270px;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat
+}
+
+.case-studies-4 {
+  color: #D6D5D4;
+  background-image: url(../img/small-test-g.jpg);
+  height: 270px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat
+}
+
+.case-studies-5 {
+  color: #D6D5D4;
+  background-image: url(../img/small-test-4.jpg);
+  height: 270px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat
+}
+
+.case-studies-6 {
+  color: #D6D5D4;
+  background-image: url(../img/wide-test-p.jpg);
+  height: 270px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat
+}
+
+.masthead {
+		overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
 }
 
 .links {
 	display: block;
-}
-
-.case-studies h2 {
-	text-align: center;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 800;
-	text-decoration: none;
-	margin: 3.5em auto 0;
-	background-size:
+	cursor: pointer;
 }
 
 .footer {
 	color: white;
 	margin-top: 5em;
 }
+
 
 /* ------------------------------------------ Media Queries ----------------------------*/
 
@@ -96,6 +138,6 @@ a {
 
 @media only screen and (min-width: 120em) {
 	.case-studies {
-		height: 700px;
+		height: 558px;
 	}
 }

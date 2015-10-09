@@ -50,15 +50,16 @@ html {
 
 .case-studies-1 {
   color: #D6D5D4;
-  background-image: url(../img/small-test.jpg);
+  background-image: url(../img/refresh-935-558.jpg);
   height: 270px;
   background-position: center center;
-  background-size: 100vw auto;
-  background-repeat: no-repeat
+  background-size: 150vw auto;
+  background-repeat: no-repeat;
+  transition: all 1000ms linear;
 }
 
 .case-studies-1:hover {
-	background-size: 105vw auto;
+	background-size: 155vw auto;
 }
 
 .case-studies-2 {
@@ -81,11 +82,16 @@ html {
 
 .case-studies-4 {
   color: #D6D5D4;
-  background-image: url(../img/small-test-g.jpg);
+  background-image: url(../img/refresh-935-558.jpg);
   height: 270px;
   background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat
+  background-size: 150vw auto;
+  background-repeat: no-repeat;
+  transition: all 1000ms linear;
+}
+
+.case-studies-4:hover {
+	background-size: 155vw auto;
 }
 
 .case-studies-5 {
@@ -125,24 +131,100 @@ html {
 /* ----------------------------------------------------------
 Media Queries
 -------------------------------------------------------------*/
+@media only screen and (min-width: 25em) {
+	.case-studies-1 {
+		background-size: 115vw auto;
+		background-position: 85%;
+		transition: all 1000ms linear;
+	}
 
-@media only screen and (min-width: 60em) {
+	.case-studies-1:hover {
+		background-size: 120vw auto;
+	}
 
-	.case-studies {
-	height: 280px;
+		.case-studies-4 {
+		background-size: 115vw auto;
+		background-position: 85%;
+		transition: all 1000ms linear;
+	}
+
+	.case-studies-4:hover {
+		background-size: 120vw auto;
 	}
 
 }
 
+@media only screen and (min-width: 38em) {
+	.case-studies-1 {
+		background-size: 120vw auto;
+		background-position: 85%;
+		transition: all 1000ms linear;
+	}
+
+	.case-studies-1:hover {
+		background-size: 125vw auto;
+	}
+
+	.case-studies-4 {
+		background-size: 120vw auto;
+		background-position: 85%;
+		transition: all 1000ms linear;
+	}
+
+	.case-studies-4:hover {
+		background-size: 125vw auto;
+	}
+}
+
+@media only screen and (min-width: 60em) {
+	.case-studies-1 {
+		background-size: 46vw auto;
+		background-position: 85%;
+		transition: all 1000ms linear;
+		height: 300px
+	}
+
+	.case-studies-1:hover {
+		background-size: 51vw auto;
+	}
+
+	.case-studies-4 {
+		background-size: 46vw auto;
+		background-position: 85%;
+		transition: all 1000ms linear;
+		height: 300px
+	}
+
+	.case-studies-4:hover {
+		background-size: 51vw auto;
+	}
+}
+
 @media only screen and (min-width: 90em) {
-	.case-studies {
-		height: 330px;
+	.case-studies-1 {
+		background-size: 40vw auto;
+		background-position: 85%;
+		transition: all 1000ms linear;
+		height: 350px
+	}
+
+	.case-studies-1:hover {
+		background-size: 45vw auto;
+	}
+
+	.case-studies-4 {
+		background-size: 40vw auto;
+		background-position: 85%;
+		transition: all 1000ms linear;
+		height: 350px
+	}
+
+	.case-studies-4:hover {
+		background-size: 45vw auto;
 	}
 
 }
 
 @media only screen and (min-width: 120em) {
-	.case-studies {
-		height: 558px;
-	}
+
 }

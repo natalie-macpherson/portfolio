@@ -34,6 +34,7 @@ html {
   background-size: cover;
 }
 
+/*
 .masthead {
 	margin: 0 auto;
 	width: 80%;
@@ -49,10 +50,11 @@ html {
 	background-repeat: no-repeat;
 	background-size: contain;
 }
+*/
 
 .billboard {
 	color: #D6D5D4;
-	height: 230px;
+	height: 260px;
 	margin: 10em auto 0;
 }
 
@@ -157,7 +159,6 @@ Connect
   background-size: cover;
 }
 
-
 .billboard-connect{
 	background-image: url(../img/connect.jpg);
 	background-position: 0 80%;
@@ -234,6 +235,15 @@ Media Queries
 
 @media only screen and (min-width: 25em) {
 
+	.billboard {
+			height: 300px;
+			margin: 15em auto 0;
+		}
+
+	.billboard h1 {
+		font-size: 3em;
+	}
+
 	.option-case {
 		height: 300px;
 		background-size: 75vh;
@@ -267,6 +277,14 @@ Media Queries
 
 @media only screen and (min-width: 38em) {
 
+	.billboard {
+		height: 380px;
+		margin: 20em auto 0;
+	}
+
+	.billboard h1 {
+		font-size: 3.5em;
+	}
 
 	.option-case {
 		height: 350px;
@@ -313,6 +331,15 @@ Media Queries
 		border-left: 1px solid #d7d7d7;
 	}
 
+	.billboard {
+	margin: 16em auto 0;
+	height: 456px;
+}
+
+	.billboard h1 {
+		font-size: 4em;
+	}
+
 	.option-case {
 		height: 300px;
 		background-size: 80vh;
@@ -357,6 +384,15 @@ Media Queries
 @media only screen and (min-width: 90em) {
 	.general-info p {
 		top: -105px;
+	}
+
+	.billboard {
+		height:530px;
+		margin: `15em auto 0;
+	}
+
+	.billboard h1 {
+		font-size: 4em;
 	}
 
 	.option-case {
@@ -435,3 +471,4 @@ Media Queries
 	.option-connect h2 {
 		margin: 4em auto 0;
 	}
+}

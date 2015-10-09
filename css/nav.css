@@ -13,8 +13,7 @@ html {
 
  .nav {
  	text-decoration: none;
- 	color: #D6D5D4;
- 	color: black;
+ 	color: white;
  	font-family: 'Open Sans', sans-serif;
  	padding: 0 5px;
  }
@@ -24,7 +23,7 @@ html {
  }
 
 header {
-	background-color: #D6D5D4;
+	background-image: url(../img/bg-image.jpg);
 	display: block;
 	width: 100%;
 }

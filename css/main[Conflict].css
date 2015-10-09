@@ -100,7 +100,7 @@ background-size: 65vh;
 	display: block;
 	background-image:url(../img/selfportrait-billboard.jpg);
 	background-repeat: no-repeat;
-	background-position: 40% center;
+	background-position: center 100%;
 	background-size: 85vh;
 	transition: all 1000ms linear;
 }
@@ -346,9 +346,6 @@ Media Queries
 		height: 350px;
 	}
 
-	.billboard-connect {
-		height: 350px;
-	}
 }
 
 @media only screen and (min-width: 60em) {

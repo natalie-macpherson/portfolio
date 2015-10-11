@@ -28,6 +28,10 @@ header {
 	width: 100%;
 }
 
+.center {
+	text-align: center;
+}
+
 /* ------------------------------------------ Media Queries ----------------------------*/
 
 @media only screen and (min-width: 60em) {

@@ -462,14 +462,14 @@ Media Queries
 	}
 
 	.case-studies-1 {
-		background-size: 40vw auto;
+		background-size: 45vw auto;
 		background-position: 85%;
 		transition: all 1000ms linear;
 		height: 350px
 	}
 
 	.case-studies-1:hover {
-		background-size: 45vw auto;
+		background-size: 50vw auto;
 	}
 
 	.case-studies-2 {
@@ -495,25 +495,25 @@ Media Queries
 	}
 
 	.case-studies-4 {
-		background-size: 40vw auto;
+		background-size: 45vw auto;
 		background-position: 85%;
 		transition: all 1000ms linear;
 		height: 350px
 	}
 
 	.case-studies-4:hover {
-		background-size: 45vw auto;
+		background-size: 50vw auto;
 	}
 
 	.case-studies-5 {
-		background-size: 40vw auto;
+		background-size: 45vw auto;
 		background-position: 85%;
 		transition: all 1000ms linear;
 		height: 350px
 	}
 
 	.case-studies-5:hover {
-		background-size: 45vw auto;
+		background-size: 50vw auto;
 	}
 
 	.case-studies-6 {
@@ -539,14 +539,14 @@ Media Queries
 	}
 
 	.case-studies-8 {
-		background-size: 40vw auto;
+		background-size: 45vw auto;
 		background-position: 85%;
 		transition: all 1000ms linear;
 		height: 350px
 	}
 
 	.case-studies-8:hover {
-		background-size: 45vw auto;
+		background-size: 50vw auto;
 	}
 }
 

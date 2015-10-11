@@ -28,10 +28,6 @@ header {
 	width: 100%;
 }
 
- .center {
- 	text-align: center;
- }
-
 /* ------------------------------------------ Media Queries ----------------------------*/
 
 @media only screen and (min-width: 60em) {
@@ -52,28 +48,10 @@ header {
 		float: right;
 		width: calc(100% - 150px);
 	}
-
-
-
-	.billboard-work {
-		background-position: 0 80%;
-	  height: 430px;
-	}
-
 }
 
 @media only screen and (min-width: 90em) {
-	.billboard-work {
-		background-position: 0 80%;
-  	height: 570px;
-	}
-
 }
 
 @media only screen and (min-width: 120em) {
-	.billboard-work {
-		background-position: 0 80%;
-  	height: 650px;
-  }
-
 }

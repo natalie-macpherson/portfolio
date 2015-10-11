@@ -38,7 +38,7 @@ html {
 	background-position: 0 80%;
   background-size: cover;
   overflow: hidden;
-	height: 400px;
+	height: 265px;
 	color: #D6D5D4;
 	background-repeat: no-repeat;
 }
@@ -180,6 +180,11 @@ html {
 Media Queries
 -------------------------------------------------------------*/
 @media only screen and (min-width: 25em) {
+
+	.billboard-work {
+		height: 300px
+	}
+
 	.case-studies-1 {
 		background-size: 115vw auto;
 		background-position: 85% center;
@@ -267,6 +272,11 @@ Media Queries
 }
 
 @media only screen and (min-width: 38em) {
+
+	.billboard-work {
+			height: 350px;
+	}
+
 	.case-studies-1 {
 		background-size: 120vw auto;
 		background-position: 85%;
@@ -349,6 +359,12 @@ Media Queries
 }
 
 @media only screen and (min-width: 60em) {
+
+	.billboard-work {
+		height: 500px;
+		background-position: 60% center;
+	}
+
 	.case-studies-1 {
 		background-size: 55vw auto;
 		background-position: 85%;
@@ -439,6 +455,12 @@ Media Queries
 }
 
 @media only screen and (min-width: 90em) {
+
+	.billboard-work {
+		height: 500px;
+
+	}
+
 	.case-studies-1 {
 		background-size: 40vw auto;
 		background-position: 85%;

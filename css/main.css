@@ -268,9 +268,7 @@ About
 }
 
  /* ------------------------------------------------------------
-}
-}
-}
+
 Media Queries
 -------------------------------------------------------------*/
 
@@ -496,6 +494,7 @@ Media Queries
 	  padding-top: 1em;
 	  padding-bottom: 1em;
 	}
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -521,9 +520,12 @@ Media Queries
 	.option-case h2 {
 		margin: 4em auto 0;
 	}
+
 	.option-case:hover {
 		background-size: 80vh;
 	}
+
+	.
 
 	.option-about {
 		height: 350px;

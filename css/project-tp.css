@@ -63,7 +63,7 @@ li a {
 }
 
 .billboard-bookbuddy {
-		background-image: url(../img/project-2.jpg);
+	background-image: url(../img/project-2.jpg);
   background-size: cover;
   overflow: hidden;
 	height: 130px;
@@ -109,6 +109,13 @@ li a {
 	xbox-shadow: 1px 1px 6px 0 rgba(0,0,0,.25)
 }
 
+.m-next-project {
+	background-color: #000;
+	color: white;
+	padding: 15px 0;
+	margin: 20px 0;
+}
+
 /* ------------------------------------------------------------
 Media Queries
 -------------------------------------------------------------*/
@@ -146,6 +153,10 @@ Media Queries
 	.billboard-bookbuddy {
 		height: 400px;
 	}
+	.next-project {
+		float: right;
+		width: calc(100% - 150px);
+	}
 }
 
 @media only screen and (min-width: 90em) {
@@ -154,6 +165,11 @@ Media Queries
 	}
 	.billboard-refresh {
 		height: 520px;
+	}
+
+	.next-project {
+		float: right;
+		width: calc(100% - 150px);
 	}
 }
 

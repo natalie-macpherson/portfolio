@@ -18,6 +18,11 @@ html {
  	padding: 0 5px;
  }
 
+ .nav:hover {
+ 	text-decoration: line-through;
+ 	color: #73c7b0;
+ }
+
  .main-nav {
  	line-height: 60px;
  }

@@ -1,18 +1,6 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title>Natalie May</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/grid.css" rel="stylesheet">
-    <link href="css/type.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/nav.css" rel="stylesheet">
-    <link href="css/project-tp.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800|Gentium+Book+Basic' rel='stylesheet' type='text/css'>
-</head>
-
-<body>
+---
+layout: portfolio
+---
 
 <!--++++++++++++++++++++++++
 skip links
@@ -24,24 +12,11 @@ skip links
 	</ul>-->
 
 <!-- *******************
-Navigation
-************************-->
-
-<header>
-	<nav class="main-nav island-1-2 center">
-		<a class="nav space" href="index.html">Home</a>
-		<a class="nav space" href="about.html">About</a>
-		<a class="nav space" href="connect.html">Connect</a>
-		<a class="nav space" href="portfolio.html">Portfolio</a>
-	</nav>
-</header>
-
-<!-- *******************
 Billboard
 ************************-->
 
 <div class="main">
-	<div class="grid billboard-project">
+	<div class="grid billboard-refresh">
 		<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 ">
 		</div>
 	</div>
@@ -68,7 +43,7 @@ Billboard
 					</li>
 					<!-- Don't know if this is needed -->
 					<li class="line back pad-t">
-							<a href="portfolio.html">Back to Portfolio</a>
+							<a href="{{baseurl}}/work	/">Back to Portfolio</a>
 					</li>
 				</ul>
 				</div>
@@ -94,24 +69,24 @@ Main Content
 							<h4 class="kilo highlights pad-b pad-t gutter-1-4">Research and Development</h4>
 						</div>
 						<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-4 center pad-b">
-							<img class="img-flex shadow" src="img/refresh-option.jpg" alt="image showing design of what refresh website offers">
+							<img class="img-flex shadow" src="{{baseurl}}/img/refresh-option.jpg" alt="image showing design of what refresh website offers">
 						</div>
 						<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-4 center pad-b">
-							<img class="img-flex shadow" src="img/refresh-option.jpg" alt="image showing design of what refresh website offers">
+							<img class="img-flex shadow" src="{{baseurl}}/img/refresh-option.jpg" alt="image showing design of what refresh website offers">
 						</div>
 						<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-4 center pad-b">
-							<img class="img-flex shadow" src="img/refresh-option.jpg" alt="image showing design of what refresh website offers">
+							<img class="img-flex shadow" src="{{baseurl}}/img/refresh-option.jpg" alt="image showing design of what refresh website offers">
 						</div>
 						<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l">
 							<h4 class="kilo highlights pad-t pad-b gutter-1-4">Design</h4>
 						</div>
 						<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-4 center pad-b">
-							<img class="img-flex shadow" src="img/refresh-plans.jpg" alt="image showing the design for charts and payment options for refresh">
+							<img class="img-flex shadow" src="{{baseurl}}/img/refresh-plans.jpg" alt="image showing the design for charts and payment options for refresh">
 						<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-4 center pad-b pad-t	">
-							<img class="img-flex pad-b shadow" src="img/refresh-plans.jpg" alt="image showing the design for charts and payment options for refresh">
+							<img class="img-flex pad-b shadow" src="{{baseurl}}/img/refresh-plans.jpg" alt="image showing the design for charts and payment options for refresh">
 						</div>
 						<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-4 center pad-b pad-t">
-							<img class="img-flex shadow" src="img/refresh-plans.jpg" alt="image showing the design for charts and payment options for refresh">
+							<img class="img-flex shadow" src="{{baseurl}}/img/refresh-plans.jpg" alt="image showing the design for charts and payment options for refresh">
 						</div>
 					</div>
 						<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l">
@@ -121,10 +96,10 @@ Main Content
 							<p class="project-intro">This project incorporated UI/UX and web development elements in order to design and code a full website with all of the steps a user would have to follow to learn and sign up for the service. The website is fully responsive allowing the user to use the program on any device.</p>
 						</div>
 						<div class="unit unit-xs-1 unit-m-1 unit-l-1-2 gutter-1-2">
-							<p class="project-intro kilo">The colours and imagery chosen for the website were colours that reflected a positive and active lifestyle. All the icons where created to illustrate the different features that user would receive if they signed up with Refresh. These icons also provide a pop of colour which draws the users eye to the many features the program provided.
+							<p class="project-intro kilo">The colours and imagery chosen for the website were colours that reflected a positive and active lifestyle. All the icons where created to illustrate the different features that user would receive if they signed up with Refresh. These icons also provide a pop of colour which draws the users eye to the many features the program provided.</p>
 						</div>
 						<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-8 center pad-b pad-t">
-							<img class="img-flex shadow" src="img/refresh-white.jpg" alt="The Refresh website shown on multiple screen sizes">
+							<img class="img-flex shadow" src="{{baseurl}}/img/refresh-white.jpg" alt="The Refresh website shown on multiple screen sizes">
 						</div>
 					</div>
 				</div>
@@ -132,10 +107,18 @@ Main Content
 		</div>
 	</div>
 </div>
+<div class="grid next-project">
+	<div class=" content-bottom mono-title unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
+		<span>– Say hello –</span>
+		<h4 class="contact-link">Do you like my work? Don't be shy<a href="mailto:hello@nataliemay.ca">Contact me</a></h4>
+	</div>
+	<div class=" next-project colour-1 unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-2-3">
+		<a href="#">
+			<div class="cont-title">
+				<span class="mono-title">– Next Project –</span>
+				<h2>project title</h2>
+			</div>
+		</a>
+	</div>
 
-
-
-
-
-
-</body>
+</div>

@@ -8,7 +8,18 @@
 	text-transform: uppercase;
 	letter-spacing: 7px;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
+	font-weight: 300;
+}
+
+.projectnav-colour {
+	background-image: url(../img/bg-image.jpg);
+	display: block;
+	width: 100%;
+	color: #fff;
+	float: right;
+	position: fixed;
+	width: 150px;
+	display: block;
 }
 
 .general-info p {
@@ -42,8 +53,17 @@ li a {
 	font-size: .75em;
 }
 
-.billboard-project {
+.billboard-refresh {
 	background-image: url(../img/refresh-billboard.jpg);
+  background-size: cover;
+  overflow: hidden;
+	height: 130px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.billboard-bookbuddy {
+		background-image: url(../img/project-2.jpg);
   background-size: cover;
   overflow: hidden;
 	height: 130px;
@@ -94,15 +114,17 @@ Media Queries
 -------------------------------------------------------------*/
 
 @media only screen and (min-width: 25em) {
-		.billboard-project {
+		.billboard-refresh {
+		height: 300px;
+	}
+
+	.billboard-bookbuddy {
 		height: 300px;
 	}
 }
 
 @media only screen and (min-width: 38em) {
-		.billboard-project {
-		height: 300px;
-	}
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -117,7 +139,11 @@ Media Queries
 	li {
 		height: 64px;
 	}
-		.billboard-project {
+		.billboard-refresh {
+		height: 400px;
+	}
+
+	.billboard-bookbuddy {
 		height: 400px;
 	}
 }
@@ -126,7 +152,7 @@ Media Queries
 	.general-info p {
 		top: -105px;
 	}
-	.billboard-project {
+	.billboard-refresh {
 		height: 520px;
 	}
 }
@@ -136,7 +162,12 @@ Media Queries
 		top: -310px;
 	}
 
-		.billboard-project {
+		.billboard-refresh {
 		height: 320px;
 	}
+
+	.billboard-bookbuddy {
+		height: 320px;
+	}
+
 }

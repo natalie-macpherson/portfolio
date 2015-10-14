@@ -263,20 +263,6 @@ About
   font-family: 'Gentium Book Basic', serif;
 }
 
-.colour-1 {
-	background-color: #62c6c8;
-
-}
-
-.colour-2 {
-	background-color: #c5ce51;
-
-}
-
-	.colour-3 {
-	background-color: #fed9d4;
-}
-
 .center {
 	text-align: center;
 }
@@ -581,6 +567,10 @@ Media Queries
 		font-size:3em;
 		padding-left: 8rem;
 	  padding-right: 8rem;
+	}
+
+	.billboard-about h1 {
+		margin: 3.5em auto 0;
 	}
 }
 

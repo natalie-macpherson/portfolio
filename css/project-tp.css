@@ -116,6 +116,16 @@ li a {
 	margin: 20px 0;
 }
 
+.wrapper {
+	width: auto;
+	max-height: 1440px;
+	float: none;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
 /* ------------------------------------------------------------
 Media Queries
 -------------------------------------------------------------*/

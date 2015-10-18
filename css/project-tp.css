@@ -45,11 +45,11 @@ li a {
 	color: inherit;
 }
 
-.back {
+.back-portfolio {
 	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
 	color: #d7d7d7;
-	letter-spacing: 4px;
+	letter-spacing: 3px;
 	font-size: .75em;
 }
 
@@ -110,13 +110,13 @@ li a {
 }
 
 .m-next-project {
-	background-color: #202122;
+	xbackground-color: #202122;
+	background-image: url(../img/bg-image.jpg);
 	color: white;
-	padding: 15px 0;
-	margin: 20px 0;
+	margin: 0;
 }
 
-.wrapper {
+.dwrapper {
 	width: auto;
 	max-height: 1440px;
 	float: none;
@@ -125,7 +125,71 @@ li a {
 	margin-left: auto;
 	padding-left: 15px;
 	padding-right: 15px;
+	margin: 0;
 }
+
+.contact-bottom {
+	margin-bottom: 30px;
+}
+
+.contact-link {
+	color: #838b91;
+	text-decoration: none;
+	white-space: nowrap;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+.mono-title {
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+.email-link{
+	color: #fff;
+	text-decoration: none;
+	white-space: nowrap;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+.next-project {
+	background-color: #1d1e2a;
+	-webit-transition: all 300ms linear;
+	transition: all 500ms linear;
+	text-decoration: none;
+	color: #fff;
+	white-space: nowrap;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	position:
+}
+
+.next-project:hover{
+	/*background-color: #F8F5EE;*/
+	background-color: #73c7b0;
+	color: black;
+}
+
+.back {
+	text-decoration: none;
+	color: #fff;
+}
+
+.back-hover{
+ 	color: #73c7b0;
+}
+
+.footer-color {
+	background-color: #1d1e2a
+}
+
+.social-link {
+	display: inline-block;
+}
+
+
 /* ------------------------------------------------------------
 Media Queries
 -------------------------------------------------------------*/
@@ -163,9 +227,14 @@ Media Queries
 	.billboard-bookbuddy {
 		height: 400px;
 	}
-	.next-project {
+	.m-next-project {
 		float: right;
 		width: calc(100% - 150px);
+	}
+
+	.footer-color {
+	float: right;
+	width: calc(100% - 150px);
 	}
 }
 
@@ -179,8 +248,10 @@ Media Queries
 
 	.next-project {
 		float: right;
-		width: calc(100% - 150px);
+		width: calc(100% - 155px);
 	}
+
+
 }
 
 @media only screen and (min-width: 120em) {

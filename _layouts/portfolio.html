@@ -1,8 +1,44 @@
 ---
 layout: main-content
 ---
+<div class="main">
+	<div class="grid billboard-refresh">
+		<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+		</div>
+	</div>
 
+	<div class="grid island-1-4">
+		<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+
+			<div class="grid">
+			<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-4 general-info">
+				<ul>
+					<li class="line">
+						<h2>Project</h2>
+						<p class="pad-t">{{page.project-title}}</p>
+					</li>
+					<li class="line">
+						<h2>Service</h2>
+						<p class="pad-t">{{page.project-service}}</p>
+					</li>
+					<li class="line">
+						<h2>Link</h2>
+						<p class="pad-t">
+							<a href="http://natalie-macpherson.github.io/dsn1675-refresh/" target="_blank">{{page.project-link}}</a>
+						</p>
+					</li>
+					<!-- Don't know if this is needed -->
+					<li class="line back-portfolio pad-t">
+							<a href="{{baseurl}}/work	/">Back to Portfolio</a>
+					</li>
+				</ul>
+				</div>
 {{content}}
+			</div>
+		</div>
+	</div>
+</div>
+
 
 <div class="grid m-next-project">
 	<div class="center pad-t-1-2 unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3">

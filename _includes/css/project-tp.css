@@ -218,7 +218,8 @@ Media Queries
 	}
 
 	li {
-		height: 64px;
+		height: 84px;
+		margin-top: 1em;
 	}
 		.billboard-refresh {
 		height: 400px;

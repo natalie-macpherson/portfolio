@@ -269,6 +269,9 @@ Media Queries
 		background-size: 120vw auto;
 	}
 
+	.billboard-work h1{
+		margin: 2.5em auto 0;
+	}
 }
 
 @media only screen and (min-width: 38em) {
@@ -451,6 +454,10 @@ Media Queries
 
 	.case-studies-8:hover {
 		background-size: 60vw auto;
+	}
+
+	.billboard-work h1{
+		margin: 4em auto 0;
 	}
 }
 

@@ -116,18 +116,6 @@ li a {
 	margin: 0;
 }
 
-.dwrapper {
-	width: auto;
-	max-height: 1440px;
-	float: none;
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	padding-left: 15px;
-	padding-right: 15px;
-	margin: 0;
-}
-
 .contact-bottom {
 	margin-bottom: 30px;
 }
@@ -186,7 +174,22 @@ li a {
 }
 
 .social-link {
-	display: inline-block;
+	color: #838b91;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 10px;
+}
+
+.back-home {
+	font-weight: 300;
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+}
+
+.back-home:hover {
+	color: #73c7b0;
+	text-decoration: line-through;
 }
 
 
@@ -195,7 +198,7 @@ Media Queries
 -------------------------------------------------------------*/
 
 @media only screen and (min-width: 25em) {
-		.billboard-refresh {
+	.billboard-refresh {
 		height: 300px;
 	}
 
@@ -221,7 +224,7 @@ Media Queries
 		height: 84px;
 		margin-top: 1em;
 	}
-		.billboard-refresh {
+	.billboard-refresh {
 		height: 400px;
 	}
 
@@ -234,8 +237,8 @@ Media Queries
 	}
 
 	.footer-color {
-	float: right;
-	width: calc(100% - 150px);
+		float: right;
+		width: calc(100% - 150px);
 	}
 }
 

@@ -53,7 +53,7 @@ layout: main-content
 						</div>
 						<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-4 center pad-b">
 							{% for img in page.img-research %}
-								<img class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="Image of project research">
+								<img class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="Image of {{page.baseurl}}/portfolio/refresh-option.title">
 							{% endfor %}
 						</div>
 
@@ -64,7 +64,7 @@ layout: main-content
 						</div>
 						<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-4 center pad-b">
 							{% for img in page.img-design %}
-								<img class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="Image of Project desgin">
+								<img class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="Image of {{page.img-design}}">
 							{% endfor %}
 						</div>
 
@@ -80,9 +80,14 @@ layout: main-content
 							<p class="project-intro kilo"> {{page.para4}}</p>
 						</div>
 						<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-8 center pad-b pad-t">
-							{% for img in page.img-solution %}
-								<img class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="Image of final project">
+							{% for img in page.img-solution1 %}
+								<img class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="Image of">
 							{% endfor %}
+							<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-8 center pad-b pad-t">
+							{% for img in page.img-solution2 %}
+								<img class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="Image of">
+							{% endfor %}
+						</div>
 						</div>
 					</div>
 				</div>

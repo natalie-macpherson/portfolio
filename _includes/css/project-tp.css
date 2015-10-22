@@ -54,7 +54,7 @@ li a {
 }
 
 .billboard-refresh {
-	background-image: url(../img/refresh-billboard.jpg);
+	background-image: url(../img/refresh/refresh-bb.jpg);
   background-size: cover;
   overflow: hidden;
 	height: 130px;
@@ -73,15 +73,20 @@ li a {
 
 .discription{
 	font-family: 'Open Sans', sans-serif;
-	color: #d7d7d7;
+	color: #000011;
 	font-weight: 300;
 	padding-top: 15px;
+}
+
+.captions{
+	font-family: 'Gentium Book Basic', serif;
+	font-weight: 400;
 }
 
 .project-title{
 		font-family: 'Open Sans', sans-serif;
 		font-weight: 800;
-		color: #000;
+		color: #000011;
 		top: -100px
 }
 
@@ -99,14 +104,13 @@ li a {
 .highlights {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
-	ccolor: #591D57;
-	color: #000;
+	color: #000011;
 	margin: 5px;
-	border-top: solid #d7d7d7 1px;
+	border-bottom: solid #000011 3px;
 }
 
 .shadow {
-	xbox-shadow: 1px 1px 6px 0 rgba(0,0,0,.25)
+	xbox-shadow: .5px .5px 3px 0 rgba(0,0,0,.25)
 }
 
 .m-next-project {

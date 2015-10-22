@@ -1,16 +1,3 @@
-@-moz-viewpoint {width: divice-width; scale: 1;}
-@-ms-viewpoint {width: divice-width; scale; 1;}
-@-0-viewpoint {width: divice-width; scale; 1;}
-@viewpoint {width: divice-width; scale; 1;}
-
-html {
-    box-sizing: border-box;
-}
-
-*, *::before, *::after {
-    box-sizing: inherit;
-}
-
 .img-flex {
     display: block;
     width: 100%;
@@ -50,7 +37,7 @@ html {
 
 .case-studies-1 {
   color: #D6D5D4;
-  background-image: url(../img/refresh-935-558.jpg);
+  background-image: url(../img/refresh/refresh-935-558.jpg);
   height: 270px;
   background-position: center center;
   background-size: 150vw auto;

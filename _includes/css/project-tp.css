@@ -53,6 +53,15 @@ li a {
 	font-size: .75em;
 }
 
+.billboard-gateway {
+	background-image: url(../img/gateway/gateway-bb.jpg);
+  background-size: cover;
+  overflow: hidden;
+	height: 130px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
 .billboard-refresh {
 	background-image: url(../img/refresh/refresh-bb.jpg);
   background-size: cover;
@@ -202,8 +211,13 @@ Media Queries
 -------------------------------------------------------------*/
 
 @media only screen and (min-width: 25em) {
+	.billboard-gateway {
+		height: 300px;
+	}
+
 	.billboard-refresh {
 		height: 300px;
+		background-position: center -110px;
 	}
 
 	.billboard-bookbuddy {
@@ -212,7 +226,9 @@ Media Queries
 }
 
 @media only screen and (min-width: 38em) {
-
+	.billboard-gateway {
+		height: 400px;
+	}
 }
 
 @media only screen and (min-width: 60em) {
@@ -228,6 +244,11 @@ Media Queries
 		height: 84px;
 		margin-top: 1em;
 	}
+
+	.billboard-gateway {
+		height: 400px;
+	}
+
 	.billboard-refresh {
 		height: 400px;
 	}
@@ -250,6 +271,12 @@ Media Queries
 	.general-info p {
 		top: -105px;
 	}
+
+	.billboard-gateway {
+		height: 520px;
+	}
+
+
 	.billboard-refresh {
 		height: 520px;
 	}

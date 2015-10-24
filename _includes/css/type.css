@@ -224,6 +224,11 @@ sub {
   padding-right: 0.7500rem;
 }
 
+.gutter-image {
+  padding-left: 0.7500rem;
+  padding-right: 0.7500rem;
+}
+
 .gutter-quarter, .gutter-1-4 {
   padding-left: 0.3750rem;
   padding-right: 0.3750rem;
@@ -254,6 +259,11 @@ sub {
 @media only screen and (min-width: 90em) {
  .name {
 
+  }
+
+  .gutter-image {
+    padding-left: 3.0000rem;
+    padding-right: 3.0000rem;
   }
 }
 

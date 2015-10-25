@@ -570,10 +570,6 @@ Media Queries
 		background-position: 40% 40%;
 	}
 
-	.option-connect h2 {
-		margin: 4em auto 0;
-	}
-
 	.option-connect:hover {
 		background-size: 95vh;
 	}

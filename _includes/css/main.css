@@ -214,6 +214,10 @@ Connect
 	font-family: 'Open Sans', sans-serif;
 }
 
+.social {
+	width: 50%;
+}
+
 .fade {
 	margin:0;
 }
@@ -431,12 +435,12 @@ Media Queries
 		border-left: 1px solid #d7d7d7;
 	}
 	.workmark{
-		width: 700px;
+		width: 850px;
 	}
 
 	.billboard {
 	margin: 0em auto 0;
-	height: 750px;
+	height: 760px;
 }
 
 	.billboard h1 {
@@ -554,7 +558,7 @@ Media Queries
 	.option-about {
 		height: 350px;
 		background-size: 120vh;
-		background-position: 40% center;
+		background-position:12% center;
 	}
 
 	.option-about h2 {

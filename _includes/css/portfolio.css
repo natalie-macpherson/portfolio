@@ -151,6 +151,36 @@
 	background-size: 155vw auto;
 }
 
+.case-studies-9 {
+  color: #D6D5D4;
+  background-image: url(../img/);
+  background-color: #e44c97;
+  height: 270px;
+  background-position: center center;
+  background-size: 150vw auto;
+  background-repeat: no-repeat;
+  transition: all 1000ms linear;
+}
+
+.case-studies-9:hover {
+	background-size: 155vw auto;
+}
+
+.case-studies-10 {
+  color: #D6D5D4;
+  background-image: url(../img/);
+  background-color: #7f5dae;
+  height: 270px;
+  background-position: center center;
+  background-size: 150vw auto;
+  background-repeat: no-repeat;
+  transition: all 1000ms linear;
+}
+
+.case-studies-10:hover {
+	background-size: 155vw auto;
+}
+
 .masthead {
 	overflow: hidden;
 	text-indent: 100%;
@@ -260,6 +290,27 @@ Media Queries
 		background-size: 120vw auto;
 	}
 
+	.case-studies-9 {
+		background-position: 52% center;
+		background-size: 205vw auto;
+		background-position: 50% center;
+		transition: all 1000ms linear;
+	}
+
+	.case-studies-9:hover {
+		background-size: 210vw auto;
+	}
+
+		.case-studies-10 {
+		background-size: 115vw auto;
+		background-position: 85%;
+		transition: all 1000ms linear;
+	}
+
+	.case-studies-10:hover {
+		background-size: 120vw auto;
+	}
+
 	.billboard-work h1{
 		margin: 2.5em auto 0;
 	}
@@ -348,6 +399,26 @@ Media Queries
 	}
 
 	.case-studies-8:hover {
+		background-size: 125vw auto;
+	}
+
+	.case-studies-79 {
+		background-position: 52% center;
+		background-size: 190vw auto;
+		transition: all 1000ms linear;
+	}
+
+	.case-studies-9:hover {
+		background-size: 195vw auto;
+	}
+
+	.case-studies-10 {
+		background-size: 120vw auto;
+		background-position: 85%;
+		transition: all 1000ms linear;
+	}
+
+	.case-studies-10:hover {
 		background-size: 125vw auto;
 	}
 }
@@ -444,6 +515,28 @@ Media Queries
 	}
 
 	.case-studies-8:hover {
+		background-size: 60vw auto;
+	}
+
+	.case-studies-9 {
+		background-position: 52% center;
+		background-size: 110vw auto;
+		transition: all 1000ms linear;
+		height: 300px;
+	}
+
+	.case-studies-9:hover {
+		background-size: 115vw auto;
+	}
+
+	.case-studies-10 {
+		background-size: 55vw auto;
+		background-position: 85%;
+		transition: all 1000ms linear;
+		height: 300px
+	}
+
+	.case-studies-10:hover {
 		background-size: 60vw auto;
 	}
 
@@ -544,6 +637,28 @@ Media Queries
 	}
 
 	.case-studies-8:hover {
+		background-size: 50vw auto;
+	}
+
+	.case-studies-9 {
+		background-position: 52% center;
+		background-size: 85vw auto;
+		transition: all 1000ms linear;
+		height: 350px;
+	}
+
+	.case-studies-9:hover {
+		background-size: 90vw auto;
+	}
+
+	.case-studies-10 {
+		background-size: 45vw auto;
+		background-position: 85%;
+		transition: all 1000ms linear;
+		height: 350px
+	}
+
+	.case-studies-10:hover {
 		background-size: 50vw auto;
 	}
 }

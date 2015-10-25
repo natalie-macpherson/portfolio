@@ -84,12 +84,13 @@ html {
 	transition: all 1000ms linear;
 }
 
-.option-case h2 {
+.option h2 {
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	text-decoration: none;
 	margin: 3.5em auto 0;
+	text-transform: uppercase;
 }
 
 .option-case:hover {
@@ -176,7 +177,6 @@ Connect
 	background-repeat: no-repeat;
 }
 
-
 .billboard-connect h1 {
 	text-align: center;
 	margin: 3em auto 0;
@@ -250,7 +250,7 @@ About
 
 .billboard-about h1 {
 	text-align: center;
-	margin: 2.5em auto 0;
+	margin: 3em auto 0;
 }
 
 .quote {
@@ -333,11 +333,18 @@ Media Queries
 		height: 300px;
 	}
 
+	.billboard-about h1 {
+		margin: 4em auto 0;
+	}
+
 	.about-para-l {
 	  padding-left: 1.5rem;
 	  padding-right: 1.5rem;
 	}
 
+	.billboard-connect h1 {
+		margin: 4em auto 0;
+	}
 
 	.about-para-r {
 	  padding-left: 1.5rem;
@@ -369,9 +376,10 @@ Media Queries
 		background-size: 163vh;
 	}
 
-	.option-case h2 {
+	.option h2 {
 		margin: 5em auto 0;
 	}
+
 	.option-case:hover {
 		background-size: 125vh;
 	}
@@ -380,10 +388,6 @@ Media Queries
 		height: 350px;
 		background-size: 189vh;
 		background-position: 18% center;
-	}
-
-	.option-about h2 {
-		margin: 5em auto 0;
 	}
 
 	.option-about:hover {
@@ -395,10 +399,6 @@ Media Queries
 		background-size: 163vh;
 	}
 
-	.option-connect h2 {
-		margin: 5em auto 0;
-	}
-
 	.option-connect:hover {
 		background-size: 125vh;
 	}
@@ -407,8 +407,16 @@ Media Queries
 		height: 350px;
 	}
 
+	.billboard-about h1 {
+		margin: 5em auto 0;
+	}
+
 	.billboard-connect {
 		height: 350px;
+	}
+
+	.billboard-connect h1 {
+		margin: 5em auto 0;
 	}
 
 	.about-para-l {
@@ -444,7 +452,7 @@ Media Queries
 }
 
 	.billboard h1 {
-		font-size: 4em;
+		font-size: 3.5em;
 	}
 
 	.option-case {
@@ -452,8 +460,8 @@ Media Queries
 		background-size: 80vh;
 	}
 
-	.option-case h2 {
-		margin: 4em auto 0;
+	.option h2 {
+		margin: 3.5em auto 0;
 	}
 
 	.option-case:hover {
@@ -466,8 +474,12 @@ Media Queries
 		background-position: 15% center;
 	}
 
-	.option-about h2 {
-		margin: 4em auto 0;
+	.billboard-about h1 {
+		margin: 6em auto 0;
+	}
+
+	.billboard-connect h1 {
+		margin: 6em auto 0;
 	}
 
 	.option-about:hover {
@@ -477,10 +489,6 @@ Media Queries
 	.option-connect {
 		height: 300px;
 		background-size: 95vh;
-	}
-
-	.option-connect h2 {
-		margin: 4em auto 0;
 	}
 
 	.option-connect:hover {
@@ -514,15 +522,6 @@ Media Queries
 	  padding-bottom: 1em;
 	}
 
-	.billboard-about h1 {
-		margin: 4em auto 0;
-	}
-
-	.billboard-connect h1 {
-		margin: 4em auto 0;
-	}
-}
-
 @media only screen and (min-width: 90em) {
 
 	.general-info p {
@@ -547,7 +546,7 @@ Media Queries
 		background-size: 75vh;
 	}
 
-	.option-case h2 {
+	.option h2 {
 		margin: 4em auto 0;
 	}
 
@@ -559,10 +558,6 @@ Media Queries
 		height: 350px;
 		background-size: 120vh;
 		background-position:12% center;
-	}
-
-	.option-about h2 {
-		margin: 4em auto 0;
 	}
 
 	.option-about:hover {
@@ -600,7 +595,11 @@ Media Queries
 	}
 
 	.billboard-about h1 {
-		margin: 3.5em auto 0;
+		margin: 5.5em auto 0;
+	}
+
+	.billboard-connect h1 {
+		margin: 5.5em auto 0;
 	}
 }
 
@@ -614,7 +613,7 @@ Media Queries
 		background-position: 40% center;
 	}
 
-	.option-case h2 {
+	.option h2 {
 		margin: 4em auto 0;
 	}
 
@@ -622,10 +621,6 @@ Media Queries
 		height: 390px;
 		background-size: 120vh;
 		background-position: 40% center;
-	}
-
-	.option-about h2 {
-		margin: 4em auto 0;
 	}
 
 	.option-about:hover {
@@ -636,7 +631,4 @@ Media Queries
 		height: 390px;
 	}
 
-	.option-connect h2 {
-		margin: 4em auto 0;
-	}
 }

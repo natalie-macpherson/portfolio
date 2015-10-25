@@ -54,7 +54,7 @@ li a {
 }
 
 .billboard-gateway {
-	background-image: url(../img/gateway/gateway-bb.jpg);
+	background-image: url(../img/gateway/gateway-gg.jpg);
   background-size: cover;
   overflow: hidden;
 	height: 130px;
@@ -256,6 +256,7 @@ Media Queries
 	.billboard-bookbuddy {
 		height: 400px;
 	}
+
 	.m-next-project {
 		float: right;
 		width: calc(100% - 150px);
@@ -279,11 +280,6 @@ Media Queries
 
 	.billboard-refresh {
 		height: 520px;
-	}
-
-	.next-project {
-		float: right;
-		width: calc(100% - 155px);
 	}
 
 

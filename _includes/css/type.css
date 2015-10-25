@@ -251,8 +251,14 @@ sub {
     padding-left: 5em;
     padding-right: 5em;
   }
+
   .name {
     margin: 4em auto 0;
+  }
+
+  .gutter-image {
+    padding-left: 3.0000rem;
+    padding-right: 3.0000rem;
   }
 }
 

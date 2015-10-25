@@ -378,8 +378,8 @@ Media Queries
 
 	.option-about {
 		height: 350px;
-		background-size: 185vh;
-		background-position: center center;
+		background-size: 189vh;
+		background-position: 18% center;
 	}
 
 	.option-about h2 {

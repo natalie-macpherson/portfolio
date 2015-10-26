@@ -89,6 +89,15 @@ li a {
 	background-position: center center;
 }
 
+.billboard-quotebook {
+	background-image: url(../img/quote/quote-full.jpg);
+  background-size: cover;
+  overflow: hidden;
+	height: 130px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
 .discription{
 	font-family: 'Open Sans', sans-serif;
 	color: #000011;
@@ -216,7 +225,6 @@ li a {
 	text-decoration: line-through;
 }
 
-
 /* ------------------------------------------------------------
 Media Queries
 -------------------------------------------------------------*/
@@ -229,6 +237,10 @@ Media Queries
 	.billboard-refresh {
 		height: 300px;
 		background-position: center -110px;
+	}
+
+	.billboard-quotebook {
+		height: 300px;
 	}
 
 	.billboard-bookbuddy {
@@ -260,6 +272,10 @@ Media Queries
 		height: 400px;
 	}
 
+	.billboard-quotebook {
+		height: 400px;
+	}
+
 	.billboard-refresh {
 		height: 400px;
 	}
@@ -288,12 +304,13 @@ Media Queries
 		height: 520px;
 	}
 
-
-	.billboard-refresh {
+	.billboard-quotebook {
 		height: 520px;
 	}
-
-
+	.billboard-refresh {
+		height: 520px;
+		background-position: center -110px;
+	}
 }
 
 @media only screen and (min-width: 120em) {

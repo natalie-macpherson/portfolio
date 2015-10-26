@@ -5,6 +5,9 @@ html {
 *, *::before, *::after {
     box-sizing: inherit;
 }
+	.main {
+		padding-top: 80px;
+	}
 
  .nav {
  	text-decoration: none;
@@ -26,6 +29,7 @@ header {
 	background-image: url(../img/bg-image.jpg);
 	display: block;
 	width: 100%;
+	position: fixed;
 }
 
 .center {
@@ -55,6 +59,7 @@ header {
 	.main {
 		float: right;
 		width: calc(100% - 150px);
+		padding-top: 0;
 	}
 }
 

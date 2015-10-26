@@ -22,6 +22,15 @@
 	display: block;
 }
 
+.external-link{
+	-webkit-transition: all 150ms linear;
+	transition: all 150ms linear;
+}
+
+.external-link:hover{
+ 	color: #45ad91;
+}
+
 .general-info p {
 	font-size: 18px;
 	color: #000;
@@ -157,8 +166,8 @@ li a {
 
 .next-project {
 	background-color: #1d1e2a;
-	-webit-transition: all 300ms linear;
-	transition: all 500ms linear;
+	-webit-transition: all 250ms linear;
+	transition: all 250ms linear;
 	text-decoration: none;
 	color: #fff;
 	white-space: nowrap;
@@ -198,6 +207,8 @@ li a {
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
+	-webkit-transition: all 250ms linear;
+		transition: all 250ms linear;
 }
 
 .back-home:hover {

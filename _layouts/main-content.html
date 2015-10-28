@@ -2,7 +2,7 @@
 layout: default
 ---
 <header>
-	<nav class="main-nav island-1-2 center">
+	<nav id="navigation" role="navigation" class="main-nav island-1-2 center nav-wrap">
 		<a class="nav space" href=" {{site.baseurl}}/">Home</a>
 		<a class="nav space {% if page.url contains '/work/' %}current{% endif %}" href="{{site.baseurl}}/work/">Portfolio</a>
 		<a class="nav space {% if page.url == '/about/' %}current{% endif %}" href="{{site.baseurl}}/about/">About</a>

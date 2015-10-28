@@ -45,11 +45,12 @@ ul {
 	padding: 0;
 }
 
-li {
-	height: 54px;
+.line {
+	height: 84px;
+	padding-top: 10px;
 }
 
-li a {
+.line a {
 	text-decoration: none;
 	color: inherit;
 }
@@ -263,7 +264,7 @@ Media Queries
 		top: -95px;
 	}
 
-	li {
+	.line li {
 		height: 84px;
 		margin-top: 1em;
 	}

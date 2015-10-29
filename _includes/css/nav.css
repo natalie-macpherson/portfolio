@@ -47,7 +47,7 @@ header {
   display: none;
   position: fixed;
   right: 0;
-  top: 10%;
+  top: 12%;
   width: 100vw;
   height: 100vh;
   -webkit-transition: all 1000ms linear;
@@ -155,7 +155,7 @@ header {
 }*/
 
 .main {
-	padding-top: 80px;
+	padding-top: 79px;
 }
 
 .center {
@@ -171,6 +171,17 @@ header {
 	color: #73c7b0;
 }
 /* ------------------------------------------ Media Queries ----------------------------*/
+@media only screen and (min-width: 25em) {
+	.nav {
+		top: 10%;
+	}
+}
+
+@media only screen and (min-width: 38em) {
+	.nav {
+		top: 10%;
+	}
+}
 
 @media only screen and (min-width: 60em) {
 

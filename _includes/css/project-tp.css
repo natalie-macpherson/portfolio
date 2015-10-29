@@ -25,6 +25,10 @@
 	display: block;
 }
 
+.general-info {
+
+}
+
 .external-link{
 	-webkit-transition: all 150ms linear;
 	transition: all 150ms linear;
@@ -254,6 +258,16 @@ Media Queries
 @media only screen and (min-width: 38em) {
 	.billboard-gateway {
 		height: 400px;
+	}
+
+	.m-next-project {
+		float: right;
+		width: calc(100% - 150px);
+	}
+
+	.footer-color {
+		float: right;
+		width: calc(100% - 150px);
 	}
 }
 

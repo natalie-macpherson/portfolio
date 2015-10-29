@@ -10,7 +10,7 @@ html {
 	height: 40px;
 	right: 12px;
 	position: absolute;
-	margin-top: 20px
+	margin-top: 22px
 }
 
 .logo-size {
@@ -30,13 +30,14 @@ html {
 }
 
 header {
-	xbackground-color: #D6D5D4;
+	background-color: #D6D5D4;
 	display: block;
 	width: 100%;
 	height: 80px;
 	background-image: url(../img/bg-image.jpg);
 	position: fixed;
-	box-shadow: 1px 2px 6px 0 rgba(0,0,0,.25)
+	box-shadow: 1px 2px 6px 0 rgba(0,0,0,.25);
+	z-index: 1;
 }
 
 .nav {
@@ -46,9 +47,9 @@ header {
   background-color: rgba(0, 0, 0, 0.9);
   display: none;
   position: fixed;
-  right: 0;
-  top: 12%;
-  width: 100vw;
+  right:30px;
+  top: 10%;
+  width: 90vw;
   height: 100vh;
   -webkit-transition: all 1000ms linear;
 	transition: all 1000ms linear;
@@ -66,14 +67,15 @@ header {
 }
 
 .nav a:hover {
-  background-color: #73c7b0;
-  color: #fff;
+  color: #73c7b0;
+  text-decoration: line-through;
 }
+
+
 
 .nav-check {
   position: absolute;
   top: -10em;
-
 }
 
 .nav-check:checked ~ .nav {
@@ -81,18 +83,16 @@ header {
 }
 
 .nav-label {
-	xbackground-image: url(../img/nav-icon.svg);
 	background-repeat: no-repeat;
 	background-size: 95%;
-	margin: 22px 0px 10px 8px;
   cursor: pointer;
   font-size: 1.25rem;
   display: inline-block;
   width: 50px;
   height: 40px;
   position: fixed;
-  left: 0;
-  top: 0;
+  left: 12px;
+  top: 22px;
   color: white;
   background-image: url(../img/nav-icon.svg);
   overflow: hidden;
@@ -139,7 +139,7 @@ header {
 
 
  /*.nav:hover {
- 	text-decoration: line-through;
+ 	decoration: line-through;
  	color: #73c7b0;
  }
 
@@ -173,19 +173,43 @@ header {
 /* ------------------------------------------ Media Queries ----------------------------*/
 @media only screen and (min-width: 25em) {
 	.nav {
-		top: 10%;
+		right: 45px
+	}
+
+	.logo {
+		right:12px;
+		margin-top: 16px;
+	}
+
+	.logo-size {
+		width: 50px;
+	}
+
+	.nav a {
+		font-size: 1.5rem;
+  	line-height: 60px;
 	}
 }
+
+
 
 @media only screen and (min-width: 38em) {
-	.nav {
-		top: 20%;
+	.pad-nav {
+		padding-top: 12em;
 	}
-}
 
-@media only screen and (min-width: 60em) {
+	.nav {
+		top: 10%;
+		right: 80px;
+	}
 
-	header {
+	.main {
+		float: right;
+		width: calc(100% - 150px);
+		padding-top: 0;
+	}
+
+		header {
 		float: left;
 		width: 150px;
 		height: 100vh;
@@ -198,7 +222,7 @@ header {
 	}
 
 	.nav {
-		right: 85%;
+		left: 0;
 		top: -30px;
 		width: 150px;
 		height: 0;
@@ -206,29 +230,23 @@ header {
 		background-color: transparent;
 	}
 
-	.pad-nav {
-		padding-top: 10em;
-	}
-
-	.nav a {
-  font-size: 1rem;
-  line-height: 60px;
-}
-
 	.logo {
 		right:40px;
 		margin-top: 35px;
 	}
 
 	.logo-size {
-		width: 80px;
+		width: 75px;
 	}
 
-	.main {
-		float: right;
-		width: calc(100% - 150px);
-		padding-top: 0;
+	.nav a {
+		font-size: 1.0000rem;
+  	line-height: 60px;
 	}
+}
+
+@media only screen and (min-width: 60em) {
+
 }
 
 @media only screen and (min-width: 90em) {

@@ -15,13 +15,15 @@ layout: default
 	<strong class="logo">
 		<img class="logo-size" src="{{site.baseurl}}/img/white-signature.svg" alt="personal logo">
 	</strong>
+
 	<input type="checkbox" class="nav-check masthead" id="nav-check">
-	<label class="nav-label" for="nav-check"><i class="dnav-check">Toggle Navigation</i></label>
-	<nav id="navigation" role="navigation" class="nav pad-nav center">
-		<a class="space" href=" {{site.baseurl}}/">Home</a>
-		<a class="space {% if page.url contains '/work/' %}current{% endif %}" href="{{site.baseurl}}/work/">Portfolio</a>
-		<a class="space {% if page.url == '/about/' %}current{% endif %}" href="{{site.baseurl}}/about/">About</a>
-		<a class="space {% if page.url == '/connect/' %}current{% endif %}" href="{{site.baseurl}}/connect/">Connect</a>
+	<label class="nav-label" for="nav-check"><i>Toggle Navigation</i></label>
+
+	<nav role="navigation" id="navigation" class="nav pad-nav center">
+		<a class="background" href="{{site.baseurl}}/">Home</a>
+		<a class="backgroudn {% if page.url contains '/work/' %}current{% endif %}" href="{{site.baseurl}}/work/">Portfolio</a>
+		<a class="background {% if page.url == '/about/' %}current{% endif %}" href="{{site.baseurl}}/about/">About</a>
+		<a class="background {% if page.url == '/connect/' %}current{% endif %}" href="{{site.baseurl}}/connect/">Connect</a>
 	</nav>
 </header>
 

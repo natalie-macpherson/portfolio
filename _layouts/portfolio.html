@@ -1,7 +1,7 @@
 ---
 layout: main-content
 ---
-<div id="main" itemscope itemtype="http://schema.org/creativeWork" itemtype="http://schema.org/thing" class="main">
+<div id="main" role="main" itemscope itemtype="http://schema.org/creativeWork" itemtype="http://schema.org/thing" class="main">
 	<div class="grid {{page.billboardClass}}">
 		<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
 		</div>
@@ -67,6 +67,19 @@ layout: main-content
 								<img itemprop="image" class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research3-alt}}">
 							{% endfor %}
 						</figure>
+						</figure>
+						<figure class="gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-4 center">
+							<figcaption class="text-left captions kilo pad-b-1-4">{{page.research4-caption}}</figcaption>
+							{% for img in page.img-research4 %}
+								<img itemprop="image" class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research4-alt}}">
+							{% endfor %}
+						</figure>
+						<figure class="gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-4 center">
+							<figcaption class="text-left captions kilo pad-b-1-4">{{page.research5-caption}}</figcaption>
+							{% for img in page.img-research5 %}
+								<img itemprop="image" class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research5-alt}}">
+							{% endfor %}
+						</figure>
 
 <!-- Design -->
 
@@ -128,6 +141,30 @@ layout: main-content
 								<img itemprop="image" class="gutter-1-4 img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-solution4-alt}}">
 							{% endfor %}
 						</figure>
+						<figure class="gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-8 center pad-t">
+							<figcaption class="text-left captions kilo pad-b-1-4">{{page.solution5-caption}}</figcaption>
+							{% for img in page.img-solution5 %}
+								<img itemprop="image" class="gutter-1-4 img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-solution5-alt}}">
+							{% endfor %}
+						</figure>
+						<figure class="gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-8 center pad-t">
+							<figcaption class="text-left captions kilo pad-b-1-4">{{page.solution6-caption}}</figcaption>
+							{% for img in page.img-solution6 %}
+								<img itemprop="image" class="gutter-1-4 img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-solution6-alt}}">
+							{% endfor %}
+						</figure>
+						<figure class="gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-8 center pad-t">
+							<figcaption class="text-left captions kilo pad-b-1-4">{{page.solution7-caption}}</figcaption>
+							{% for img in page.img-solution7 %}
+								<img itemprop="image" class="gutter-1-4 img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-solution7-alt}}">
+							{% endfor %}
+						</figure>
+						<figure class="gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-8 center pad-t">
+							<figcaption class="text-left captions kilo pad-b-1-4">{{page.solution8-caption}}</figcaption>
+							{% for img in page.img-solution8 %}
+								<img itemprop="image" class="gutter-1-4 img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-solution8-alt}}">
+							{% endfor %}
+						</figure>
 					</div>
 				</div>
 			</div>
@@ -139,11 +176,11 @@ layout: main-content
 {% endfor %}
 
 <div class="grid m-next-project island">
-	<div class="mega center pad-t-1-2 unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3 unit-l-1-3">
+	<div class="mega center pad-t-1-2 unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3 unit-l-1-3">
 		<span class="island-1-4 mono-title">– Say hello –</span>
 		<h4 class="mega island-1-4 contact-link">Do you like my work? <br>Don't be shy<a class="email-link" href="mailto:hello@nataliemay.ca"> Contact me</a></h4>
 	</div>
-		<a class="pad-t next-project project-color center unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-2-3 project-link"href="{{site.baseurl}}/{{page.nexturl}}">
+		<a class="pad-t next-project project-color center unit unit-xs-1 unit-s-1 unit-m-1 unit-l-2-3 project-link"href="{{site.baseurl}}/{{page.nexturl}}">
 			<span class="mono-title island-1-4">– Next Project –</span>
 			<h2>{{page.next-project}}</h2>
 		</a>
@@ -151,7 +188,7 @@ layout: main-content
 
 <footer class="footer-color grid pad-t-1-2 pad-b-1-2">
  	<div class="center island unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
- 		<a class="back-home" href="{{site.baseurl}}">
+ 		<a class="back-home" href="{{site.baseurl}}/">
  			<span class=" kilo">&#10229; Back to Home </span>
  		</a>
  	</div>

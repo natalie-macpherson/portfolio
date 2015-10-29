@@ -20,12 +20,6 @@ html {
  	margin: 0;
  }
 
- header {
-	background-color: #D6D5D4;
-	display: block;
-	width: 100%;
-}
-
 .home {
 	background-color: #0d121a;
 	background-image: url(../img/bg-image.jpg);

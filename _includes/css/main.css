@@ -171,6 +171,7 @@ Connect
 	height: 265px;
 	color: #D6D5D4;
 	background-repeat: no-repeat;
+	background-color: #c41059;
 }
 
 .billboard-connect h1 {
@@ -214,7 +215,11 @@ Connect
 }
 
 .social {
-	width: 50%;
+	width: 70%;
+}
+
+.icon-link:before {
+	    content: '\e803';
 }
 
 .fade {
@@ -233,12 +238,12 @@ Connect
  	list-style-type: none;
  	padding: 0;
  }
-
  /* ------------------------------------------------------------
 About
 -------------------------------------------------------------*/
 .billboard-about{
 	background-image: url(../img/portrait.jpg);
+	background-color: #3f386d;
 	background-position: 0 80%;
   background-size: cover;
   overflow: hidden;

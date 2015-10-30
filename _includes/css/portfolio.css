@@ -28,6 +28,7 @@
 	height: 265px;
 	color: #D6D5D4;
 	background-repeat: no-repeat;
+	background-color: #205678;
 }
 
 .billboard-work h1 {
@@ -40,6 +41,7 @@
 
 .case-studies-1 {
   color: #D6D5D4;
+  background-color: #b7dd79;
   background-image: url(../img/gateway/gateway-gg.jpg);
   height: 270px;
   background-position: center center;
@@ -54,16 +56,17 @@
 
 .case-studies-2 {
 	color: #D6D5D4;
+	background-color: #8a1b61;
 	background-image: url(../img/book/project-2.jpg);
 	height: 270px;
 	background-position: 52% center;
 	background-repeat: no-repeat;
-	background-size: 280vw auto;
+	background-size: 285vw auto;
 	transition: all 1000ms linear;
 }
 
 .case-studies-2:hover {
-	background-size: 285vw auto;
+	background-size: 290vw auto;
 }
 
 .case-studies-3 {
@@ -73,16 +76,17 @@
 	height: 270px;
 	background-position: 52% center;
 	background-repeat: no-repeat;
-	background-size: 280vw auto;
+	background-size: 285vw auto;
 	transition: all 1000ms linear;
 }
 
 .case-studies-3:hover {
-	background-size: 285vw auto;
+	background-size: 290vw auto;
 }
 
 .case-studies-4 {
   color: #D6D5D4;
+  background-color: #686e9f;
   background-image: url(../img/refresh/refresh-935-558.jpg);
   height: 270px;
   background-position: center center;
@@ -97,6 +101,7 @@
 
 .case-studies-5 {
   color: #D6D5D4;
+  background-color: #00aca0;
   background-image: url(../img/report/makeup.jpg);
   height: 270px;
   background-position: center center;
@@ -111,8 +116,8 @@
 
 .case-studies-6 {
 	color: #D6D5D4;
+	background-color: #f04e98;
 	background-image: url(../img/);
-	background-color: #ffc700;
 	height: 270px;
 	background-position: 52% center;
 	background-repeat: no-repeat;

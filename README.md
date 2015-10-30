@@ -28,3 +28,10 @@ When I was younger I use to be a high school teacher. Now that I am a design I a
 It is so important to watch and understand why our users do what they do. It's so important to observer the obstetrical that a user might experience and design to limit the difficulties in their experience.
 
 As a UI/UX designer I want to be able to merge the creativity of design and art with the cognitive science of why people do what they do what they do when interacting with the technology in their every day lives. The best way to reinforce my designs is through testing and collecting data. Through this process science ends up reinforcing the design process.
+
+
+Images Reference and copyrights:
+
+Portfolio billboard image: https://www.collectionscanada.gc.ca/pam_archives/public_mikan/index.php?fuseaction=genitem.displayItem&lang=eng&rec_nbr=3195838&rec_nbr_list=3195838
+
+Connect billboard image: https://en.wikipedia.org/wiki/Switchboard_operator#/media/File:Telephone_operators,_1952.jpg

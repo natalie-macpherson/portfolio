@@ -33,6 +33,9 @@
 .billboard-work h1 {
 	text-align: center;
 	margin: 3em auto 0;
+	font-size: 2em;
+	opacity: .5;
+	letter-spacing: 5px;
 }
 
 .case-studies-1 {
@@ -108,7 +111,7 @@
 
 .case-studies-6 {
 	color: #D6D5D4;
-	background-image: url(../img/quote/quote-bb.jpg);
+	background-image: url(../img/);
 	background-color: #ffc700;
 	height: 270px;
 	background-position: 52% center;
@@ -207,7 +210,8 @@ Media Queries
 	}
 
 .billboard-work h1 {
-	margin: 4em auto 0;
+	margin: 2em auto 0;
+	font-size: 3em
 }
 
 	.case-studies-1 {
@@ -314,10 +318,6 @@ Media Queries
 	.case-studies-10:hover {
 		background-size: 120vw auto;
 	}
-
-	.billboard-work h1{
-		margin: 2.5em auto 0;
-	}
 }
 
 @media only screen and (min-width: 38em) {
@@ -326,9 +326,9 @@ Media Queries
 			height: 350px;
 	}
 
-.billboard-work h1 {
-	margin: 4em auto 0;
-}
+	.billboard-work h1 {
+		margin: 2.5em auto 0;
+	}
 
 	.case-studies-1 {
 		background-size: 120vw auto;
@@ -439,7 +439,8 @@ Media Queries
 	}
 
 	.billboard-work h1 {
-		margin: 6em auto 0;
+		margin: 2.5em auto 0;
+		font-size: 4em;
 	}
 
 	.case-studies-1 {
@@ -560,7 +561,7 @@ Media Queries
 	}
 
 	.billboard-work h1 {
-		margin: 5.5em auto 0;
+		margin: 2em auto 0;
 	}
 
 	.case-studies-1 {

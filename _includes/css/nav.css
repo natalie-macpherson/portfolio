@@ -58,7 +58,6 @@ header {
 .nav a {
   display: block;
   text-decoration: none;
-  color: #fff;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   line-height: 60px;
@@ -71,7 +70,9 @@ header {
   text-decoration: line-through;
 }
 
-
+.background {
+	color: #fff;
+}
 
 .nav-check {
   position: absolute;
@@ -161,15 +162,15 @@ header {
 .center {
 	text-align: center;
 }
-.
+
+.current {
+	color: #73c7b0;
+}
 
 .name-nav {
  left: -10px;
 }
 
-.current {
-	color: #73c7b0;
-}
 /* ------------------------------------------ Media Queries ----------------------------*/
 @media only screen and (min-width: 25em) {
 	.nav {

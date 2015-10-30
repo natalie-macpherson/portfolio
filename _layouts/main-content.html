@@ -21,7 +21,7 @@ layout: default
 
 	<nav role="navigation" id="navigation" class="nav pad-nav center">
 		<a class="background" href="{{site.baseurl}}/">Home</a>
-		<a class="backgroudn {% if page.url contains '/work/' %}current{% endif %}" href="{{site.baseurl}}/work/">Portfolio</a>
+		<a class="background {% if page.url contains '/work/' %}current{% endif %}" href="{{site.baseurl}}/work/">Portfolio</a>
 		<a class="background {% if page.url == '/about/' %}current{% endif %}" href="{{site.baseurl}}/about/">About</a>
 		<a class="background {% if page.url == '/connect/' %}current{% endif %}" href="{{site.baseurl}}/connect/">Connect</a>
 	</nav>

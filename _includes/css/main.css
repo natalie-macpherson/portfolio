@@ -20,12 +20,26 @@ html {
  	margin: 0;
  }
 
+.headline-main {
+	font-size: 4em;
+}
+
 .home {
 	background-color: #0d121a;
 	background-image: url(../img/bg-image.jpg);
 	background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.quote-main {
+	font-size: 24px;
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1.5em;
+  font-weight: 300;
+  text-align: center
 }
 
 .workmark {
@@ -52,14 +66,14 @@ html {
 .billboard {
 	color: #D6D5D4;
 	height: 460px;
-	margin: 0em auto 0;
+	margin: 10em auto 0;
 }
 
 .billboard h1 {
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 800;
-	font-size: 2.5em;
+	font-weight: 700;
+	font-size: 3.5em;
 	line-height: 1.3154;
 	text-transform: uppercase;
 }
@@ -298,13 +312,17 @@ Media Queries
 
 	.billboard {
 			height: 475px;
-			margin: 0em auto 0;
+			margin: 10em auto 0;
 		}
 
 	.billboard h1 {
-		font-size: 3em;
+		font-size: 5em;
 	}
 
+	.quote-main {
+		font-size: 24px;
+	  font-weight: 400;
+	}
 	.option-case {
 		height: 300px;
 		background-size: 75vh;
@@ -373,11 +391,18 @@ Media Queries
 
 	.billboard {
 		height: 600px;
-		margin: 5em auto 0;
+		margin: 12em auto 0;
 	}
 
 	.billboard h1 {
-		font-size: 3.5em;
+		font-size: 6em;
+	}
+
+	.quote-main {
+		font-size: 24px;
+		padding-left: 7.5rem;
+	  padding-right: 7.5rem;
+	  font-weight: 400;
 	}
 
 	.option-case {
@@ -454,16 +479,23 @@ Media Queries
 		border-left: 1px solid #d7d7d7;
 	}
 	.workmark{
-		width: 850px;
+		width: 424px;
+	}
+
+	.quote-main {
+		font-size: 24px;
+		padding-left: 9rem;
+	  padding-right: 9rem;
+	  font-weight: 400;
 	}
 
 	.billboard {
-	margin: 0em auto 0;
-	height: 760px;
-}
+		margin: 12em auto 0;
+		height: 475px;
+	}
 
 	.billboard h1 {
-		font-size: 3.5em;
+		font-size: 7em;
 	}
 
 	.option-case {
@@ -548,11 +580,20 @@ Media Queries
 
 	.billboard {
 		height:750px;
-		margin: 1em auto 0;
+		margin: 12em auto 0;
 	}
 
 	.billboard h1 {
-		font-size: 4em;
+		font-size: 7em;
+		letter-spacing: -2px;
+	}
+
+	.quote-main {
+		font-size: 30px;
+		padding-left: 20rem;
+	  padding-right: 20rem;
+	  font-weight: 400;
+	  padding-top: 0em;
 	}
 
 	.option-case {

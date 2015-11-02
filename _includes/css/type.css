@@ -33,13 +33,12 @@ fieldset, pre, table {
   margin: 0 0 1.5rem;
 }
 
-
 .name {
-font-weight: 400;
-font-family: 'Open Sans', sans-serif;
-letter-spacing: 3px;
-text-transform: uppercase;
-margin: 2.5em auto 0;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin: 2.5em auto 0;
 }
 
 .yotta {

@@ -51,8 +51,8 @@ header {
   top: 10%;
   width: 90vw;
   height: 100vh;
-  -webkit-transition: all 1000ms linear;
-	transition: all 1000ms linear;
+  -webkit-transition: all 500ms linear;
+    transition: all 500ms linear;
 }
 
 .nav a {

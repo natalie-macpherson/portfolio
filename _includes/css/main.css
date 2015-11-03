@@ -45,12 +45,12 @@ html {
 
 .workmark {
 	background:  url("../img/white-workmark.svg") no-repeat center center;
-	background-size: 95%;
+	background-size: 100%;
 }
 
 .masthead {
 	margin: 0 auto;
-	width: 80%;
+	width: 100%;
 
 }
 
@@ -480,8 +480,9 @@ Media Queries
 	.main-content {
 		border-left: 1px solid #d7d7d7;
 	}
+
 	.workmark{
-		width: 424px;
+		width: 760px;
 	}
 
 	.quote-main {
@@ -490,12 +491,12 @@ Media Queries
 		padding-left: 6rem;
 	  padding-right: 6rem;
 	  font-weight: 300;
-	  padding-top: .5em;
+	  padding-top: 0em;
 	}
 
 	.billboard {
-		margin: 12em auto 0;
-		height: 475px;
+		margin: 8em auto 0;
+		height: 545px;
 	}
 
 	.billboard h1 {
@@ -579,13 +580,13 @@ Media Queries
 		top: -105px;
 	}
 
-	.workmark {
-		width: 7px;
+	.workmark{
+		width: 800px;
 	}
 
 	.billboard {
-		height:450px;
-		margin: 10em auto 0;
+		height:636px;
+		margin: 4em auto 0;
 	}
 
 	.billboard h1 {

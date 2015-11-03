@@ -37,9 +37,10 @@ html {
 	font-family: 'Open Sans', sans-serif;
 	padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 1.5em;
+  padding-top: 1em;
   font-weight: 300;
-  text-align: center
+  text-align: center;
+  font-style: italic;
 }
 
 .workmark {
@@ -395,14 +396,15 @@ Media Queries
 	}
 
 	.billboard h1 {
-		font-size: 6em;
+		font-size: 5.5em;
 	}
 
 	.quote-main {
 		font-size: 24px;
-		padding-left: 7.5rem;
-	  padding-right: 7.5rem;
+		padding-left: 4rem;
+	  padding-right: 4rem;
 	  font-weight: 400;
+	  padding-top: 1em;
 	}
 
 	.option-case {
@@ -483,10 +485,12 @@ Media Queries
 	}
 
 	.quote-main {
-		font-size: 24px;
-		padding-left: 9rem;
-	  padding-right: 9rem;
-	  font-weight: 400;
+		font-size: 1.8020rem;
+  	line-height: 1.6648;
+		padding-left: 6rem;
+	  padding-right: 6rem;
+	  font-weight: 300;
+	  padding-top: .5em;
 	}
 
 	.billboard {
@@ -496,6 +500,7 @@ Media Queries
 
 	.billboard h1 {
 		font-size: 7em;
+		font-weight: 700;
 	}
 
 	.option-case {
@@ -575,24 +580,26 @@ Media Queries
 	}
 
 	.workmark {
-		width: 780px;
+		width: 7px;
 	}
 
 	.billboard {
-		height:750px;
-		margin: 12em auto 0;
+		height:450px;
+		margin: 10em auto 0;
 	}
 
 	.billboard h1 {
 		font-size: 7em;
 		letter-spacing: -2px;
+		font-weight: 700
 	}
 
 	.quote-main {
-		font-size: 30px;
-		padding-left: 20rem;
-	  padding-right: 20rem;
-	  font-weight: 400;
+		font-size: 1.6018rem;
+		line-height: 1.8729;
+		padding-left: 17rem;
+	  padding-right: 17rem;
+	  font-weight: 300;
 	  padding-top: 0em;
 	}
 

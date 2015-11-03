@@ -45,7 +45,6 @@ header {
   padding-top: 6em;
   list-style-type: none;
   background-color: rgba(0, 0, 0, 0.9);
-  display: none;
   position: fixed;
   right:30px;
   top: 10%;
@@ -53,6 +52,7 @@ header {
   height: 100vh;
   -webkit-transition: all 500ms linear;
     transition: all 500ms linear;
+  left: -100%;
 }
 
 .nav a {
@@ -80,7 +80,7 @@ header {
 }
 
 .nav-check:checked ~ .nav {
-  display: block;
+	left: 0;
 }
 
 .nav-label {

@@ -26,7 +26,6 @@
 }
 
 .go-top {
-	z-index: 1;
  	position: fixed;
  	bottom: 2em;
  	right: 2em;
@@ -167,7 +166,6 @@ ul {
 }
 
 .m-next-project {
-	xbackground-color: #202122;
 	background-image: url(../img/bg-image.jpg);
 	color: white;
 	margin: 0;

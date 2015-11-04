@@ -226,9 +226,6 @@ sub {
 }
 
 @media only screen and (min-width: 25em) {
-  .name {
-    margin: 2.5em auto 0;
-  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -238,10 +235,6 @@ sub {
   .gutter {
     padding-left: 5em;
     padding-right: 5em;
-  }
-
-  .name {
-    margin: 4em auto 0;
   }
 
   .gutter-image {

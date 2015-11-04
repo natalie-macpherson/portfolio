@@ -10,13 +10,11 @@ html {
 	height: 40px;
 	right: 12px;
 	position: absolute;
-	margin-top: 22px;
-	z-index: 1000;
+	margin-top: 22px
 }
 
 .logo-size {
 	width: 40px;
-
 }
 
 .nav-wrap {
@@ -24,6 +22,7 @@ html {
 	top: 0;
 	width: 15em;
 	z-index: 100;
+	transition: left 250ms ease-out;
 }
 
 .header-nav {
@@ -51,8 +50,8 @@ header {
   top: 10%;
   width: 90vw;
   height: 100vh;
-  -webkit-transition: all 250ms linear;
-  transition: all 250ms linear;
+  -webkit-transition: all 500ms linear;
+    transition: all 500ms linear;
   left: -100%;
 }
 
@@ -175,7 +174,7 @@ header {
 /* ------------------------------------------ Media Queries ----------------------------*/
 @media only screen and (min-width: 25em) {
 	.nav {
-		right: 45px;
+		right: 45px
 	}
 
 	.logo {
@@ -216,7 +215,7 @@ header {
 		width: 150px;
 		height: 100vh;
 		position: fixed;
-		box-shadow: 1px 2px 6px 0 rgba(0,0,0,.25);
+		box-shadow: 1px 2px 6px 0 rgba(0,0,0,.25)
 	}
 
 	.nav-label {

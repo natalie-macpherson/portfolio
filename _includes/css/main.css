@@ -4,19 +4,18 @@
 @viewpoint {width: divice-width; scale; 1;}
 
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 *, *::before, *::after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 .img-flex {
-  display: block;
-  width: 100%;
-  margin: 0 auto;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
 }
-
  body {
  	margin: 0;
  }
@@ -45,8 +44,8 @@ html {
 }
 
 .workmark {
-	background: url("../img/white-workmark.svg") no-repeat center center;
-	background-size: 95%;
+	background:  url("../img/white-workmark.svg") no-repeat center center;
+	background-size: 100%;
 }
 
 .masthead {
@@ -105,7 +104,7 @@ html {
 }
 
 .option-case:hover {
-	background-size: 65vh;
+background-size: 65vh;
 }
 
 .option-about {
@@ -166,14 +165,6 @@ html {
 .footer {
 	color: white;
 	margin-top: 5em;
-}
-
-.name {
-	font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  margin: 2.5em auto 0;
 }
 /* ------------------------------------------------------------
 Connect
@@ -242,12 +233,15 @@ Connect
 	width: 70%;
 }
 
+.icon-link:before {
+	    content: '\e803';
+}
+
 .fade {
 	margin:0;
 }
-
 .fade li a {
-	-webket-transition: all 0.5s ease-in-out;
+-webket-transition: all 0.5s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -307,7 +301,7 @@ About
 }
 
 .signature {
-	height: 100px;
+	height: 190px;
 }
 
  /* ------------------------------------------------------------
@@ -318,9 +312,9 @@ Media Queries
 @media only screen and (min-width: 25em) {
 
 	.billboard {
-		height: 475px;
-		margin: 10em auto 0;
-	}
+			height: 475px;
+			margin: 10em auto 0;
+		}
 
 	.billboard h1 {
 		font-size: 5em;
@@ -345,10 +339,6 @@ Media Queries
 		background-size: 80vh;
 		transition: all 1000ms linear;
 	}
-
-	.name {
-    margin: 2.5em auto 0;
-  }
 
 	.option-about:hover {
 		background-size: 85vh;
@@ -464,7 +454,7 @@ Media Queries
 
 	.billboard-connect h1 {
 		margin: 2.5em auto 0;
-		font-size: 3em;
+		font-size: 3em
 	}
 
 	.about-para-l {
@@ -491,11 +481,6 @@ Media Queries
 		border-left: 1px solid #d7d7d7;
 	}
 
-
-  .name {
-    margin: 4em auto 0;
-  }
-
 	.workmark{
 		width: 760px;
 	}
@@ -503,8 +488,8 @@ Media Queries
 	.quote-main {
 		font-size: 1.8020rem;
   	line-height: 1.6648;
-		padding-left: 12rem;
-	  padding-right: 12rem;
+		padding-left: 6rem;
+	  padding-right: 6rem;
 	  font-weight: 300;
 	  padding-top: 0em;
 	}
@@ -607,7 +592,7 @@ Media Queries
 	.billboard h1 {
 		font-size: 7em;
 		letter-spacing: -2px;
-		font-weight: 700;
+		font-weight: 700
 	}
 
 	.quote-main {

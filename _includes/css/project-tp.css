@@ -5,7 +5,6 @@
 .general-info {
 	position: ;
 }
-
 .general-info h2 {
 	font-size: 2em;
 	color: #eae8e8;
@@ -125,15 +124,6 @@ ul {
 	background-position: center center;
 }
 
-.billboard-soleil {
-	background-image: url(../img/soleil/makeup.jpg);
-  background-size: cover;
-  overflow: hidden;
-	height: 130px;
-	background-repeat: no-repeat;
-	background-position: center center;
-}
-
 .discription{
 	font-family: 'Open Sans', sans-serif;
 	color: #000011;
@@ -169,6 +159,10 @@ ul {
 	color: #000011;
 	margin: 5px;
 	border-bottom: solid #000011 3px;
+}
+
+.shadow {
+	xbox-shadow: .5px .5px 3px 0 rgba(0,0,0,.25)
 }
 
 .m-next-project {
@@ -212,6 +206,7 @@ ul {
 	white-space: nowrap;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
+	position:
 }
 
 .next-project:hover{
@@ -230,7 +225,7 @@ ul {
 }
 
 .footer-color {
-	background-color: #1d1e2a;
+	background-color: #1d1e2a
 }
 
 .social-link {
@@ -280,11 +275,7 @@ Media Queries
 	.billboard-bookbuddy {
 		height: 300px;
 	}
-
-	.billboard-soleil {
-		height: 190px;
-	}
-)
+}
 
 @media only screen and (min-width: 38em) {
 	.billboard-gateway {
@@ -299,10 +290,6 @@ Media Queries
 	.footer-color {
 		float: right;
 		width: calc(100% - 150px);
-	}
-
-	.billboard-soleil {
-		height: 250px;
 	}
 }
 
@@ -336,10 +323,6 @@ Media Queries
 		height: 400px;
 	}
 
-	.billboard-soleil {
-		height: 400px;
-	}
-
 	.m-next-project {
 		float: right;
 		width: calc(100% - 150px);
@@ -367,10 +350,6 @@ Media Queries
 		height: 520px;
 		background-position: center -110px;
 	}
-
-	.billboard-soleil {
-		height: 530px;
-	}
 }
 
 @media only screen and (min-width: 120em) {
@@ -378,11 +357,12 @@ Media Queries
 		top: -310px;
 	}
 
-	.billboard-refresh {
+		.billboard-refresh {
 		height: 320px;
 	}
 
 	.billboard-bookbuddy {
 		height: 320px;
 	}
+
 }

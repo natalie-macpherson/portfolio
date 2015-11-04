@@ -1,7 +1,7 @@
 ---
 layout: main-content
 ---
-<main id="main" id="top" role="main" itemscope itemtype="http://schema.org/creativeWork" class="main">
+<main id="main" role="main" id="top" itemscope itemtype="http://schema.org/creativeWork" itemtype="http://schema.org/thing" class="main">
 	<div class="grid {{page.billboardClass}}">
 		<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
 		</div>
@@ -67,6 +67,7 @@ layout: main-content
 								<img itemprop="image" class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research3-alt}}">
 							{% endfor %}
 						</figure>
+						</figure>
 						<figure class="gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-4 center">
 							<figcaption class="text-left captions kilo pad-b-1-4">{{page.research4-caption}}</figcaption>
 							{% for img in page.img-research4 %}
@@ -86,19 +87,19 @@ layout: main-content
 							<h4 itemprop="alternativeHeadline" class="mega highlights pad-b-1-4 gutter-1-4">Art Direction</h4>
 						</div>
 						<figure class="gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-4 center pad-b">
-							<figcaption class="text-left captions kilo pad-b-1-4">{{page.design1-caption}}</figcaption>
+							<figcaption class="text-left captions kilo pad-b pad-b-1-4">{{page.design1-caption}}</figcaption>
 							{% for img in page.img-design1 %}
 								<img itemprop="image" class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-design1-alt}}">
 							{% endfor %}
 						</figure>
 						<figure class="gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-4 center pad-b">
-							<figcaption class="text-left captions kilo pad-b-1-4">{{page.design2-caption}}</figcaption>
+							<figcaption class="text-left captions kilo pad-b pad-b-1-4">{{page.design2-caption}}</figcaption>
 							{% for img in page.img-design2 %}
 								<img itemprop="image" class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-design2-alt}}">
 							{% endfor %}
 						</figure>
 						<figure class="gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-4 center">
-							<figcaption class="text-left captions kilo pad-b-1-4">{{page.design3-caption}}</figcaption>
+							<figcaption class="text-left captions kilo pad-b pad-b-1-4">{{page.design3-caption}}</figcaption>
 							{% for img in page.img-design3 %}
 								<img itemprop="image" class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-design3-alt}}">
 							{% endfor %}
@@ -123,7 +124,7 @@ layout: main-content
 						</figure>
 						{% endfor %}
 						{% for img in page.img-solution2 %}
-						<figure class="gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-8 center pad-b pad-t">
+							<figure class="gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-8 center pad-b pad-t">
 							<figcaption class="text-left captions kilo pad-b-1-4">{{page.solution2-caption}}</figcaption>
 								<img itemprop="image" class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-solution2-alt}}">
 						</figure>
@@ -189,7 +190,7 @@ layout: main-content
 
 <footer class="footer-color grid pad-t-1-2 pad-b-1-2">
  	<div class="center island unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
- 		<a class="back-home"href="{{site.baseurl}}/">
+ 		<a class="back-home" href="{{site.baseurl}}/">
  			<span class=" kilo">&#10229; Back to Home </span>
  		</a>
  	</div>

@@ -1,13 +1,6 @@
 html {
   font: normal 100%/1.5 Georgia,serif;
 }
-@media only screen and (min-width: 25em) {
-
-}
-
-@media only screen and (min-width: 38em) {
-
-}
 
 @media only screen and (min-width: 60em) {
 
@@ -15,15 +8,6 @@ html {
     font-size: 110%;
   }
 
- .gutter {
-    padding-left: 5em;
-    padding-right: 5em;
-  }
-
-  .gutter-image {
-    padding-left: 3.0000rem;
-    padding-right: 3.0000rem;
-  }
 }
 
 @media only screen and (min-width: 90em) {
@@ -32,10 +16,6 @@ html {
     font-size: 120%;
   }
 
-  .gutter-image {
-    padding-left: 3.0000rem;
-    padding-right: 3.0000rem;
-  }
 }
 
 @media only screen and (min-width: 120em) {
@@ -43,6 +23,7 @@ html {
   html {
     font-size: 130%;
   }
+
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -52,6 +33,13 @@ fieldset, pre, table {
   margin: 0 0 1.5rem;
 }
 
+.name {
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin: 2.5em auto 0;
+}
 
 .yotta {
   font-size: 2.2807rem;
@@ -244,4 +232,48 @@ sub {
   padding-right: 0.3750rem;
 }
 
+@media only screen and (min-width: 25em) {
+  .name {
+    margin: 2.5em auto 0;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+   .name {
+
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .gutter {
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+
+  .name {
+    margin: 4em auto 0;
+  }
+
+  .gutter-image {
+    padding-left: 3.0000rem;
+    padding-right: 3.0000rem;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+ .name {
+
+  }
+
+  .gutter-image {
+    padding-left: 3.0000rem;
+    padding-right: 3.0000rem;
+  }
+}
+
+@media only screen and (min-width: 120em) {
+ .name {
+
+  }
+}
 

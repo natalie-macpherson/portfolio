@@ -50,8 +50,8 @@ header {
   top: 10%;
   width: 90vw;
   height: 100vh;
-  -webkit-transition: all 500ms linear;
-    transition: all 500ms linear;
+  -webkit-transition: all 250ms linear;
+    transition: all 250ms linear;
   left: -100%;
 }
 

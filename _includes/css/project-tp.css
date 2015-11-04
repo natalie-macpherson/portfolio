@@ -171,10 +171,6 @@ ul {
 	border-bottom: solid #000011 3px;
 }
 
-.shadow {
-	xbox-shadow: .5px .5px 3px 0 rgba(0,0,0,.25);
-}
-
 .m-next-project {
 	background-image: url(../img/bg-image.jpg);
 	color: white;
@@ -216,7 +212,6 @@ ul {
 	white-space: nowrap;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
-	position:
 }
 
 .next-project:hover{
@@ -383,7 +378,7 @@ Media Queries
 		top: -310px;
 	}
 
-		.billboard-refresh {
+	.billboard-refresh {
 		height: 320px;
 	}
 

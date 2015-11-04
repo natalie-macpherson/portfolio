@@ -8,6 +8,15 @@ html {
     font-size: 110%;
   }
 
+ .gutter {
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+
+  .gutter-image {
+    padding-left: 3.0000rem;
+    padding-right: 3.0000rem;
+  }
 }
 
 @media only screen and (min-width: 90em) {
@@ -16,6 +25,10 @@ html {
     font-size: 120%;
   }
 
+  .gutter-image {
+    padding-left: 3.0000rem;
+    padding-right: 3.0000rem;
+  }
 }
 
 @media only screen and (min-width: 120em) {
@@ -23,7 +36,6 @@ html {
   html {
     font-size: 130%;
   }
-
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -225,31 +237,4 @@ sub {
   padding-right: 0.3750rem;
 }
 
-@media only screen and (min-width: 25em) {
-}
 
-@media only screen and (min-width: 38em) {
-}
-
-@media only screen and (min-width: 60em) {
-  .gutter {
-    padding-left: 5em;
-    padding-right: 5em;
-  }
-
-  .gutter-image {
-    padding-left: 3.0000rem;
-    padding-right: 3.0000rem;
-  }
-}
-
-@media only screen and (min-width: 90em) {
-  .gutter-image {
-    padding-left: 3.0000rem;
-    padding-right: 3.0000rem;
-  }
-}
-
-@media only screen and (min-width: 120em) {
-
-}

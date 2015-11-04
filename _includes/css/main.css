@@ -242,15 +242,12 @@ Connect
 	width: 70%;
 }
 
-.icon-link:before {
-	    content: '\e803';
-}
-
 .fade {
 	margin:0;
 }
+
 .fade li a {
--webket-transition: all 0.5s ease-in-out;
+	-webket-transition: all 0.5s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -323,7 +320,7 @@ Media Queries
 	.billboard {
 		height: 475px;
 		margin: 10em auto 0;
-		}
+	}
 
 	.billboard h1 {
 		font-size: 5em;

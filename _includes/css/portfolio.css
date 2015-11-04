@@ -231,24 +231,24 @@ Media Queries
 
 	.case-studies-2 {
 		background-position: 52% center;
-		background-size: 205vw auto;
+		background-size: 235vw auto;
 		background-position: 50% center;
 		transition: all 1000ms linear;
 	}
 
 	.case-studies-2:hover {
-		background-size: 210vw auto;
+		background-size: 240vw auto;
 	}
 
 	.case-studies-3 {
 		background-position: 52% center;
-		background-size: 205vw auto;
+		background-size: 220vw auto;
 		background-position: 50% center;
 		transition: all 1000ms linear;
 	}
 
 	.case-studies-3:hover {
-		background-size: 210vw auto;
+		background-size: 225vw auto;
 	}
 
 		.case-studies-4 {

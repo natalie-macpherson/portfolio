@@ -505,8 +505,8 @@ Media Queries
 	.quote-main {
 		font-size: 1.8020rem;
   	line-height: 1.6648;
-		padding-left: 6rem;
-	  padding-right: 6rem;
+		padding-left: 12rem;
+	  padding-right: 12rem;
 	  font-weight: 300;
 	  padding-top: 0em;
 	}

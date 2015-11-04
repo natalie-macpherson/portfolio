@@ -45,7 +45,7 @@ html {
 
 .workmark {
 	background:  url("../img/white-workmark.svg") no-repeat center center;
-	background-size: 100%;\
+	background-size: 100%;
 }
 
 .masthead {
@@ -488,8 +488,8 @@ Media Queries
 	.quote-main {
 		font-size: 1.8020rem;
   	line-height: 1.6648;
-		padding-left: 6rem;
-	  padding-right: 6rem;
+		padding-left: 10rem;
+	  padding-right: 10rem;
 	  font-weight: 300;
 	  padding-top: 0em;
 	}

@@ -10,20 +10,20 @@ html {
 	height: 40px;
 	right: 12px;
 	position: absolute;
-	margin-top: 22px
+	margin-top: 22px;
+	z-index: 10000;
 }
 
 .logo-size {
 	width: 40px;
 }
-
+/*
 .nav-wrap {
 	position: absolute;
 	top: 0;
 	width: 15em;
-	z-index: 100;
 	transition: left 250ms ease-out;
-}
+}*/
 
 .header-nav {
 	position: fixed;

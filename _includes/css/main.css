@@ -307,7 +307,7 @@ About
 }
 
 .signature {
-	height: 190px;
+	height: 100px;
 }
 
  /* ------------------------------------------------------------
@@ -464,7 +464,7 @@ Media Queries
 
 	.billboard-connect h1 {
 		margin: 2.5em auto 0;
-		font-size: 3em
+		font-size: 3em;
 	}
 
 	.about-para-l {
@@ -607,7 +607,7 @@ Media Queries
 	.billboard h1 {
 		font-size: 7em;
 		letter-spacing: -2px;
-		font-weight: 700
+		font-weight: 700;
 	}
 
 	.quote-main {

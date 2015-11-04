@@ -211,12 +211,12 @@ Media Queries
 @media only screen and (min-width: 25em) {
 
 	.billboard-work {
-		height: 300px
+		height: 300px;
 	}
 
 	.billboard-work h1 {
 		margin: 2em auto 0;
-		font-size: 3em
+		font-size: 3em;
 	}
 
 	.case-studies-1 {
@@ -485,7 +485,7 @@ Media Queries
 		background-size: 55vw auto;
 		background-position: 85%;
 		transition: all 1000ms linear;
-		height: 300px
+		height: 300px;
 	}
 
 	.case-studies-4:hover {
@@ -496,7 +496,7 @@ Media Queries
 		background-size: 55vw auto;
 		background-position: 85%;
 		transition: all 1000ms linear;
-		height: 300px
+		height: 300px;
 	}
 
 	.case-studies-5:hover {
@@ -529,7 +529,7 @@ Media Queries
 		background-size: 55vw auto;
 		background-position: 85%;
 		transition: all 1000ms linear;
-		height: 300px
+		height: 300px;
 	}
 
 	.case-studies-8:hover {
@@ -551,7 +551,7 @@ Media Queries
 		background-size: 55vw auto;
 		background-position: 85%;
 		transition: all 1000ms linear;
-		height: 300px
+		height: 300px;
 	}
 
 	.case-studies-10:hover {
@@ -573,7 +573,7 @@ Media Queries
 		background-size: 45vw auto;
 		background-position: 85%;
 		transition: all 1000ms linear;
-		height: 350px
+		height: 350px;
 	}
 
 	.case-studies-1:hover {
@@ -606,7 +606,7 @@ Media Queries
 		background-size: 45vw auto;
 		background-position: 85%;
 		transition: all 1000ms linear;
-		height: 350px
+		height: 350px;
 	}
 
 	.case-studies-4:hover {
@@ -617,7 +617,7 @@ Media Queries
 		background-size: 45vw auto;
 		background-position: 85%;
 		transition: all 1000ms linear;
-		height: 350px
+		height: 350px;
 	}
 
 	.case-studies-5:hover {
@@ -650,7 +650,7 @@ Media Queries
 		background-size: 45vw auto;
 		background-position: 85%;
 		transition: all 1000ms linear;
-		height: 350px
+		height: 350px;
 	}
 
 	.case-studies-8:hover {
@@ -672,7 +672,7 @@ Media Queries
 		background-size: 45vw auto;
 		background-position: 85%;
 		transition: all 1000ms linear;
-		height: 350px
+		height: 350px;
 	}
 
 	.case-studies-10:hover {

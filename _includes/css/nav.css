@@ -175,7 +175,7 @@ header {
 /* ------------------------------------------ Media Queries ----------------------------*/
 @media only screen and (min-width: 25em) {
 	.nav {
-		right: 45px
+		right: 45px;
 	}
 
 	.logo {
@@ -216,7 +216,7 @@ header {
 		width: 150px;
 		height: 100vh;
 		position: fixed;
-		box-shadow: 1px 2px 6px 0 rgba(0,0,0,.25)
+		box-shadow: 1px 2px 6px 0 rgba(0,0,0,.25);
 	}
 
 	.nav-label {

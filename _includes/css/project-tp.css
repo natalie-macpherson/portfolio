@@ -124,6 +124,15 @@ ul {
 	background-position: center center;
 }
 
+.billboard-soleil {
+	background-image: url(../img/soleil/makeup.jpg);
+  background-size: cover;
+  overflow: hidden;
+	height: 130px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
 .discription{
 	font-family: 'Open Sans', sans-serif;
 	color: #000011;
@@ -275,7 +284,10 @@ Media Queries
 	.billboard-bookbuddy {
 		height: 300px;
 	}
-}
+
+	.billboard-soleil {
+		height: 190px;
+	}
 
 @media only screen and (min-width: 38em) {
 	.billboard-gateway {
@@ -291,6 +303,11 @@ Media Queries
 		float: right;
 		width: calc(100% - 150px);
 	}
+
+	.billboard-soleil {
+		height: 250px;
+	}
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -323,6 +340,10 @@ Media Queries
 		height: 400px;
 	}
 
+	.billboard-soleil {
+		height: 400px;
+	}
+
 	.m-next-project {
 		float: right;
 		width: calc(100% - 150px);
@@ -349,6 +370,10 @@ Media Queries
 	.billboard-refresh {
 		height: 520px;
 		background-position: center -110px;
+	}
+
+	.billboard-soleil {
+		height: 530px;
 	}
 }
 

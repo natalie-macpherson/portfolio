@@ -33,13 +33,6 @@ fieldset, pre, table {
   margin: 0 0 1.5rem;
 }
 
-.name {
-  font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  margin: 2.5em auto 0;
-}
 
 .yotta {
   font-size: 2.2807rem;
@@ -239,9 +232,6 @@ sub {
 }
 
 @media only screen and (min-width: 38em) {
-   .name {
-
-  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -261,10 +251,6 @@ sub {
 }
 
 @media only screen and (min-width: 90em) {
- .name {
-
-  }
-
   .gutter-image {
     padding-left: 3.0000rem;
     padding-right: 3.0000rem;
@@ -272,8 +258,6 @@ sub {
 }
 
 @media only screen and (min-width: 120em) {
- .name {
 
-  }
 }
 

@@ -5,6 +5,7 @@
 .general-info {
 	position: ;
 }
+
 .general-info h2 {
 	font-size: 2em;
 	color: #eae8e8;
@@ -171,7 +172,7 @@ ul {
 }
 
 .shadow {
-	xbox-shadow: .5px .5px 3px 0 rgba(0,0,0,.25)
+	xbox-shadow: .5px .5px 3px 0 rgba(0,0,0,.25);
 }
 
 .m-next-project {
@@ -234,7 +235,7 @@ ul {
 }
 
 .footer-color {
-	background-color: #1d1e2a
+	background-color: #1d1e2a;
 }
 
 .social-link {
@@ -288,6 +289,7 @@ Media Queries
 	.billboard-soleil {
 		height: 190px;
 	}
+)
 
 @media only screen and (min-width: 38em) {
 	.billboard-gateway {
@@ -307,7 +309,6 @@ Media Queries
 	.billboard-soleil {
 		height: 250px;
 	}
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -389,5 +390,4 @@ Media Queries
 	.billboard-bookbuddy {
 		height: 320px;
 	}
-
 }

@@ -4,18 +4,19 @@
 @viewpoint {width: divice-width; scale; 1;}
 
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *, *::before, *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 .img-flex {
-    display: block;
-    width: 100%;
-    margin: 0 auto;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
 }
+
  body {
  	margin: 0;
  }
@@ -44,7 +45,7 @@ html {
 }
 
 .workmark {
-	background:  url("../img/white-workmark.svg") no-repeat center center;
+	background: url("../img/white-workmark.svg") no-repeat center center;
 	background-size: 95%;
 }
 
@@ -104,7 +105,7 @@ html {
 }
 
 .option-case:hover {
-background-size: 65vh;
+	background-size: 65vh;
 }
 
 .option-about {
@@ -320,8 +321,8 @@ Media Queries
 @media only screen and (min-width: 25em) {
 
 	.billboard {
-			height: 475px;
-			margin: 10em auto 0;
+		height: 475px;
+		margin: 10em auto 0;
 		}
 
 	.billboard h1 {

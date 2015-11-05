@@ -375,15 +375,27 @@ Media Queries
 
 @media only screen and (min-width: 120em) {
 .general-info p {
-		top: -310px;
+		top: -112px;
 	}
 
-		.billboard-refresh {
-		height: 320px;
+	.billboard-gateway {
+		height: 550px;
+	}
+
+	.billboard-refresh {
+		height: 550px;
+	}
+
+	.billboard-quotebook {
+		height: 550px;
 	}
 
 	.billboard-bookbuddy {
-		height: 320px;
+		height: 550px;
+	}
+
+	.billboard-soleil {
+		height: 550px;
 	}
 
 }

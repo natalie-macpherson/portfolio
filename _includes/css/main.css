@@ -581,7 +581,7 @@ Media Queries
 	}
 
 	.workmark{
-		width: 800px;
+		width: 865px;
 	}
 
 	.billboard {
@@ -663,6 +663,25 @@ Media Queries
 }
 
 @media only screen and (min-width: 120em) {
+
+.workmark{
+	width: 1000px;
+}
+
+.billboard {
+		height:680px;
+		margin: 9em auto 0;
+	}
+
+	.quote-main {
+		font-size: 1.6018rem;
+		line-height: 1.8729;
+		padding-left: 17rem;
+	  padding-right: 17em;
+	  font-weight: 300;
+	  padding-top: 0em;
+	}
+
 .general-info p {
 		top: -310px;
 	}
@@ -689,4 +708,13 @@ Media Queries
 	.option-connect {
 		height: 390px;
 	}
+
+	.billboard-about {
+		height: 600px;
+	}
+
+	.billboard-connect {
+		height: 600px;
+	}
 }
+

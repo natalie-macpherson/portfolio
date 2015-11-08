@@ -87,6 +87,10 @@ ul {
 	letter-spacing: 3px;
 	font-size: .75em;
 }
+.captions {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
 
 .billboard-gateway {
 	background-image: url(../img/gateway/gateway-gg.jpg);
@@ -138,11 +142,7 @@ ul {
 	color: #000011;
 	font-weight: 300;
 	padding-top: 15px;
-}
 
-.captions{
-	font-family: 'Gentium Book Basic', serif;
-	font-weight: 400;
 }
 
 .project-title{

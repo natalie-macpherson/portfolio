@@ -49,33 +49,30 @@ layout: main-content
 						<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l pad-b">
 							<h4 itemprop="alternativeHeadline" class="mega highlights pad-b-1-4 gutter-1-4">Research and Development</h4>
 						</div>
+						<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l pad-b">
+							<p class=" pad-b-1-4 gutter explain milli">{{page.researchpara}}</p>
+						</div>
 						<figure class=" gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2 center pad-b-1-2">
-						<figcaption class="captions kilo center text-left pad-b-1-4">{{page.research1-caption}}</figcaption>
 							{% for img in page.img-research1 %}
 								<img itemprop="image" class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research1-alt}}">
 							{% endfor %}
 						</figure>
 						<figure class="gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-4 center pad-b">
-							<figcaption class="captions kilo text-left pad-b-1-4">{{page.research2-caption}}</figcaption>
 							{% for img in page.img-research2 %}
 								<img itemprop="image" class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research2-alt}}">
 							{% endfor %}
 						</figure>
 						<figure class="gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-4 center">
-							<figcaption class="text-left captions kilo pad-b-1-4">{{page.research3-caption}}</figcaption>
 							{% for img in page.img-research3 %}
 								<img itemprop="image" class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research3-alt}}">
 							{% endfor %}
 						</figure>
-						</figure>
 						<figure class="gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-4 center">
-							<figcaption class="text-left captions kilo pad-b-1-4">{{page.research4-caption}}</figcaption>
 							{% for img in page.img-research4 %}
 								<img itemprop="image" class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research4-alt}}">
 							{% endfor %}
 						</figure>
 						<figure class="gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-4 center">
-							<figcaption class="text-left captions kilo pad-b-1-4">{{page.research5-caption}}</figcaption>
 							{% for img in page.img-research5 %}
 								<img itemprop="image" class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research5-alt}}">
 							{% endfor %}
@@ -86,20 +83,20 @@ layout: main-content
 						<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l pad-b">
 							<h4 itemprop="alternativeHeadline" class="mega highlights pad-b-1-4 gutter-1-4">Art Direction</h4>
 						</div>
+						<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l pad-b">
+							<p class=" pad-b-1-4 gutter explain milli">{{page.designpara}}</p>
+						</div>
 						<figure class="gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-4 center pad-b">
-							<figcaption class="text-left captions kilo pad-b pad-b-1-4">{{page.design1-caption}}</figcaption>
 							{% for img in page.img-design1 %}
 								<img itemprop="image" class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-design1-alt}}">
 							{% endfor %}
 						</figure>
 						<figure class="gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-4 center pad-b">
-							<figcaption class="text-left captions kilo pad-b pad-b-1-4">{{page.design2-caption}}</figcaption>
 							{% for img in page.img-design2 %}
 								<img itemprop="image" class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-design2-alt}}">
 							{% endfor %}
 						</figure>
 						<figure class="gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-4 center">
-							<figcaption class="text-left captions kilo pad-b pad-b-1-4">{{page.design3-caption}}</figcaption>
 							{% for img in page.img-design3 %}
 								<img itemprop="image" class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-design3-alt}}">
 							{% endfor %}
@@ -112,10 +109,10 @@ layout: main-content
 							<h4 itemprop="alternativeHeadline" class="mega highlights pad-b-1-4 gutter-1-4">Graphic Design Solution</h4>
 						</div>
 						<div class="unit unit-xs-1 unit-m-1 unit-l-1-2 gutter-1-2">
-							<p itemprop="text" class="project-intro kilo"> {{page.para3}}</p>
+							<p itemprop="text" class="kilo explain"> {{page.para3}}</p>
 						</div>
 						<div class="unit unit-xs-1 unit-m-1 unit-l-1-2 gutter-1-2">
-							<p itemprop="text" class="project-intro kilo"> {{page.para4}}</p>
+							<p itemprop="text" class="kilo explain"> {{page.para4}}</p>
 						</div>
 						{% for img in page.img-solution1 %}
 						<figure class="gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-8 center pad-b pad-t">

@@ -143,6 +143,15 @@ ul {
 	background-position: center center;
 }
 
+.magazine-billboard {
+	background-image: url(../img/magazine/magazine-billboard.jpg);
+  background-size: cover;
+  overflow: hidden;
+	height: 130px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
 .discription{
 	font-family: 'Open Sans', sans-serif;
 	color: #000011;
@@ -294,6 +303,10 @@ Media Queries
 	.billboard-soleil {
 		height: 300px;
 	}
+
+	.magazine-billboard {
+		height: 300px;
+	}
 }
 
 @media only screen and (min-width: 38em) {
@@ -346,6 +359,10 @@ Media Queries
 		height: 400px;
 	}
 
+	.magazine-billboard {
+		height: 400px;
+	}
+
 	.m-next-project {
 		float: right;
 		width: calc(100% - 150px);
@@ -377,6 +394,10 @@ Media Queries
 	.billboard-soleil {
 		height: 520px;
 	}
+
+	.magazine-billboard {
+		height: 520px;
+	}
 }
 
 @media only screen and (min-width: 120em) {
@@ -404,4 +425,7 @@ Media Queries
 		height: 550px;
 	}
 
+	.magazine-billboard {
+		height: 540px;
+	}
 }

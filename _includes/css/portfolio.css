@@ -116,12 +116,12 @@
 
 .case-studies-6 {
 	color: #D6D5D4;
-	background-color: #f04e98;
-	background-image: url(../img/);
+	background-color: #772583;
+	background-image: url(../img/magazine/magazine-billboard.jpg);
 	height: 270px;
-	background-position: 52% center;
+	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: 280vw auto;
+	background-size: 230vw auto;
 	transition: all 1000ms linear;
 }
 
@@ -200,10 +200,10 @@
 	cursor: pointer;
 }
 
-.footer {
-	color: white;
-	margin-top: 5em;
+.footer-port {
+	background-color: #1d1e2a
 }
+
 
 /* ----------------------------------------------------------
 Media Queries
@@ -387,12 +387,12 @@ Media Queries
 
 	.case-studies-6 {
 		background-position: 52% center;
-		background-size: 190vw auto;
+		background-size: 170vw auto;
 		transition: all 1000ms linear;
 	}
 
 	.case-studies-6:hover {
-		background-size: 195vw auto;
+		background-size: 175vw auto;
 	}
 
 	.case-studies-7 {
@@ -626,13 +626,13 @@ Media Queries
 
 	.case-studies-6 {
 		background-position: 52% center;
-		background-size: 85vw auto;
+		background-size: 65vw auto;
 		transition: all 1000ms linear;
 		height: 350px;
 	}
 
 	.case-studies-6:hover {
-		background-size: 90vw auto;
+		background-size: 70vw auto;
 	}
 
 	.case-studies-7 {

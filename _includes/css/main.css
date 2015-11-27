@@ -506,12 +506,20 @@ Media Queries
 		padding-left: 7rem;
 	  padding-right: 7rem;
 	}
+
+	.panda {
+	 	width: 60%;
+	}
 }
 
 @media only screen and (min-width: 60em) {
 
 	.main-content {
 		border-left: 1px solid #d7d7d7;
+	}
+
+	.panda {
+	 	width: 60%;
 	}
 
 	.workmark{

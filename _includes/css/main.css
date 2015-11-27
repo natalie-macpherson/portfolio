@@ -197,6 +197,10 @@ Connect
 	letter-spacing: 5px;
 }
 
+.connect-link {
+	text-decoration: none;
+}
+
 .second-header {
  text-align: center;
  font-family: 'Roboto', sans-serif;
@@ -220,6 +224,12 @@ Connect
 	font-family: 'Open Sans', sans-serif;
 	color: #591D57;
 	font-weight: 300;
+	-webkit-transition: all 500ms linear;
+	transition: all 500ms linear;
+}
+
+.hello:hover {
+	color:#e92071;
 }
 
 .email {
@@ -249,9 +259,32 @@ Connect
 	opacity: 0.6;
 }
 
- ul {
+.list{
  	list-style-type: none;
  	padding: 0;
+ }
+
+ .oh-no {
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-weight: 400;
+ 	text-transform: uppercase;
+ }
+
+ .you-are-here {
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-weight: 300;
+ }
+
+ .reason-404 {
+ 	font-family: 'Gentium Book Basic', serif;
+ }
+
+ .panda {
+ width: 70%;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ padding-top: 0em;
  }
  /* ------------------------------------------------------------
 About

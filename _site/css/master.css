@@ -3643,6 +3643,7 @@ Media Queries
 	background-image: url(../img/bg-image.jpg);
 	color: white;
 	margin: 0;
+	background-color: #000;
 }
 
 .contact-bottom {

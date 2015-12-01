@@ -25,6 +25,10 @@
 	display: block;
 }
 
+.black {
+	background-color: #38373d;
+}
+
 .go-top {
  	position: fixed;
  	bottom: 2em;

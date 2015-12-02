@@ -7,3 +7,5 @@
 {% include css/portfolio.css %}
 {% include css/project-tp.css %}
 {% include css/type.css %}
+{% incluse slick/slick.css %]
+{% slick/slick-theme.css %}

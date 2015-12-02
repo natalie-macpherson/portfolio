@@ -53,8 +53,6 @@ layout: main-content
 						<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l pad-b">
 							<p class=" pad-b-1-4 gutter explain milli">{{page.researchpara}}</p>
 						</div>
-
-						<div class="slick-slide">
 							<figure class=" gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2 center pad-b-1-2">
 								{% for img in page.img-research1 %}
 									<img itemprop="image" class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research1-alt}}">
@@ -80,7 +78,6 @@ layout: main-content
 									<img itemprop="image" class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research5-alt}}">
 								{% endfor %}
 							</figure>
-						</div>
 
 <!-- Design -->
 
@@ -90,8 +87,6 @@ layout: main-content
 						<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l pad-b">
 							<p class=" pad-b-1-4 gutter explain milli">{{page.designpara}}</p>
 						</div>
-
-						<div class="slick-slide">
 							<figure class="gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-4 center pad-b">
 								{% for img in page.img-design1 %}
 									<img itemprop="image" class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-design1-alt}}">
@@ -107,7 +102,6 @@ layout: main-content
 									<img itemprop="image" class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-design3-alt}}">
 								{% endfor %}
 							</figure>
-						</div>
 
 
 <!-- Design Solution -->
@@ -172,7 +166,6 @@ layout: main-content
 							</figure>
 							{% endfor %}
 						</div>
-					</div>
 
 				</div>
 			</div>
@@ -204,34 +197,8 @@ layout: main-content
  		</a>
  	</div>
  		<ul class="social-link unit unit-xs1 unit-s-1 unit-m-1 unit-l-1">
- 			<li class="kilo text-right unit unit-xs-hidden unit-s-hidden unit-m-1-3 unit-l-1-3"><a href="https://www.behance.net/Natalie_Macpherson" target="_blank" rel="external">Bhance</a></li>
+ 			<li class="kilo text-right unit unit-xs-hidden unit-s-hidden unit-m-1-3 unit-l-1-3"><a href="https://www.behance.net/Natalie_Macpherson" target="_blank" rel="external">Behance</a></li>
  			<li class="kilo center unit unit-xs-hidden unit-s-hidden unit-m-1-3 unit-l-1-3"><a href="https://instagram.com/nmacpher/" target="_blank" rel="external">Instagram</a></li>
  			<li class="kilo text-left unit unit-xs-hidden unit-s-hidden unit-m-1-4 unit-l-1-4"><a class="" href="https://www.linkedin.com/in/nmacpher/" target="_blank" rel="external">Linkedin</a></li>
  		</ul>
 </footer>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
-<script type="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.4.0/jquery.localScroll.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="slick/slick.min.js"></script>
-
-
-   <script>
-      $('.go-top').localScroll();
-
-      $(document).ready(function(){
-  		$('.slick-slide').slick({
-   			setting-name: setting-value
-  		});
-		});
-
-      $('.one-time').slick({
-			  dots: true,
-			  infinite: true,
-			  speed: 300,
-			  slidesToShow: 1,
-			  adaptiveHeight: true
-			});
-
-   </script>

@@ -2863,17 +2863,17 @@ header {
 
 .case-studies-5 {
 	color: #D6D5D4;
-	background-image: url(../img/);
-	background-color: #f7931e;
+	background-image: url(../img/netflix/netflix-bg.jpg);
+	background-color: #dc322e;
 	height: 270px;
-	background-position: 52% center;
+	background-position: 25% center;
 	background-repeat: no-repeat;
-	background-size: 280vw auto;
+	background-size: 110vw auto;
 	transition: all 1000ms linear;
 }
 
 .case-studies-5:hover {
-	background-size: 285vw auto;
+	background-size: 115vw auto;
 }
 
 
@@ -2882,14 +2882,14 @@ header {
   background-image: url(../img/worldhealth/worldhealth-bg.jpg);
   background-color: #00abbd;
   height: 270px;
-  background-position: 40% center;
-  background-size: 280vw auto;
+  background-position: 40% 52%;
+  background-size: 290vw auto;
   background-repeat: no-repeat;
   transition: all 1000ms linear;
 }
 
 .case-studies-6:hover {
-	background-size: 285vw auto;
+	background-size: 295vw auto;
 }
 
 .case-studies-7 {
@@ -2995,23 +2995,23 @@ Media Queries
 	}
 
 	.case-studies-5 {
-		background-size: 115vw auto;
-		background-position: 85%;
+		background-size: 100vw auto;
+		background-position: 100% 38%;
 		transition: all 1000ms linear;
 	}
 
 	.case-studies-5:hover {
-		background-size: 120vw auto;
+		background-size: 105vw auto;
 	}
 
 	.case-studies-6 {
 		background-position: 40% center;
-		background-size: 205vw auto;
+		background-size: 235vw auto;
 		transition: all 1000ms linear;
 	}
 
 	.case-studies-6:hover {
-		background-size: 210vw auto;
+		background-size: 240vw auto;
 	}
 
 	.case-studies-7 {
@@ -3108,13 +3108,13 @@ Media Queries
 	}
 
 	.case-studies-5 {
-		background-size: 120vw auto;
-		background-position: 85%;
+		background-size: 65vw auto;
+		background-position: 100% 35%;
 		transition: all 1000ms linear;
 	}
 
 	.case-studies-5:hover {
-		background-size: 125vw auto;
+		background-size: 70vw auto;
 	}
 
 	.case-studies-6 {
@@ -3225,14 +3225,14 @@ Media Queries
 	}
 
 	.case-studies-5 {
-		background-size: 55vw auto;
-		background-position: 85%;
+		background-size: 35vw auto;
+		background-position: 33% center;
 		transition: all 1000ms linear;
 		height: 300px
 	}
 
 	.case-studies-5:hover {
-		background-size: 60vw auto;
+		background-size: 40vw auto;
 	}
 
 	.case-studies-6 {
@@ -3346,14 +3346,14 @@ Media Queries
 	}
 
 	.case-studies-5 {
-		background-size: 45vw auto;
-		background-position: 85%;
+		background-size: 35vw auto;
+		background-position: 90% center;
 		transition: all 1000ms linear;
 		height: 350px
 	}
 
 	.case-studies-5:hover {
-		background-size: 50vw auto;
+		background-size: 40vw auto;
 	}
 
 	.case-studies-6 {

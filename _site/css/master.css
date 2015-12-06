@@ -2862,36 +2862,6 @@ header {
 }
 
 .case-studies-5 {
-  color: #D6D5D4;
-  background-color: #00aca0;
-  background-image: url(../img/soleil/makeup.jpg);
-  height: 270px;
-  background-position: center center;
-  background-size: 150vw auto;
-  background-repeat: no-repeat;
-  transition: all 1000ms linear;
-}
-
-.case-studies-5:hover {
-	background-size: 155vw auto;
-}
-
-.case-studies-6 {
-	color: #D6D5D4;
-	background-color: #772583;
-	background-image: url(../img/magazine/magazine-billboard.jpg);
-	height: 270px;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: 230vw auto;
-	transition: all 1000ms linear;
-}
-
-.case-studies-6:hover {
-	background-size: 285vw auto;
-}
-
-.case-studies-7 {
 	color: #D6D5D4;
 	background-image: url(../img/);
 	background-color: #f7931e;
@@ -2902,14 +2872,45 @@ header {
 	transition: all 1000ms linear;
 }
 
-.case-studies-7:hover {
+.case-studies-5:hover {
 	background-size: 285vw auto;
+}
+
+
+.case-studies-6 {
+  color: #D6D5D4;
+  background-image: url(../img/worldhealth/worldhealth-bg.jpg);
+  background-color: #00abbd;
+  height: 270px;
+  background-position: 40% center;
+  background-size: 280vw auto;
+  background-repeat: no-repeat;
+  transition: all 1000ms linear;
+}
+
+.case-studies-6:hover {
+	background-size: 285vw auto;
+}
+
+.case-studies-7 {
+	color: #D6D5D4;
+	background-color: #772583;
+	background-image: url(../img/magazine/magazine-billboard.jpg);
+	height: 270px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 275vw auto;
+	transition: all 1000ms linear;
+}
+
+.case-studies-7:hover {
+	background-size: 280vw auto;
 }
 
 .case-studies-8 {
   color: #D6D5D4;
-  background-image: url(../img/);
-  background-color: #00abbd;
+  background-color: #00aca0;
+  background-image: url(../img/soleil/makeup.jpg);
   height: 270px;
   background-position: center center;
   background-size: 150vw auto;
@@ -2918,36 +2919,6 @@ header {
 }
 
 .case-studies-8:hover {
-	background-size: 155vw auto;
-}
-
-.case-studies-9 {
-  color: #D6D5D4;
-  background-image: url(../img/);
-  background-color: #e44c97;
-  height: 270px;
-  background-position: center center;
-  background-size: 150vw auto;
-  background-repeat: no-repeat;
-  transition: all 1000ms linear;
-}
-
-.case-studies-9:hover {
-	background-size: 155vw auto;
-}
-
-.case-studies-10 {
-  color: #D6D5D4;
-  background-image: url(../img/);
-  background-color: #7f5dae;
-  height: 270px;
-  background-position: center center;
-  background-size: 150vw auto;
-  background-repeat: no-repeat;
-  transition: all 1000ms linear;
-}
-
-.case-studies-10:hover {
 	background-size: 155vw auto;
 }
 
@@ -3034,9 +3005,8 @@ Media Queries
 	}
 
 	.case-studies-6 {
-		background-position: 52% center;
+		background-position: 40% center;
 		background-size: 205vw auto;
-		background-position: 50% center;
 		transition: all 1000ms linear;
 	}
 
@@ -3148,7 +3118,7 @@ Media Queries
 	}
 
 	.case-studies-6 {
-		background-position: 52% center;
+		background-position: 40% center;
 		background-size: 170vw auto;
 		transition: all 1000ms linear;
 	}
@@ -3266,7 +3236,7 @@ Media Queries
 	}
 
 	.case-studies-6 {
-		background-position: 52% center;
+		background-position: 58% center;
 		background-size: 110vw auto;
 		transition: all 1000ms linear;
 		height: 300px;
@@ -3387,14 +3357,14 @@ Media Queries
 	}
 
 	.case-studies-6 {
-		background-position: 52% center;
-		background-size: 65vw auto;
+		background-position: 58% center;
+		background-size: 115vw auto;
 		transition: all 1000ms linear;
 		height: 350px;
 	}
 
 	.case-studies-6:hover {
-		background-size: 70vw auto;
+		background-size: 120vw auto;
 	}
 
 	.case-studies-7 {

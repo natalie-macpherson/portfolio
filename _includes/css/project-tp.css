@@ -134,6 +134,23 @@
 	background-position: center center;
 }
 
+.netflix-billboard {
+	background-image: url(../img/netflix/netflix-billboard.jpg);
+  background-size: cover;
+  overflow: hidden;
+	height: 130px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.worldhealth-billboard {
+	background-image: url(../img/worldhealth/worldhealth-billboard.jpg);
+  background-size: cover;
+  overflow: hidden;
+	height: 130px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
 .billboard-soleil {
 	background-image: url(../img/soleil/makeup.jpg);
   background-size: cover;
@@ -296,6 +313,16 @@ Media Queries
 		height: 300px;
 	}
 
+	.worldhealth-billboard {
+		height: 300px;
+		background-position: 20% center;
+	}
+
+	.netflix-billboard {
+		height: 300px;
+		background-position: 25% center;
+	}
+
 	.billboard-bookbuddy {
 		height: 300px;
 	}
@@ -339,8 +366,18 @@ Media Queries
 		margin-top: 1em;
 	}
 
+	.netflix-billboard {
+		height: 400px;
+		background-position: 25% center;
+	}
+
 	.billboard-gateway {
 		height: 400px;
+	}
+
+	.worldhealth-billboard {
+		height: 400px;
+		background-position: 50% center;
 	}
 
 	.billboard-quotebook {
@@ -379,6 +416,11 @@ Media Queries
 		top: -105px;
 	}
 
+	.netflix-billboard {
+		height: 520px;
+		background-position: 25% center;
+	}
+
 	.billboard-gateway {
 		height: 520px;
 	}
@@ -394,6 +436,12 @@ Media Queries
 	.billboard-soleil {
 		height: 520px;
 	}
+
+	.worldhealth-billboard {
+		height: 520px;
+		background-position: 50% center;
+	}
+
 
 	.magazine-billboard {
 		height: 520px;

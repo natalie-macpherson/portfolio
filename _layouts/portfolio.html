@@ -10,22 +10,21 @@ layout: main-content
 		<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
 
 			<div class="grid">
-			<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-4 general-info">
+			<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-4">
 				<ul class="list">
 					<li class="line">
 						<h2>Project</h2>
-						<p itemprop="name" class="pad-t">{{page.project-title}}</p>
+						<p itemprop="name" class="project-title">{{page.project-title}}</p>
 					</li>
 					<li class="line">
 						<h2>Service</h2>
-						<p itemprop="keyword" class="pad-t">{{page.project-service}}</p>
+						<p itemprop="keyword" class="project-title">{{page.project-service}}</p>
 					</li>
 					{% if page.project-link %}
 						<li class="line">
-							<h2>Link</h2>
-							<p class="pad-t">
+							<h2 class="link-title">Link</h2>
 								<a class="external-link" itemprop="url" href="{{page.project-external-link}}" target="_blank" rel="external">{{page.project-link}}</a>
-							</p>
+
 						</li>
 					{% endif %}
 				</ul>
@@ -51,48 +50,106 @@ layout: main-content
 							<h4 itemprop="alternativeHeadline" class="mega highlights pad-b-1-4 gutter-1-4">Research and Development</h4>
 						</div>
 						<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l pad-b">
-							<p class=" pad-b-1-4 gutter explain milli">{{page.researchpara}}</p>
+							<p class=" pad-b-1-4 gutter-1-2 explain milli">{{page.researchpara}}</p>
 						</div>
-							<figure class=" gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2 center pad-b-1-2">
+						{% if page.type == figure %}
+							<figure class="grid unit gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2 center">
+								<figcaption class="caption-1">
+									<p class="micro info">{{page.caption-research1}}</p>
+									<hr claass="line-cap">
+								</figcaption>
 								{% for img in page.img-research1 %}
-									<img itemprop="image" class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research1-alt}}">
+									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research1-alt}}">
 								{% endfor %}
 							</figure>
-							<figure class="gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-4 center pad-b">
+						{% endif %}
+
+							<figure class="grid unit pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2 center">
+								<figcaption class="caption-2">
+									<p class="micro info">{{page.caption-research2}}</p>
+									<hr claass="line-cap">
+								</figcaption>
 								{% for img in page.img-research2 %}
-									<img itemprop="image" class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research2-alt}}">
+									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research2-alt}}">
 								{% endfor %}
 							</figure>
-							<figure class="gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-4 center">
+
+							<figure class="grid unit pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2 center">
+								<figcaption class="caption-3">
+									<p class="micro info">{{page.caption-research3}}</p>
+									<hr claass="line-cap">
+								</figcaption>
 								{% for img in page.img-research3 %}
-									<img itemprop="image" class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research3-alt}}">
+									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research3-alt}}">
 								{% endfor %}
 							</figure>
-							<figure class="gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-4 center">
+
+							<figure class="grid unit pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2 center">
+								<figcaption class="caption-4">
+									<p class="micro info">{{page.caption-research4}}</p>
+									<hr claass="line-cap">
+								</figcaption>
 								{% for img in page.img-research4 %}
-									<img itemprop="image" class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research4-alt}}">
+									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research4-alt}}">
 								{% endfor %}
 							</figure>
-							<figure class="gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-4 center">
+
+							<figure class="grid unit pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2 center">
+								<figcaption class="caption-4">
+									<p class="micro info">{{page.caption-research4}}</p>
+									<hr claass="line-cap">
+								</figcaption>
+								{% for img in page.img-research4 %}
+									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research4-alt}}">
+								{% endfor %}
+							</figure>
+
+							<figure class="grid unit pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2 center">
+								<figcaption class="caption-5">
+									<p class="micro info">{{page.caption-research5}}</p>
+									<hr claass="line-cap">
+								</figcaption>
 								{% for img in page.img-research5 %}
-									<img itemprop="image" class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research5-alt}}">
+									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research5-alt}}">
 								{% endfor %}
 							</figure>
-							<figure class="gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-4 center">
+
+							<figure class="grid unit pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2 center">
+								<figcaption class="caption-6">
+									<p class="micro info">{{page.caption-research6}}</p>
+									<hr claass="line-cap">
+								</figcaption>
 								{% for img in page.img-research6 %}
-									<img itemprop="image" class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research6-alt}}">
+									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research6-alt}}">
 								{% endfor %}
 							</figure>
-							<figure class="gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-4 center">
+							{% if page.type == figure %}
+							<figure class="grid unit pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2 center">
+								<figcaption class="caption-7">
+									<p class="micro info">{{page.caption-research7}}</p>
+									<hr claass="line-cap">
+								</figcaption>
 								{% for img in page.img-research7 %}
-									<img itemprop="image" class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research7-alt}}">
+									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research7-alt}}">
 								{% endfor %}
 							</figure>
-							<figure class="gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-4 center">
+							{% endif %}
+
+
+							<figure class="grid unit pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2 center">
+							{% if page.type == "caption-8" %}
+								<figcaption class="caption-8">
+									<p class="micro info">{{page.caption-research8}}</p>
+									<hr claass="line-cap">
+								</figcaption>
+								% endif %}
 								{% for img in page.img-research8 %}
-									<img itemprop="image" class="img-flex shadow" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research8-alt}}">
+									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research8-alt}}">
 								{% endfor %}
 							</figure>
+
+
+
 
 
 <!-- Design -->
@@ -216,12 +273,14 @@ layout: main-content
  		</ul>
 </footer>
 
-<a href="#top" class="go-top">&#x2191; Top</a>
+<a href="{{site.baseurl}}/{{page.nexturl}}" class="go-top">Next &#8594;</a>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.5.6/jquery.smooth-scroll.min.js'></script>
 
+<!--
 <script>
 $(".go-top").smoothScroll()
 
 </script>
+-->

@@ -67,7 +67,7 @@ header {
 
 .nav a:hover {
   color: #73c7b0;
-  text-decoration: line-through;
+
 }
 
 .background {
@@ -127,33 +127,6 @@ header {
 .skip-links a:focus {
 	top: 0;
 }
-
-/*
- .nav {
- 	text-decoration: none;
- 	color: white;
- 	font-family: 'Open Sans', sans-serif;
- 	padding: 0 5px;
- 	display: block;
- }*/
-
-
-
- /*.nav:hover {
- 	decoration: line-through;
- 	color: #73c7b0;
- }
-
- .main-nav {
- 	line-height: 60px;
- }*/
-
-/*header {
-	background-image: url(../img/bg-image.jpg);
-	display: block;
-	width: 100%;
-	position: fixed;
-}*/
 
 .main {
 	padding-top: 79px;

@@ -52,17 +52,19 @@ layout: main-content
 						<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l pad-b">
 							<p class=" pad-b-1-4 gutter-1-2 explain milli">{{page.researchpara}}</p>
 						</div>
-						{% if page.type == figure %}
+
 							<figure class="grid unit gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2 center">
+							{% if page.type == caption-1 %}
 								<figcaption class="caption-1">
 									<p class="micro info">{{page.caption-research1}}</p>
 									<hr claass="line-cap">
 								</figcaption>
+								{% endif %}
 								{% for img in page.img-research1 %}
 									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research1-alt}}">
 								{% endfor %}
 							</figure>
-						{% endif %}
+
 
 							<figure class="grid unit pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2 center">
 								<figcaption class="caption-2">
@@ -95,16 +97,6 @@ layout: main-content
 							</figure>
 
 							<figure class="grid unit pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2 center">
-								<figcaption class="caption-4">
-									<p class="micro info">{{page.caption-research4}}</p>
-									<hr claass="line-cap">
-								</figcaption>
-								{% for img in page.img-research4 %}
-									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research4-alt}}">
-								{% endfor %}
-							</figure>
-
-							<figure class="grid unit pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2 center">
 								<figcaption class="caption-5">
 									<p class="micro info">{{page.caption-research5}}</p>
 									<hr claass="line-cap">
@@ -123,6 +115,7 @@ layout: main-content
 									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research6-alt}}">
 								{% endfor %}
 							</figure>
+
 							{% if page.type == figure %}
 							<figure class="grid unit pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2 center">
 								<figcaption class="caption-7">
@@ -131,6 +124,18 @@ layout: main-content
 								</figcaption>
 								{% for img in page.img-research7 %}
 									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research7-alt}}">
+								{% endfor %}
+							</figure>
+							{% endif %}
+
+							{% if page.type == figure %}
+							<figure class="grid unit pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2 center">
+								<figcaption class="caption-8">
+									<p class="micro info">{{page.caption-research8}}</p>
+									<hr claass="line-cap">
+								</figcaption>
+								{% for img in page.img-research8 %}
+									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research8-alt}}">
 								{% endfor %}
 							</figure>
 							{% endif %}
@@ -147,6 +152,7 @@ layout: main-content
 									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research8-alt}}">
 								{% endfor %}
 							</figure>
+						{% endif %}
 
 
 

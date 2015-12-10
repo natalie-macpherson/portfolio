@@ -46,8 +46,107 @@ layout: main-content
 <!-- Research Development-->
 
 {% for portfolio in site.data.portfolio-pieces %}
-
 						<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l pad-b">
+							<h4 itemprop="alternativeHeadline" class="mega highlights pad-b-1-4 gutter-1-4">Research and Development</h4>
+						</div>
+						<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l pad-b">
+							<p class=" pad-b-1-4 gutter-1-2 explain milli">{{page.researchpara}}</p>
+						</div>
+
+
+							<figure class="grid unit gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2">
+								{% for img in page.img-research1 %}
+									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research1-alt}}">
+								{% endfor %}
+								<figcaption class="caption-1">
+									<p class="micro info">{{page.caption-research1}}</p>
+									<hr claass="line-cap">
+								</figcaption>
+							</figure>
+
+
+							<figure class="grid unit pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2">
+								<figcaption class="caption-1">
+									<p class="micro info">{{page.caption-research2}}</p>
+									<hr claass="line-cap">
+								</figcaption>
+								{% for img in page.img-research2 %}
+									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research2-alt}}">
+								{% endfor %}
+							</figure>
+
+							<figure class="grid unit pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2">
+								<figcaption class="caption-1">
+									<p class="micro info">{{page.caption-research3}}</p>
+									<hr claass="line-cap">
+								</figcaption>
+								{% for img in page.img-research3 %}
+									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research3-alt}}">
+								{% endfor %}
+							</figure>
+
+							<figure class="grid unit pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2">
+								<figcaption class="caption-1">
+									<p class="micro info">{{page.caption-research4}}</p>
+									<hr claass="line-cap">
+								</figcaption>
+								{% for img in page.img-research4 %}
+									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research4-alt}}">
+								{% endfor %}
+							</figure>
+
+							<figure class="grid unit pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2">
+								<figcaption class="caption-1">
+									<p class="micro info">{{page.caption-research5}}</p>
+									<hr claass="line-cap">
+								</figcaption>
+								{% for img in page.img-research5 %}
+									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research5-alt}}">
+								{% endfor %}
+							</figure>
+
+							<figure class="grid unit pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2">
+								<figcaption class="caption-1">
+									<p class="micro info">{{page.caption-research6}}</p>
+									<hr claass="line-cap">
+								</figcaption>
+								{% for img in page.img-research6 %}
+									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research6-alt}}">
+								{% endfor %}
+							</figure>
+
+							<figure class="grid unit pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2">
+								<figcaption class="caption-1">
+									<p class="micro info">{{page.caption-research7}}</p>
+									<hr claass="line-cap">
+								</figcaption>
+								{% for img in page.img-research7 %}
+									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research7-alt}}">
+								{% endfor %}
+							</figure>
+
+							<figure class="grid unit pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2">
+								<figcaption class="caption-1">
+									<p class="micro info">{{page.caption-research8}}</p>
+									<hr claass="line-cap">
+								</figcaption>
+								{% for img in page.img-research8 %}
+									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research8-alt}}">
+								{% endfor %}
+							</figure>
+
+							<figure class="grid unit pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2">
+							{% if page. == "caption-8" %}
+								<figcaption class="caption-8">
+									<p class="micro info">{{page.caption-research8}}</p>
+									<hr claass="line-cap">
+								</figcaption>
+							{% endif %}
+								{% for img in page.img-research8 %}
+									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research8-alt}}">
+								{% endfor %}
+					</figure>
+						<!--<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l pad-b">
 							<h4 itemprop="alternativeHeadline" class="mega highlights pad-b-1-4 gutter-1-4">Research and Development</h4>
 						</div>
 						<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l pad-b">
@@ -146,7 +245,7 @@ layout: main-content
 								{% for img in page.img-research8 %}
 									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research8-alt}}">
 								{% endfor %}
-					</figure>
+					</figure>-->
 
 					<!--
 					<figure class="grid unit gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2 center">

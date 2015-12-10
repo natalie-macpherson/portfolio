@@ -73,31 +73,9 @@
 	left: 1em;
 	max-width: 17em;
 	padding-top: 285px;
-}
-
-.caption-2 {
-	position: absolute;
-	left: 5em;
-	max-width: 17em;
-	padding-top: 187px;
 	text-align: center;
 }
 
-.caption-3 {
-	position: absolute;
-	left: 4em;
-	max-width: 17em;
-	padding-top: 187px;
-	text-align: center;
-}
-
-.caption-4 {
-	position: absolute;
-	left: 5em;
-	max-width: 17em;
-	padding-top: 233px;
-	text-align: center;
-}
 .external-link:hover{
  	color: #45ad91;
 }
@@ -222,8 +200,15 @@
 	padding-top: 15px;
 }
 
-.project-title{
+.project-main{
 		font-family: 'Open Sans', sans-serif;
+		font-weight: 700;
+		color: #000011;
+		top: -100px
+}
+
+.project-title {
+	font-family: 'Open Sans', sans-serif;
 		font-weight: 400;
 		color: #000011;
 		top: -100px
@@ -345,6 +330,10 @@ Media Queries
 -------------------------------------------------------------*/
 
 @media only screen and (min-width: 25em) {
+
+	.caption-1 {
+			}
+
 	.billboard-gateway {
 		height: 300px;
 	}
@@ -386,6 +375,13 @@ Media Queries
 		height: 400px;
 	}
 
+	.caption-1 {
+		position: absolute;
+		left: 12em;
+		max-width: 17em;
+		padding-top: 500px;
+	}
+
 	.m-next-project {
 		float: right;
 		width: calc(100% - 150px);
@@ -401,6 +397,13 @@ Media Queries
 	.main-content {
 		border-left: 1px solid #d7d7d7;
 		position: relative;
+	}
+
+	.caption-1 {
+		position: absolute;
+		left: -11em;
+		max-width: 10em;
+		padding-top: 100px;
 	}
 
 	.general-info p {
@@ -488,10 +491,11 @@ Media Queries
 		background-position: 50% center;
 	}
 
-	.caption {
+	.caption-1 {
 		position: absolute;
 		left: -10em;
 		max-width: 8em;
+		padding-top: 230px;
 	}
 
 	.magazine-billboard {

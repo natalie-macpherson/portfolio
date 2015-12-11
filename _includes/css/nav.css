@@ -59,12 +59,15 @@ header {
   display: block;
   text-decoration: none;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: sans-serif;
   line-height: 60px;
   font-size: 1.8020rem;
   line-height: 60px;
 }
 
+.openSans-loaded .nav a {
+	font-family: "Open Sans", sans-serif;
+}
 .nav a:hover {
   color: #73c7b0;
 

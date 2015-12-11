@@ -23,7 +23,7 @@ What really attracts me to UI/UX design is the idea that **I can design somethin
 
 When I was younger I use to be a high school teacher. Now that I am a design I am always asking myself why do people response or react a certain way to a design I make regardless of if it is interactive or static.
 
-![Cycle of good UI design: Usefulness, Accessibility, Satisfaction, Efficiency, Effectiveness] (http://impatientdesigner.com/images/what-exactly-is-ux-design-hero.jpg)
+![Cycle of good UI design: Usefulness, Accessibility, Satisfaction, Efficiency, Effectivenesss] (http://impatientdesigner.com/images/what-exactly-is-ux-design-hero.jpg)
 
 It is so important to watch and understand why our users do what they do. It's so important to observer the obstetrical that a user might experience and design to limit the difficulties in their experience.
 

@@ -100,10 +100,14 @@ fieldset, pre, table {
 
 .name {
   font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
+  font-family: sans-serif;
   letter-spacing: 3px;
   text-transform: uppercase;
   margin: 2.5em auto 0;
+}
+
+.openSans-loaded .name {
+  font-family: "Open Sans", sans-serif;
 }
 
 .yotta {
@@ -272,6 +276,10 @@ sub {
   padding: .3%;
 }
 
+.island-flex {
+  padding: 0.3750rem;
+}
+
 .gutter {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -297,6 +305,11 @@ sub {
   padding-right: 0.3750rem;
 }
 
+.gutter-mainimg {
+  padding-left: 0.3750rem;
+  padding-right: 0.3750rem;
+}
+
 @media only screen and (min-width: 25em) {
   .name {
     margin: 2.5em auto 0;
@@ -304,6 +317,9 @@ sub {
 }
 
 @media only screen and (min-width: 38em) {
+  .island-flex {
+    padding: 0.7500rem ;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -316,6 +332,10 @@ sub {
     margin: 4em auto 0;
   }
 
+  .island-flex {
+    padding:3em;
+  }
+
   .gutter-image {
     padding-left: 3.0000rem;
     padding-right: 3.0000rem;
@@ -323,13 +343,14 @@ sub {
 }
 
 @media only screen and (min-width: 90em) {
- .name {
-
-  }
 
   .gutter-image {
     padding-left: 3.0000rem;
     padding-right: 3.0000rem;
+  }
+
+  .island-flex {
+    padding: 5em;
   }
 }
 

@@ -24,9 +24,12 @@
 
 .info {
 		margin-bottom: 10px;
-		font-family: 'Gentium Book Basic', serif;
+		font-family: serif;
 	}
 
+	.gentium-loaded .info{
+	font-family: 'Gentium Book Basic', serif;
+}
 
 .home {
 	background-color: #0d121a;
@@ -116,13 +119,20 @@
 }
 
 .port-title {
-	font-family: 'Open Sans', sans-serif;
+	font-family: sans-serif;
+}
+
+.openSans-loaded .port-title {
+	font-family: "Open Sans", sans-serif;
 }
 
 .port-discription {
-	font-family: 'Gentium Book Basic', serif;
+	font-family: serif;
 }
 
+.gentium-loaded .post-discription {
+	font-family: serif;
+}
 .case-studies-7 {
 	color: #D6D5D4;
 	background-color: #772583;

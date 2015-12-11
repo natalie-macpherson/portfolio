@@ -26,12 +26,17 @@ html {
 	font-size: 4em;
 }
 
+.no-marg h2{
+	margin: 0px;
+}
+
 .home {
 	background-color: #0d121a;
 	background-image: url(../img/bg-image.jpg);
 	background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 6em;
 }
 
 .quote-main {
@@ -45,7 +50,7 @@ html {
   font-style: italic;
 }
 
-.openSans-loaded .guote-main {
+.openSans-loaded .quote-main {
 	font-family: "Open Sans", sans-serif;
 }
 
@@ -78,11 +83,15 @@ html {
 
 .billboard h1 {
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: sans-serif;
 	font-weight: 700;
 	font-size: 3.5em;
 	line-height: 1.3154;
 	text-transform: uppercase;
+}
+
+.openSans-loaded .billboard h1 {
+	font-family: "Open Sans", sans-serif;
 }
 
 .option hr {
@@ -90,7 +99,7 @@ html {
 	border-top: 1px solid #fff;
 	width: 0em;
 	margin: 0 auto;
-	padding-top: 10px;
+	padding-top: 5px;
 	-webkit-transition: all 500ms linear;
 	transition: all 500ms linear;
 }
@@ -100,7 +109,7 @@ html {
 }
 
 .option-case {
-	height: 250px;
+	height: 350px;
 	color: #D6D5D4;
 	xborder: solid 4px #D6D5D4;
 	text-decoration: none;
@@ -109,24 +118,23 @@ html {
 	background-repeat: no-repeat;
 	background-size: 60vh;
 	background-position: 40% center;
+	margin-top: 0px;
 }
 
-.option h2 {
-	text-align: center;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 700;
-	text-decoration: none;
-	margin: 3.5em 0 0;
-	text-transform: uppercase;
-	opacity: .7;
+.openSans-loaded .option h2 {
+	font-family: "Open Sans", sans-serif;
+}
+
+.box-height {
+	max-height: 320px;
 }
 
 .option-about {
-	height: 250px;
+	height: 350px;
 	color: #D6D5D4;
 	text-decoration: none;
 	display: block;
-	background-image:url(../img/portrait.jpg);
+	background-image:url(../img/portrait.main.jpg);
 	background-repeat: no-repeat;
 	background-position: 10% center;
 	background-size: 85vh;
@@ -134,15 +142,20 @@ html {
 
 .option h2 {
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: sans-serif;
 	font-weight: 700;
 	text-decoration: none;
-	padding: 3.5em  0 0; /* get rid of auto*/
+	padding: 4.5em  0 0; /* get rid of auto*/
 	opacity: .7;
+	margin: 0;
+}
+
+.openSans-loaded .option h2 {
+	font-family: "Open Sans", sans-serif;
 }
 
 .option-connect {
-	height: 250px;
+	height: 350px;
 	color: #D6D5D4;
 	text-decoration: none;
 	display: block;
@@ -194,8 +207,12 @@ Connect
 
 .second-header {
  text-align: center;
- font-family: 'Roboto', sans-serif;
+ font-family: sans-serif;
  font-weight: 300;
+}
+
+.openSans-loaded .second-header {
+	font-family: "Open Sans", sans-serif;
 }
 
 .white {
@@ -205,18 +222,26 @@ Connect
 }
 
 .hello-title {
-	font-family: 'Open Sans', sans-serif;
+	font-family: sans-serif;
   font-weight: 400;
   color: #591D57;
   margin-bottom: 0;
 }
 
+.openSans-loaded .hello-title{
+	font-family: "Open Sans", sans-serif;
+}
+
 .hello {
-	font-family: 'Open Sans', sans-serif;
+	font-family: sans-serif;
 	color: #591D57;
 	font-weight: 300;
 	-webkit-transition: all 500ms linear;
 	transition: all 500ms linear;
+}
+
+.openSans-loaded .hello{
+	font-family: "Open Sans", sans-serif;
 }
 
 .hello:hover {
@@ -227,7 +252,11 @@ Connect
 	text-decoration: none;
 	color: #e92071;
 	font-weight: 400;
-	font-family: 'Open Sans', sans-serif;
+	font-family: sans-serif;
+}
+
+.openSans-loaded .email {
+	font-family: "Open Sans", sans-serif;
 }
 
 .social {
@@ -256,19 +285,30 @@ transition: all 0.3s ease-in-out;
  }
 
  .oh-no {
- 	font-family: 'Open Sans', sans-serif;
+ 	font-family: sans-serif;
  	font-weight: 400;
  	text-transform: uppercase;
  }
 
+ .openSans-loaded .oh-no{
+	font-family: "Open Sans", sans-serif;
+}
+
  .you-are-here {
- 	font-family: 'Open Sans', sans-serif;
+ 	font-family: sans-serif;
  	font-weight: 300;
  }
+ .openSans-loaded .you-are-here{
+	font-family: "Open Sans", sans-serif;
+}
 
- .reason-404 {
- 	font-family: 'Gentium Book Basic', serif;
+.reason-404 {
+ 	font-family: serif;
  }
+
+.gentium-loaded .reason-404 {
+	font-family: 'Gentium Book Basic', serif;
+}
 
  .panda {
  width: 70%;
@@ -301,23 +341,34 @@ About
 
 .quote {
 	font-size: 24px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: sans-serif;
 	padding-left: 1rem;
   padding-right: 1rem;
   font-weight: 400;
   text-align: center
 }
 
+.openSans-loaded .quote {
+	font-family: "Open Sans", sans-serif;
+}
+
 .about-para-l {
   padding-left: 0.7500rem;
   padding-right: 0.7500rem;
-  font-family: 'Gentium Book Basic', serif;
+  font-family: serif;
 }
 
+.gentium-loaded .about-para-l {
+	font-family: 'Gentium Book Basic', serif;
+}
 .about-para-r {
 	padding-left: 0.7500rem;
  	padding-right: 0.7500rem;
-  font-family: 'Gentium Book Basic', serif;
+  font-family: serif;
+}
+
+.gentium-loaded .about-para-r {
+	font-family: 'Gentium Book Basic', serif;
 }
 
 .center {
@@ -340,8 +391,16 @@ Media Queries
 			margin: 10em auto 0;
 		}
 
+	.option h2 {
+		padding-top: 4em;
+	}
+
 	.billboard h1 {
 		font-size: 5em;
+	}
+
+	.box-height {
+	max-height: 370px;
 	}
 
 	.quote-main {
@@ -399,8 +458,8 @@ Media Queries
 @media only screen and (min-width: 38em) {
 
 	.billboard {
-		height: 600px;
-		margin: 12em auto 0;
+		height: 550px;
+		margin: 5em auto 0;
 	}
 
 	.billboard h1 {
@@ -421,15 +480,12 @@ Media Queries
 	}
 
 	.option h2 {
-		margin: 5em auto 0;
-	}
-
-	.option-case:hover {
+		padding-top: 4.5em;
 	}
 
 	.option-about {
 		height: 350px;
-		background-size: 189vh;
+		background-size: 116vh;
 		background-position: 18% center;
 	}
 
@@ -476,6 +532,10 @@ Media Queries
 	.panda {
 	 	width: 60%;
 	}
+
+	.max-h {
+		height: 365px;
+	}
 }
 
 @media only screen and (min-width: 60em) {
@@ -502,8 +562,8 @@ Media Queries
 	}
 
 	.billboard {
-		margin: 8em auto 0;
-		height: 545px;
+		margin: 2em auto 0;
+		height: 600px;
 	}
 
 	.billboard h1 {
@@ -517,12 +577,12 @@ Media Queries
 	}
 
 	.option h2 {
-		margin: 3.5em auto 0;
+		padding-top: 3.5em;
 	}
 
 	.option-about {
 		height: 300px;
-		background-size: 110vh;
+		background-size: 85vh;
 		background-position: 15% center;
 	}
 
@@ -543,6 +603,7 @@ Media Queries
 
 	.billboard-about {
 		height: 500px;
+		background-size: 135vh;
 	}
 
 	.billboard-connect {
@@ -567,6 +628,10 @@ Media Queries
 	  padding-top: 1em;
 	  padding-bottom: 1em;
 	}
+
+	.max-h {
+		height: 365px;
+	}
 }
 
 @media only screen and (min-width: 90em) {
@@ -580,8 +645,8 @@ Media Queries
 	}
 
 	.billboard {
-		height:636px;
-		margin: 4em auto 0;
+		height:550px;
+		margin: 2em auto 0;
 	}
 
 	.billboard h1 {
@@ -605,12 +670,12 @@ Media Queries
 	}
 
 	.option h2 {
-		margin: 4em auto 0;
+		padding-top: 4em;
 	}
 
 	.option-about {
 		height: 350px;
-		background-size: 120vh;
+		background-size: 90vh;
 		background-position:12% center;
 	}
 
@@ -642,6 +707,11 @@ Media Queries
 
 	.billboard-connect h1 {
 		margin: 2em auto 0;
+	}
+	.billboard-about {
+		height: 500px;
+		background-size: 200vh;
+		background-position: 10% 30%;
 	}
 }
 
@@ -675,7 +745,7 @@ Media Queries
 	}
 
 	.option h2 {
-		margin: 4em auto 0;
+		dmargin: 4em auto 0;
 	}
 
 	.option-about {
@@ -690,6 +760,7 @@ Media Queries
 
 	.billboard-about {
 		height: 600px;
+		background-size: 200vh;
 	}
 
 	.billboard-connect {

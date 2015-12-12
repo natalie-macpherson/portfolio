@@ -2218,7 +2218,7 @@ Media Queries
 
 	.option-case {
 		height: 350px;
-		background-size: 166vh;
+		xbackground-size: 166vh;
 	}
 
 	.option h2 {
@@ -2227,13 +2227,13 @@ Media Queries
 
 	.option-about {
 		height: 350px;
-		background-size: 166vh;
+		cbackground-size: 166vh;
 		background-position: 18% center;
 	}
 
 	.option-connect {
 		height: 350px;
-		background-size: 166vh;
+		xbackground-size: 166vh;
 	}
 
 	.billboard-about {

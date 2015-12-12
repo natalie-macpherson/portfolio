@@ -58,7 +58,7 @@ layout: main-content
 						<div class="grid unit">
 							<figure class="pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2">
 							{% if page.caption-research1 %}
-								<figcaption class="caption-research1">
+								<figcaption class="caption-research1 center">
 									<p class="micro info">{{page.caption-research1}}</p>
 									<hr claass="line-cap">
 								</figcaption>
@@ -67,11 +67,10 @@ layout: main-content
 									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research1-alt}}">
 								{% endfor %}
 							</figure>
-
 							{% if page.caption-research1 %}
 							<div class=" caption-research1-s  unit unit-xs-1 unit-s-1-2 unit-m-1-2 unit-l-hidden">
-								<p class="micro">{{page.caption-research1}}</p>
-								<hr claass="line-cap">
+								<p class="center micro line-cap">{{page.caption-research1}}</p>
+								<hr>
 							</div>
 							{% endif %}
 						</div>
@@ -83,7 +82,7 @@ layout: main-content
 						<div class="grid unit">
 							<figure class="pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2">
 							{% if page.caption-research2 %}
-								<figcaption class="caption-research2">
+								<figcaption class="caption-research2 center">
 									<p class="micro info">{{page.caption-research2}}</p>
 									<hr claass="line-cap">
 								</figcaption>
@@ -92,131 +91,181 @@ layout: main-content
 									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research2-alt}}">
 								{% endfor %}
 							</figure>
-
 							{% if page.caption-research2 %}
 							<div class=" caption-research2-s  unit unit-xs-1 unit-s-1-2 unit-m-1-2 unit-l-hidden">
-								<p class="micro">{{page.caption-research2}}</p>
-								<hr claass="line-cap">
-							</div>
-							{% endif %}
-						</div>
-						{% endif %}
-
-
-
-					{% if page.img-research2 %}
-						<div class="grid unit">
-							<figure class="pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2">
-							{% if page.caption-research2 %}
-								<figcaption class="caption-research2">
-									<p class="micro info">{{page.caption-research2}}</p>
-									<hr claass="line-cap">
-								</figcaption>
-								{% endif %}
-								{% for img in page.img-research2 %}
-									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research2-alt}}">
-								{% endfor %}
-							</figure>
-
-							{% if page.caption-research2 %}
-							<div class=" caption-research2-s  unit unit-xs-1 unit-s-1-2 unit-m-1-2 unit-l-hidden">
-								<p class="micro">{{page.caption-research2}}</p>
-								<hr claass="line-cap">
+								<p class="center micro line-cap">{{page.caption-research2}}</p>
+								<hr>
 							</div>
 							{% endif %}
 						</div>
 					{% endif %}
 
 
+					{% if page.img-research3 %}
+						<div class="grid unit">
+							<figure class="pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2">
+							{% if page.caption-research3 %}
+								<figcaption class="caption-research3 center">
+									<p class="micro info line-cap">{{page.caption-research3}}</p>
+									<hr>
+								</figcaption>
+								{% endif %}
+								{% for img in page.img-research3 %}
+									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research3-alt}}">
+								{% endfor %}
+							</figure>
+							{% if page.caption-research3 %}
+							<div class=" caption-research3-s  unit unit-xs-1 unit-s-1-2 unit-m-1-2 unit-l-hidden">
+								<p class="center micro line-cap">{{page.caption-research3}}</p>
+								<hr>
+							</div>
+							{% endif %}
+						</div>
+					{% endif %}
 
-							{% if page.img-research4 %}
-							<figure class="grid unit pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2">
+
+					{% if page.img-research4 %}
+						<div class="grid unit">
+							<figure class="pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2">
 							{% if page.caption-research4 %}
-								<figcaption class="">
-									<p class="micro info">{{page.caption-research4}}</p>
-									<hr claass="line-cap">
+								<figcaption class="caption-research4 center">
+									<p class="micro info line-cap">{{page.caption-research4}}</p>
+									<hr>
 								</figcaption>
 								{% endif %}
 								{% for img in page.img-research4 %}
 									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research4-alt}}">
 								{% endfor %}
 							</figure>
+							{% if page.caption-research4 %}
+							<div class=" caption-research4-s  unit unit-xs-1 unit-s-1-2 unit-m-1-2 unit-l-hidden">
+								<p class="micro line-cap center">{{page.caption-research4}}</p>
+								<hr>
+							</div>
 							{% endif %}
+						</div>
+					{% endif %}
 
 
-							{% if page.img-research5 %}
-							<figure class="grid unit pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2">
+					{% if page.img-research5 %}
+						<div class="grid unit">
+							<figure class="pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2">
 							{% if page.caption-research5 %}
-								<figcaption class="">
-									<p class="micro info">{{page.caption-research5}}</p>
-									<hr claass="line-cap">
+								<figcaption class="caption-research5 center">
+									<p class="micro info line-cap">{{page.caption-research5}}</p>
+									<hr>
 								</figcaption>
 								{% endif %}
 								{% for img in page.img-research5 %}
 									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research5-alt}}">
 								{% endfor %}
 							</figure>
+							{% if page.caption-research5 %}
+							<div class=" caption-research5-s  unit unit-xs-1 unit-s-1-2 unit-m-1-2 unit-l-hidden">
+								<p class="micro center line-cap">{{page.caption-research5}}</p>
+								<hr>
+							</div>
 							{% endif %}
+						</div>
+					{% endif %}
 
 
-							{% if page.img-research6 %}
-							<figure class="grid unit pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2">
+					{% if page.img-research6 %}
+						<div class="grid unit">
+							<figure class="pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2">
 							{% if page.caption-research6 %}
-								<figcaption class="">
-									<p class="micro info">{{page.caption-research6}}</p>
-									<hr claass="line-cap">
+								<figcaption class="caption-research6">
+									<p class="micro info line-cap">{{page.caption-research6}}</p>
+									<hr>
 								</figcaption>
 								{% endif %}
 								{% for img in page.img-research6 %}
 									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research6-alt}}">
 								{% endfor %}
 							</figure>
+							{% if page.caption-research6 %}
+							<div class=" caption-research6-s  unit unit-xs-1 unit-s-1-2 unit-m-1-2 unit-l-hidden">
+								<p class="micro center line-cap">{{page.caption-research6}}</p>
+								<hr>
+							</div>
 							{% endif %}
+						</div>
+					{% endif %}
 
 
-							{% if page.img-research7 %}
-							<figure class="grid unit pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2">
+					{% if page.img-research7 %}
+						<div class="grid unit">
+							<figure class="pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2">
 							{% if page.caption-research7 %}
-								<figcaption class="">
-									<p class="micro info">{{page.caption-research7}}</p>
-									<hr claass="line-cap">
+								<figcaption class="caption-research7">
+									<p class="micro info line-cap">{{page.caption-research7}}</p>
+									<hr>
 								</figcaption>
 								{% endif %}
 								{% for img in page.img-research7 %}
 									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research7-alt}}">
 								{% endfor %}
 							</figure>
+							{% if page.caption-research7 %}
+							<div class=" caption-research7-s  unit unit-xs-1 unit-s-1-2 unit-m-1-2 unit-l-hidden">
+								<p class="micro center line-cap">{{page.caption-research7}}</p>
+								<hr>
+							</div>
 							{% endif %}
+						</div>
+					{% endif %}
 
-
-							{% if page.img-research8 %}
-							<figure class="grid unit pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2">
+					{% if page.img-research8 %}
+						<div class="grid unit">
+							<figure class="pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2">
 							{% if page.caption-research8 %}
-								<figcaption class="">
-									<p class="micro info">{{page.caption-research8}}</p>
-									<hr claass="line-cap">
+								<figcaption class="caption-research8">
+									<p class="micro info line-cap">{{page.caption-research8}}</p>
+									<hr>
 								</figcaption>
 								{% endif %}
 								{% for img in page.img-research8 %}
 									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research8-alt}}">
 								{% endfor %}
 							</figure>
+							{% if page.caption-research8 %}
+							<div class=" caption-research8-s  unit unit-xs-1 unit-s-1-2 unit-m-1-2 unit-l-hidden">
+								<p class="micro center line-cap">{{page.caption-research8}}</p>
+								<hr>
+							</div>
 							{% endif %}
+						</div>
+					{% endif %}
 
 
-							{% if page.img-research9 %}
-							<figure class="grid unit pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2">
+					{% if page.img-research9 %}
+						<div class="grid unit">
+							<figure class="pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2">
 							{% if page.caption-research9 %}
-								<figcaption class="">
-									<p class="micro info">{{page.caption-research9}}</p>
-									<hr claass="line-cap">
+								<figcaption class="caption-research9">
+									<p class="micro info line-cap">{{page.caption-research9}}</p>
+									<hr>
 								</figcaption>
-							{% endif %}
-								{% for img in page.img-research9 %}
+								{% endif %}
+								{% for img in page.img-research8 %}
 									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research9-alt}}">
 								{% endfor %}
 							</figure>
+							{% if page.caption-research9 %}
+							<div class=" caption-research9-s  unit unit-xs-1 unit-s-1-2 unit-m-1-2 unit-l-hidden">
+								<p class="micro center line-cap">{{page.caption-research9}}</p>
+								<hr>
+							</div>
 							{% endif %}
+						</div>
+					{% endif %}
+
+
+
+
+
+
+
 
 
 

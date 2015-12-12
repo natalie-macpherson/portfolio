@@ -3291,6 +3291,7 @@ Media Queries
 
 .line-cap {
 	color: black;
+	margin:0;
 }
 
 .link-title {
@@ -3632,7 +3633,15 @@ Media Queries
 	color: #73c7b0;
 }
 
-.caption-research1 {
+.caption-research1,
+.caption-research2,
+.caption-research3,
+.caption-research4,
+.caption-research5,
+.caption-research6,
+.caption-research7,
+.caption-research8,
+.caption-research9 {
 	position: absolute;
 	left: 1em;
 	max-width: 17em;
@@ -3642,8 +3651,17 @@ Media Queries
   visibility: hidden;
 }
 
-.caption-research1-s {
+.caption-research1-s,
+.caption-research2-s,
+.caption-research3-s,
+.caption-research4-s,
+.caption-research5-s,
+.caption-research6-s,
+.caption-research7-s,
+.caption-research8-s,
+.caption-research9-s {
 	display: block;
+	max-width: 13em;
   visibility: visible;
   padding-left: 0.7500rem;
 }
@@ -3697,13 +3715,6 @@ Media Queries
 		height: 400px;
 	}
 
-	.caption-1 {
-		position: absolute;
-		left: 12em;
-		max-width: 17em;
-		padding-top: 500px;
-	}
-
 	.m-next-project {
 		float: right;
 		width: calc(100% - 150px);
@@ -3716,7 +3727,16 @@ Media Queries
 }
 
 @media only screen and (min-width: 60em) {
-.caption-research1-s {
+
+.caption-research1-s,
+.caption-research2-s,
+.caption-research3-s,
+.caption-research4-s,
+.caption-research5-s,
+.caption-research6-s,
+.caption-research7-s,
+.caption-research8-s,
+.caption-research9-s {
 	display: block;
   visibility: hidden;
   padding-left: 0.3750rem;
@@ -3730,16 +3750,17 @@ Media Queries
   visibility: visible;
 }
 
+.caption-research2 {
+	left: 12em;
+	max-width: 7em;
+	padding-top: 30px;
+ 	display: block;
+  visibility: visible;
+}
+
 	.main-content {
 		border-left: 1px solid #d7d7d7;
 		reposition: relative;
-	}
-
-	.caption-1 {
-		position: absolute;
-		left: -11em;
-		max-width: 10em;
-		padding-top: 100px;
 	}
 
 	.general-info p {
@@ -3816,20 +3837,15 @@ Media Queries
 		background-position: 25% center;
 	}
 
-	.billboard-gateway {
-		height: 520px;
-	}
-
-	.billboard-quotebook {
+	.billboard-gateway,
+	.billboard-quotebook,
+	.billboard-soleil,
+	.magazine-billboard {
 		height: 520px;
 	}
 	.billboard-refresh {
 		height: 520px;
 		background-position: center -110px;
-	}
-
-	.billboard-soleil {
-		height: 520px;
 	}
 
 	.worldhealth-billboard {
@@ -3843,10 +3859,6 @@ Media Queries
 		max-width: 8em;
 		padding-top: 230px;
 	}
-
-	.magazine-billboard {
-		height: 520px;
-	}
 }
 
 @media only screen and (min-width: 120em) {
@@ -3854,27 +3866,15 @@ Media Queries
 		top: -112px;
 	}
 
-	.billboard-gateway {
+	.billboard-gateway,
+	.billboard-soleil,
+	.billboard-bookbuddy,
+	.billboard-quotebook,
+	.billboard-refresh,  {
 		height: 550px;
 	}
 
-	.billboard-refresh {
-		height: 550px;
-	}
-
-	.billboard-quotebook {
-		height: 550px;
-	}
-
-	.billboard-bookbuddy {
-		height: 550px;
-	}
-
-	.billboard-soleil {
-		height: 550px;
-	}
-
-	.magazine-billboard {
+	.magazine-billboard{
 		height: 540px;
 	}
 }

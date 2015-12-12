@@ -418,7 +418,19 @@
 .caption-research6,
 .caption-research7,
 .caption-research8,
-.caption-research9 {
+.caption-research9,
+.caption-design1,
+.caption-design2,
+.caption-design3,
+.caption-solution1,
+.caption-solution2,
+.caption-solution3,
+.caption-solution4,
+.caption-solution5,
+.caption-solution6,
+.caption-solution7,
+.caption-solution8,
+.caption-solution9 {
 	position: absolute;
 	left: 1em;
 	max-width: 17em;
@@ -436,12 +448,25 @@
 .caption-research6-s,
 .caption-research7-s,
 .caption-research8-s,
-.caption-research9-s {
+.caption-research9-s,
+.caption-design1-s,
+.caption-design2-s,
+.caption-design3-s,
+.caption-solution1-s,
+.caption-solution2-s,
+.caption-solution3-s,
+.caption-solution4-s,
+.caption-solution5-s,
+.caption-solution6-s,
+.caption-solution7-s,
+.caption-solution8-s,
+.caption-solution9-s {
 	display: block;
-	max-width: 13em;
+	max-width: 15em;
   visibility: visible;
   padding-left: 0.7500rem;
 }
+
 
 /* ------------------------------------------------------------
 Media Queries
@@ -450,17 +475,17 @@ Media Queries
 @media only screen and (min-width: 25em) {
 
 
-	.billboard-gateway {
+	.billboard-gateway,
+	.billboard-bookbuddy,
+	.billboard-soleil,
+	.magazine-billboard,
+	.billboard-quotebook  {
 		height: 300px;
 	}
 
 	.billboard-refresh {
 		height: 300px;
 		background-position: center -110px;
-	}
-
-	.billboard-quotebook {
-		height: 300px;
 	}
 
 	.worldhealth-billboard {
@@ -471,18 +496,6 @@ Media Queries
 	.netflix-billboard {
 		height: 300px;
 		background-position: 25% center;
-	}
-
-	.billboard-bookbuddy {
-		height: 300px;
-	}
-
-	.billboard-soleil {
-		height: 300px;
-	}
-
-	.magazine-billboard {
-		height: 300px;
 	}
 }
 
@@ -513,22 +526,46 @@ Media Queries
 .caption-research6-s,
 .caption-research7-s,
 .caption-research8-s,
-.caption-research9-s {
+.caption-research9-s,
+.caption-design1-s,
+.caption-design2-s,
+.caption-design3-s,
+.caption-solution1-s,
+.caption-solution2-s,
+.caption-solution3-s,
+.caption-solution4-s,
+.caption-solution5-s,
+.caption-solution6-s,
+.caption-solution7-s,
+.caption-solution8-s,
+.caption-solution9-s {
 	display: block;
   visibility: hidden;
   padding-left: 0.3750rem;
 }
 
-.caption-research1 {
-	left: 12em;
-	max-width: 7em;
-	padding-top: 30px;
- 	display: block;
-  visibility: visible;
-}
-
-.caption-research2 {
-	left: 12em;
+.caption-research1,
+.caption-research2,
+.caption-research3,
+.caption-research4,
+.caption-research5,
+.caption-research6,
+.caption-research7,
+.caption-research8,
+.caption-research9,
+.caption-design1,
+.caption-design2,
+.caption-design3,
+.caption-solution1,
+.caption-solution2,
+.caption-solution3,
+.caption-solution4,
+.caption-solution5,
+.caption-solution6,
+.caption-solution7,
+.caption-solution8,
+.caption-solution9 {
+	left: 12.5em;
 	max-width: 7em;
 	padding-top: 30px;
  	display: block;
@@ -596,17 +633,45 @@ Media Queries
 
 @media only screen and (min-width: 90em) {
 
-.caption-research1 {
-	position: absolute;
-	left: 15em;
-	max-width: 7em;
-	padding-top: 120px;
- 	display: block;
-  visibility: visible;
-}
-
 	.general-info p {
 		top: -105px;
+	}
+
+	.caption-research1,
+	.caption-research2,
+	.caption-research3,
+	.caption-research4,
+	.caption-research5,
+	.caption-research6,
+	.caption-research7,
+	.caption-research8,
+	.caption-research9,
+	.caption-design1,
+	.caption-design2,
+	.caption-design3,
+	.caption-solution1,
+	.caption-solution2,
+	.caption-solution3,
+	.caption-solution4,
+	.caption-solution5,
+	.caption-solution6,
+	.caption-solution7,
+	.caption-solution8,
+	.caption-solution9 {
+		left: 16em;
+		max-width: 7em;
+		padding-top: 30px;
+	 	display: block;
+	  visibility: visible;
+	}
+
+	.billboard-gateway,
+	.worldhealth-billboard,
+	.billboard-quotebook,
+	.billboard-soleil,
+	.billboard-bookbuddy,
+	.magazine-billboard{
+		height: 520px;
 	}
 
 	.netflix-billboard {
@@ -614,20 +679,10 @@ Media Queries
 		background-position: 25% center;
 	}
 
-	.billboard-gateway,
-	.billboard-quotebook,
-	.billboard-soleil,
-	.magazine-billboard {
-		height: 520px;
-	}
+
 	.billboard-refresh {
 		height: 520px;
 		background-position: center -110px;
-	}
-
-	.worldhealth-billboard {
-		height: 520px;
-		background-position: 50% center;
 	}
 
 	.caption-1 {

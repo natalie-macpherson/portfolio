@@ -3655,9 +3655,6 @@ Media Queries
 .caption-solution8,
 .caption-solution9 {
 	position: absolute;
-	left: 1em;
-	max-width: 17em;
-	padding-top: 341px;
 	text-align: center;
  	display: none;
   visibility: hidden;
@@ -3788,8 +3785,8 @@ Media Queries
 .caption-solution7,
 .caption-solution8,
 .caption-solution9 {
-	left: 12.5em;
-	max-width: 7em;
+	left: 10em;
+	max-width: 10em;
 	padding-top: 30px;
  	display: block;
   visibility: visible;
@@ -3866,7 +3863,7 @@ Media Queries
 	.caption-solution7,
 	.caption-solution8,
 	.caption-solution9 {
-		left: 16em;
+		left: 14em;
 	}
 
 	.billboard-gateway,
@@ -3902,7 +3899,7 @@ Media Queries
 		top: -112px;
 	}
 
-		.caption-research1,
+	.caption-research1,
 	.caption-research2,
 	.caption-research3,
 	.caption-research4,
@@ -3923,7 +3920,7 @@ Media Queries
 	.caption-solution7,
 	.caption-solution8,
 	.caption-solution9 {
-		left: 20em;
+		left: 17.5em;
 		padding-top: 60px;
 	}
 

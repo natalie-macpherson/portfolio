@@ -2471,7 +2471,7 @@ Media Queries
 	}
 
 	.option h2 {
-		dmargin: 4em auto 0;
+		padding-top: 3.5em;
 	}
 
 	.billboard-about {
@@ -3924,6 +3924,7 @@ Media Queries
 	.caption-solution8,
 	.caption-solution9 {
 		left: 20em;
+		padding-top: 60px;
 	}
 
 	.billboard-gateway,

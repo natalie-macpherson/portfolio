@@ -395,7 +395,7 @@ Media Queries
 .option-about {
 	height: 350px;
 	background-size: 173vh;
-	background-position: center center;
+	background-position: 30% 40%;
 }
 
 .option-connect {
@@ -470,7 +470,7 @@ Media Queries
 .option-about {
 	height: 350px;
 	background-size: 173vh;
-	background-position: center center;
+	background-position: 18% 42%;
 }
 
 .option-connect {
@@ -594,7 +594,7 @@ Media Queries
 	}
 
 	.option h2 {
-		padding-top: 3.5em;
+		padding-top: 4.5em;
 	}
 
 	.billboard-about h1 {

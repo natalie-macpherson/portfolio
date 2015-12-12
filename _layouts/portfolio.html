@@ -54,7 +54,7 @@ layout: main-content
 							<p class=" pad-b-1-4 gutter-1-2 explain milli">{{page.researchpara}}</p>
 						</div>
 
-						{% if page.img-research1 %}
+					{% if page.img-research1 %}
 						<div class="grid unit">
 							<figure class="pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2">
 							{% if page.caption-research1 %}
@@ -75,11 +75,11 @@ layout: main-content
 							</div>
 							{% endif %}
 						</div>
-						{% endif %}
+					{% endif %}
 
 
 
-						{% if page.img-research2 %}
+					{% if page.img-research2 %}
 						<div class="grid unit">
 							<figure class="pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2">
 							{% if page.caption-research2 %}
@@ -104,20 +104,29 @@ layout: main-content
 
 
 
-
-							{% if page.img-research3 %}
-							<figure class="grid unit pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2">
-							{% if page.caption-research3 %}
-								<figcaption class="">
-									<p class="micro info">{{page.caption-research3}}</p>
+					{% if page.img-research2 %}
+						<div class="grid unit">
+							<figure class="pad-t gutter-image unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 gutter-1-2">
+							{% if page.caption-research2 %}
+								<figcaption class="caption-research2">
+									<p class="micro info">{{page.caption-research2}}</p>
 									<hr claass="line-cap">
 								</figcaption>
 								{% endif %}
-								{% for img in page.img-research3 %}
-									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research3-alt}}">
+								{% for img in page.img-research2 %}
+									<img itemprop="image" class="img-flex shadow pad-b" src="{{site.baseurl}}/img/{{img}}" alt="{{page.img-research2-alt}}">
 								{% endfor %}
 							</figure>
+
+							{% if page.caption-research2 %}
+							<div class=" caption-research2-s  unit unit-xs-1 unit-s-1-2 unit-m-1-2 unit-l-hidden">
+								<p class="micro">{{page.caption-research2}}</p>
+								<hr claass="line-cap">
+							</div>
 							{% endif %}
+						</div>
+					{% endif %}
+
 
 
 							{% if page.img-research4 %}

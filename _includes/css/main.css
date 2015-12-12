@@ -109,7 +109,7 @@ html {
 }
 
 .option-case {
-	height: 350px;
+	height: 300px;
 	color: #D6D5D4;
 	text-decoration: none;
 	display: block;
@@ -121,7 +121,7 @@ html {
 }
 
 .option-about {
-	height: 350px;
+	height: 300px;
 	color: #D6D5D4;
 	text-decoration: none;
 	display: block;
@@ -133,7 +133,7 @@ html {
 }
 
 .option-connect {
-	height: 350px;
+	height: 300px;
 	color: #D6D5D4;
 	text-decoration: none;
 	display: block;
@@ -157,7 +157,7 @@ html {
 	font-family: sans-serif;
 	font-weight: 700;
 	text-decoration: none;
-	padding: 4.5em  0 0; /* get rid of auto*/
+	padding: 4em  0 0; /* get rid of auto*/
 	opacity: .7;
 	margin: 0;
 }
@@ -387,17 +387,20 @@ Media Queries
 @media only screen and (min-width: 25em) {
 
 .option-case {
-	background-size: 70vh;
+	height: 350px;
+	background-size: 173vh;
 	background-position: center center;
 }
 
 .option-about {
-	background-size: 70vh;
+	height: 350px;
+	background-size: 173vh;
 	background-position: center center;
 }
 
 .option-connect {
-	background-size: 70vh;
+	height: 350px;
+	background-size: 173vh;
 	background-position: center center;
 }
 
@@ -457,6 +460,24 @@ Media Queries
 }
 
 @media only screen and (min-width: 38em) {
+
+.option-case {
+	height: 350px;
+	background-size: 173vh;
+	background-position: center center;
+}
+
+.option-about {
+	height: 350px;
+	background-size: 173vh;
+	background-position: center center;
+}
+
+.option-connect {
+	height: 350px;
+	background-size: 173vh;
+	background-position: center center;
+}
 
 	.billboard {
 		height: 550px;

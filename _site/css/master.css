@@ -1796,6 +1796,40 @@ html {
 	font-family: "Open Sans", sans-serif;
 }
 
+.pink {
+ color: #e92071;
+}
+
+.hello-person {
+	padding-top: 1em;
+}
+
+.quote-main-hello {
+	font-size: 18px;
+  font-family: sans-serif;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0em;
+  font-weight: 300;
+  text-align: center;
+  font-style: italic;
+}
+
+.billboard-hello h1 {
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: 700;
+	font-size: 3.5em;
+	line-height: 1.3154;
+	text-transform: uppercase;
+}
+
+.billboard-hello {
+	color: #D6D5D4;
+  height: 570px;
+  margin: 0em auto 0;
+}
+
 .workmark {
 	background: url(../img/white-workmark.svg) no-repeat center center;
 	background-size: 100%;
@@ -2128,6 +2162,20 @@ Media Queries
 
 @media only screen and (min-width: 25em) {
 
+.quote-main-hello {
+	font-size: 21px;
+	font-weight: 400;
+}
+
+.billboard-hello h1 {
+	font-size: 5.5em;
+}
+
+.billboard-hello {
+	margin: 5em auto 0;
+	height: 671px;
+}
+
 .option-case {
 	height: 350px;
 	background-size: 173vh;
@@ -2202,6 +2250,23 @@ Media Queries
 }
 
 @media only screen and (min-width: 38em) {
+
+.quote-main-hello {
+	font-size: 24px;
+	padding-left: 4rem;
+	padding-right: 4rem;
+	font-weight: 400;
+	padding-top: 1em;
+}
+
+.billboard-hello h1 {
+	font-size:6em;
+}
+
+.billboard-hello {
+	height: 710px;
+  margin: 5em auto 0;
+}
 
 .option-case {
 	height: 350px;
@@ -2288,6 +2353,10 @@ Media Queries
 }
 
 @media only screen and (min-width: 60em) {
+.billboard-hello {
+	height: 550px;
+  margin: 5em auto 0;
+}
 
 .option-case {
 	background-size: 70vh;
@@ -2392,6 +2461,11 @@ Media Queries
 		width: 865px;
 	}
 
+	.billboard-hello {
+		height:550px;
+		margin: 2em auto 0;
+	}
+
 	.billboard {
 		height:550px;
 		margin: 2em auto 0;
@@ -2451,6 +2525,11 @@ Media Queries
 .workmark{
 	width: 1000px;
 }
+
+.billboard-hello {
+		height:680px;
+		margin: 9em auto 0;
+	}
 
 .billboard {
 		height:680px;

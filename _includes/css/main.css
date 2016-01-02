@@ -84,7 +84,7 @@ html {
 
 .billboard-hello {
 	color: #D6D5D4;
-  height: 570px;
+  height: 645px;
   margin: 0em auto 0;
 }
 
@@ -429,9 +429,14 @@ Media Queries
 	font-size: 5.5em;
 }
 
+.hello-email {
+	text-decoration: none;
+	color: #fff;
+}
+
 .billboard-hello {
 	margin: 5em auto 0;
-	height: 671px;
+	height: 750px;
 }
 
 .option-case {
@@ -522,7 +527,7 @@ Media Queries
 }
 
 .billboard-hello {
-	height: 710px;
+	height: 770px;
   margin: 5em auto 0;
 }
 

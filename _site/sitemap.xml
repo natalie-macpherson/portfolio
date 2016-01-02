@@ -70,10 +70,8 @@
 	
 		
 			<url>
-	<loc>http://natalie-macpherson.github.io/</loc>
+	<loc>http://natalie-macpherson.github.io/hello-michael/</loc>
 	
-	
-		<priority>1.0</priority>
 	
 </url>
 
@@ -83,6 +81,17 @@
 			<url>
 	<loc>http://natalie-macpherson.github.io/work/</loc>
 	
+	
+</url>
+
+		
+	
+		
+			<url>
+	<loc>http://natalie-macpherson.github.io/</loc>
+	
+	
+		<priority>1.0</priority>
 	
 </url>
 
